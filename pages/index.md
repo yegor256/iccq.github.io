@@ -28,9 +28,9 @@ software maintenance, and design patterns.
 
 Alexander Gerasimov, Huawei
 
-Vladimir Rubanov, Huawei
-
 Wang Qianxiang, Huawei
+
+Vladimir Rubanov, Huawei
 
 To be extended soon...
 {: .firebrick}
