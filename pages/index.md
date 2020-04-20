@@ -28,11 +28,11 @@ software maintenance, and design patterns.
 
 Alexander Gerasimov, Huawei
 
-Wang Qianxiang, Huawei
+[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900), Huawei
 
 Vladimir Rubanov, Huawei
 
-Sergey Zykov, HSE
+[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en), [HSE](https://www.hse.ru/en/org/persons/3468544)
 
 To be extended soon...
 {: .firebrick}
