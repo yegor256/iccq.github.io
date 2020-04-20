@@ -1,0 +1,38 @@
+---
+---
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata,Fira+Code&display=swap');
+
+body {
+  font-family: 'Fira Code', 'Inconsolata', monospace;
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-size: 18px;
+  line-height: 1.3em;
+  padding: 1em;
+}
+
+section {
+  width: 40em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  header {
+    text-align: center;
+  }
+  article {
+    border: 0;
+    .front {
+      width: 100%;
+    }
+  }
+  footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+  }
+}
+
+.logo {
+  height: 92px;
+  width: 92px;
+}

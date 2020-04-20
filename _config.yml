@@ -1,0 +1,32 @@
+title: ICCQ.ru
+email: yegor256@gmail.com
+description: >
+  International Conference on Code Quality (ICCQ)
+baseurl: ""
+url: "https://www.iccq.ru"
+markdown: kramdown
+author:
+  name: "Yegor Bugayenko"
+  email: yegor256@gmail.com
+encoding: utf-8
+timezone: Europe/Moscow
+permalink: :year-:month-:day-:title.html
+exclude:
+  - README.md
+  - Gemfile.lock
+  - Gemfile
+  - LICENSE.txt
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  title: www.iccq.ru
+  subtitle: International Conference on Code Quality
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false
