@@ -1,10 +1,11 @@
 ---
 layout: default
 date: 2020-04-20
-title: "2020"
+title: "ICCQ"
 permalink: /index.html
 description: |
-  International Conference on Code Quality
+  International Conference on Code Quality with
+  a focus on static analysis, bug detection, and design patterns.
 ---
 
 ![Moscow](/images/moscow-winter.jpg)
