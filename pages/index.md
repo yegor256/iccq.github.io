@@ -80,7 +80,7 @@ Submissions do not meet the above requirements will be rejected without review.
 ## Got questions or suggestions? # {#authors}
 
 For additional information or answers to questions please write
-to [yegor256@gmail.com](mailto:yegor256@gmail.com).
+to [team@iccq.ru](mailto:team@iccq.ru).
 
 
 
