@@ -36,3 +36,32 @@ section {
   height: 92px;
   width: 92px;
 }
+
+h1 {
+  clear: both;
+}
+
+.pc {
+  clear: both;
+  min-height: 64px;
+  img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 64px;
+    width: 64px;
+    border: 1px solid gray;
+  }
+}
+
+.partner {
+  clear: both;
+  min-height: 92px;
+  img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 92px;
+    width: 92px;
+  }
+}

@@ -22,22 +22,41 @@ software maintenance, and design patterns.
 [Important Dates](#dates) |
 [Call for Papers](#cfp) |
 [Instructions for Authors](#authors) |
+[Partners](#partners) |
 [Questions?](#questions)
 
-## Program Committee # {#pc}
+# Program Committee # {#pc}
 
-Alexander Gerasimov, Huawei
+In alphabetic order of their last names:
 
-[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900), Huawei
+![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
+Alexander Gerasimov
+<br/>
+[Huawei RRI](https://career.huawei.ru/rri/)
+{: .pc}
 
-Vladimir Rubanov, Huawei
+![wang qianxiang](/images/pc/wang-qianxiang.jpg)
+[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900)
+<br/>
+[Huawei](https://www.huawei.com/)
+{: .pc}
 
-[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en), [HSE](https://www.hse.ru/en/org/persons/3468544)
+![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
+[Vladimir Rubanov](https://www.rubanov.pro/)
+<br/>
+[Huawei RRI](https://career.huawei.ru/rri/)
+{: .pc}
+
+![sergey zykov](/images/pc/sergey-zykov.jpg)
+[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
+<br/>
+[HSE](https://www.hse.ru/en/org/persons/3468544)
+{: .pc}
 
 To be extended soon...
 {: .firebrick}
 
-## Important Dates # {#dates}
+# Important Dates # {#dates}
 
 Paper submission: Fri 11 Sep 2020
 
@@ -45,7 +64,7 @@ Author notification: Fri 13 Nov 2020
 
 Camera ready submissions: Fri 27 Nov 2020
 
-## Call for Papers # {#cfp}
+# Call for Papers # {#cfp}
 
 Papers appear in ...
 {: .firebrick}
@@ -66,7 +85,7 @@ We consider the following criteria when evaluating papers:
 Papers will be reviewed by three [PC](#pc) members using
 [double-blind reviewing](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
 
-## Instructions for Authors # {#authors}
+# Instructions for Authors # {#authors}
 
 Submissions must be in PDF, printable in black and white on
 [US Letter](https://en.wikipedia.org/wiki/Letter_%28paper_size%29) sized paper. All submissions must adhere to the
@@ -78,11 +97,14 @@ including bibliographic references and appendices.
 
 Submissions do not meet the above requirements will be rejected without review.
 
+# Partners # {#partners}
 
-## Got questions or suggestions? # {#authors}
+![huawei](/images/huawei.svg)
+[Huawei Technologies Co., Ltd.](https://www.huawei.com)
+is the primary partner helping us organize the conference
+{: .partner}
+
+# Got questions or suggestions? # {#authors}
 
 For additional information or answers to questions please write
 to [team@iccq.ru](mailto:team@iccq.ru).
-
-
-
