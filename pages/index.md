@@ -13,7 +13,7 @@ description: |
 
 Moscow, Russia, Fri 18 Dec 2020
 
-**I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a one-day
+The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a one-day
 computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
