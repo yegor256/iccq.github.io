@@ -92,7 +92,7 @@ Submissions must be in PDF, printable in black and white on
 [ACM Small](http://www.acm.org/publications/authors/submissions)
 template (available in both LaTeX and Word formats).
 
-Submitted papers may be at most 12 pages in 10 point font,
+Submitted papers may be at most 12 pages,
 including bibliographic references and appendices.
 
 Submissions do not meet the above requirements will be rejected without review.
