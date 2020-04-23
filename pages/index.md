@@ -97,6 +97,8 @@ including bibliographic references and appendices.
 
 Submissions do not meet the above requirements will be rejected without review.
 
+[Click here](https://easychair.org/conferences/?conf=iccq20) to submit via EasyChair.
+
 # Partners # {#partners}
 
 ![huawei](/images/huawei.svg)
