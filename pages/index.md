@@ -103,7 +103,12 @@ Submissions do not meet the above requirements will be rejected without review.
 
 ![huawei](/images/huawei.svg)
 [Huawei Technologies Co., Ltd.](https://www.huawei.com)
-is the primary partner helping us organize the conference
+is the primary partner, helping us organize the conference
+{: .partner}
+
+![hse](/images/hse.svg)
+[Higher School of Economics](https://www.hse.ru/en/)
+is the primary academic partner, hosting the conference
 {: .partner}
 
 # Got questions or suggestions? # {#authors}
