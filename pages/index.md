@@ -11,7 +11,9 @@ description: |
 ![Moscow](/images/moscow-winter.jpg)
 {: .front}
 
-Moscow, Russia, Fri 18 Dec 2020
+Fri 18 Dec 2020
+<br/>
+Moscow, Russia
 
 The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a one-day
 computer science conference focused on static analysis, program verification,
