@@ -18,11 +18,16 @@ computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
 
-[Program Committee](#pc) |
-[Important Dates](#dates) |
-[Call for Papers](#cfp) |
-[Instructions for Authors](#authors) |
-[Partners](#partners) |
+[Program&nbsp;Committee](#pc)
+&middot;
+[Important&nbsp;Dates](#dates)
+&middot;
+[Call&nbsp;for&nbsp;Papers](#cfp)
+&middot;
+[Instructions&nbsp;for&nbsp;Authors](#authors)
+&middot;
+[Partners](#partners)
+&middot;
 [Questions?](#questions)
 
 # Program Committee # {#pc}
