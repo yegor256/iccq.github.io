@@ -76,9 +76,6 @@ Camera ready submissions: Fri 27 Nov 2020
 Papers appear in ...
 {: .firebrick}
 
-All papers will be freely available to the public.
-Authors can voluntarily cover the article processing charge ($400), but payment is not required.
-
 We consider the following criteria when evaluating papers:
 
   * Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research.
