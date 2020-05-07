@@ -11,7 +11,7 @@ description: |
 ![Moscow](/images/moscow-winter.jpg)
 {: .front}
 
-Sat 19 Dec 2020
+Sat 12 Dec 2020
 <br/>
 Moscow, Russia
 
