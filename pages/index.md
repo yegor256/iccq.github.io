@@ -3,13 +3,21 @@ layout: default
 date: 2020-04-20
 title: "ICCQ"
 permalink: /index.html
+front: /images/winter.jpg
 description: |
   International Conference on Code Quality with
   a focus on static analysis, bug detection, and design patterns.
+header: |
+  The First International Conference on Code Quality
+breadcrumbs:
+  - pc: Program&nbsp;Committee
+  - dates: Important&nbsp;Dates
+  - cfp: Call&nbsp;for&nbsp;Papers
+  - authors: Instructions&nbsp;for&nbsp;Authors
+  - partners: Partners
+  - coc: Code of Conduct
+  - questions: Questions?
 ---
-
-![Moscow](/images/moscow-winter.jpg)
-{: .front}
 
 Sat 12 Dec 2020
 <br/>
@@ -19,20 +27,6 @@ The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a o
 computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
-
-[Program&nbsp;Committee](#pc)
-&middot;
-[Important&nbsp;Dates](#dates)
-&middot;
-[Call&nbsp;for&nbsp;Papers](#cfp)
-&middot;
-[Instructions&nbsp;for&nbsp;Authors](#authors)
-&middot;
-[Partners](#partners)
-&middot;
-[Code of Conduct](#coc)
-&middot;
-[Questions?](#questions)
 
 # Program Committee # {#pc}
 

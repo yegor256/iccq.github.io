@@ -1,28 +1,67 @@
 ---
 ---
+
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata,Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Inconsolata:wght@400&display=swap');
 
 body {
-  font-family: 'Fira Code', 'Inconsolata', monospace;
-  font-size: 18px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
   line-height: 1.3em;
-  padding: 1em;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Fira Code', monospace;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  .front {
+    background-image: url('/images/winter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    p {
+      padding: 4em;
+      width: 18em;
+      margin: auto;
+      font-family: 'Fira Code', monospace;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color: firebrick;
+      font-size: 2.5em;
+      line-height: 1em;
+      @media all and (max-width: 1024px) {
+        font-size: 1.6em;
+      }
+      @media all and (max-width: 768px) {
+        font-size: 1em;
+      }
+    }
+  }
+  ul {
+    padding: 1em;
+    max-width: 40em;
+    margin: auto;
+    li {
+      list-style: none;
+      display: inline;
+      &:not(:first-child):before {
+        content: '·';
+      }
+    }
+  }
 }
 
 section {
-  width: 38em;
+  width: 32em;
+  padding: 0;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  header {
-    text-align: center;
-  }
   article {
     border: 0;
-    .front {
-      width: 100%;
-    }
   }
   footer {
     text-align: center;
