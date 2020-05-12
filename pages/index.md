@@ -115,6 +115,12 @@ is the primary partner, helping us organize the conference
 is the primary academic partner, hosting the conference
 {: .partner}
 
+![russoft](/images/russoft.svg)
+[RUSSOFT](https://russoft.org/en/)
+is an industry media partner helping us reach 160+
+software developing companies in Russia
+{: .partner}
+
 # Code of Conduct # {#coc}
 
 The open exchange of ideas and the freedom of thought and expression
