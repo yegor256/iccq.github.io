@@ -30,6 +30,8 @@ software maintenance, and design patterns.
 
 # Program Committee # {#pc}
 
+<!--
+
 In alphabetic order of their last names:
 
 ![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
@@ -56,7 +58,9 @@ Alexander Gerasimov
 [HSE](https://www.hse.ru/en/org/persons/3468544)
 {: .pc}
 
-To be extended soon...
+-->
+
+To be defined soon...
 {: .firebrick}
 
 # Important Dates # {#dates}
