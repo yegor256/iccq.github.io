@@ -15,22 +15,24 @@ layout: compress
     <link href='/css/main.css?3' rel='stylesheet'/>
   </head>
   <body>
-    <header>
-      <div class="front" style="background-image: url('{{ page.front }}')">
-        <p>
-          {{ page.header }}
-        </p>
-      </div>
-      <ul>
-        {% for hash in page.breadcrumbs %}
-          {% for b in hash %}
-            <li>
-              <a href="#{{ b[0] }}">{{ b[1] }}</a>
-            </li>
+    {% if page.front %}
+      <header>
+        <div class="front" style="background-image: url('{{ page.front }}')">
+          <p>
+            {{ page.header }}
+          </p>
+        </div>
+        <ul>
+          {% for hash in page.breadcrumbs %}
+            {% for b in hash %}
+              <li>
+                <a href="#{{ b[0] }}">{{ b[1] }}</a>
+              </li>
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </ul>
-    </header>
+        </ul>
+      </header>
+    {% endif %}
     <section>
       <article>
         <p>

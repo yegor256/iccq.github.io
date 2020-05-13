@@ -121,6 +121,9 @@ is an industry media partner helping us reach 160+
 software developing companies in Russia
 {: .partner}
 
+Interested in joining and helping us make ICCQ even better?
+[Click here](/partnership.html).
+
 # Code of Conduct # {#coc}
 
 The open exchange of ideas and the freedom of thought and expression
