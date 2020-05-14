@@ -105,20 +105,35 @@ Submissions do not meet the above requirements will be rejected without review.
 
 # Partners # {#partners}
 
-![huawei](/images/huawei.svg)
-[Huawei Technologies Co., Ltd.](https://www.huawei.com)
-is the primary partner, helping us organize the conference
-{: .partner}
-
 ![hse](/images/hse.svg)
 [Higher School of Economics](https://www.hse.ru/en/)
 is the primary academic partner, hosting the conference
+{: .partner}
+
+![isp](/images/isp.png)
+[Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/)
+is our long-time research partner, helping organize the event
+{: .partner}
+
+![msu](/images/msu.png)
+[Moscow State University](https://www.msu.ru/)
+is a valuable academic and research partner
+{: .partner}
+
+![mipt](/images/mipt.png)
+[Moscow Institute of Physics and Technology](https://mipt.ru/english/)
+is a valuable academic and research partner
 {: .partner}
 
 ![russoft](/images/russoft.svg)
 [RUSSOFT](https://russoft.org/en/)
 is an industry media partner helping us reach 160+
 software developing companies in Russia
+{: .partner}
+
+![huawei](/images/huawei.svg)
+[Huawei Technologies Co., Ltd.](https://www.huawei.com)
+is the primary industry partner, helping us organize the conference
 {: .partner}
 
 Interested in joining and helping us make ICCQ even better?
