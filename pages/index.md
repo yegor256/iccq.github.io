@@ -179,6 +179,10 @@ Alexander<br/>Gerasimov
 Vladimir<br/>Rubanov
 {: .org}
 
+![jeff zhu](/images/orgs/jeff-zhu.jpg)
+Jeff<br/>Zhu
+{: .org}
+
 If you are interested in helping us and joining the team
 of organizers, please email to [team@iccq.ru](mailto:team@iccq.ru).
 
