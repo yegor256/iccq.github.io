@@ -108,3 +108,16 @@ h1 {
     width: 92px;
   }
 }
+
+.org {
+  display: inline-block;
+  min-height: 92px;
+  width: 140px;
+  vertical-align: top;
+  img {
+    display: block;
+    margin: 0;
+    height: 92px;
+    width: 92px;
+  }
+}

@@ -16,6 +16,7 @@ breadcrumbs:
   - authors: Instructions&nbsp;for&nbsp;Authors
   - partners: Partners
   - coc: Code of Conduct
+  - organizers: Organizers
   - questions: Questions?
 ---
 
@@ -153,6 +154,33 @@ Conference participants violating these standards may be sanctioned
 or expelled from the conference, at the discretion of
 the conference organizers. Conference organizers are requested
 to report serious incidents to [abuse@iccq.ru](mailto:abuse@iccq.ru).
+
+# Organizers # {#organizers}
+
+These people are making ICCQ (in alphabetic order of their last names):
+
+![anastasia alexandrova](/images/orgs/anastasia-alexandrova.jpg)
+Anastasia<br/>Alexandrova
+{: .org}
+
+![sergey belov](/images/orgs/sergey-belov.jpg)
+Sergey<br/>Belov
+{: .org}
+
+![yegor bugayenko](/images/orgs/yegor-bugayenko.jpg)
+Yegor<br/>Bugayenko
+{: .org}
+
+![alexander gerasimov](/images/orgs/alexander-gerasimov.jpg)
+Alexander<br/>Gerasimov
+{: .org}
+
+![vladimir rubanov](/images/orgs/vladimir-rubanov.jpg)
+Vladimir<br/>Rubanov
+{: .org}
+
+If you are interested in helping us and joining the team
+of organizers, please email to [team@iccq.ru](mailto:team@iccq.ru).
 
 # Got questions or suggestions? # {#authors}
 
