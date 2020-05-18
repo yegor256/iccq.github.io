@@ -177,6 +177,10 @@ Yegor<br/>Bugayenko
 Alexander<br/>Gerasimov
 {: .org}
 
+![sergei prokhorov](/images/orgs/sergei-prokhorov.jpg)
+Sergei<br/>Prokhorov
+{: .org}
+
 ![vladimir rubanov](/images/orgs/vladimir-rubanov.jpg)
 Vladimir<br/>Rubanov
 {: .org}
