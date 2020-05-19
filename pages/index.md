@@ -132,12 +132,16 @@ is an industry media partner helping us reach 160+
 software developing companies in Russia
 {: .partner}
 
-<!--
 ![huawei](/images/huawei.svg)
 [Huawei Technologies Co., Ltd.](https://www.huawei.com)
 is the primary industry partner, helping us organize the conference
 {: .partner}
--->
+
+![sbercloud](/images/sbercloud.svg)
+[SberCloud](https://sbercloud.ru/)
+is a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overview),
+a cloud service provider, our industry partner
+{: .partner}
 
 Interested in joining and helping us make ICCQ even better?
 [Click here](/partnership.html).
