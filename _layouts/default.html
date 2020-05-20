@@ -35,9 +35,12 @@ layout: compress
     {% endif %}
     <section>
       <article>
-        <p>
-          {{ content }}
-        </p>
+        {% unless page.front %}
+          <p>
+            <a href="/"><img src="/logo-1024.png" style="height: 4em;"/></a>
+          </p>
+        {% endunless %}
+        {{ content }}
       </article>
       <footer>
         <p>

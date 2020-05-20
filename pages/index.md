@@ -132,6 +132,12 @@ is an industry media partner helping us reach 160+
 software developing companies in Russia
 {: .partner}
 
+![secr](/images/secr.png)
+[Software Engineering Conference Russia (SECR)](http://www.secr.ru/lang/en/)
+is one of the best scientific+industrial conference in Russia,
+which helps us make our event even better
+{: .partner}
+
 ![huawei](/images/huawei.svg)
 [Huawei Technologies Co., Ltd.](https://www.huawei.com)
 is the primary industry partner, helping us organize the conference
