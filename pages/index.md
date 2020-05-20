@@ -133,7 +133,7 @@ software developing companies in Russia
 {: .partner}
 
 ![secr](/images/secr.png)
-[Software Engineering Conference Russia (SECR)](http://www.secr.ru/lang/en/)
+[Software Engineering Conference Russia (SECR)](https://2021.secrus.org/?lang=en)
 is one of the best scientific+industrial conference in Russia,
 which helps us make our event even better
 {: .partner}
