@@ -4,9 +4,12 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Inconsolata:wght@400&display=swap');
 
+$em: 22px;
+$width: 18 * $em;
+
 body {
   font-family: 'Inconsolata', monospace;
-  font-size: 22px;
+  font-size: $em;
   line-height: 1.3em;
   padding: 0;
 }
@@ -26,7 +29,7 @@ header {
     background-repeat: no-repeat;
     p {
       padding: 4em;
-      width: 18em;
+      width: $width;
       margin: auto;
       font-family: 'Fira Code', monospace;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -98,12 +101,15 @@ h1 {
 }
 
 .partner {
-  clear: both;
-  min-height: 92px;
+  display: inline-block;
+  width: 0.7 * $width;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 1em;
   img {
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    display: block;
+    margin: 0;
+    margin-bottom: .5em;
     height: 92px;
     width: 92px;
   }
@@ -111,8 +117,7 @@ h1 {
 
 .org {
   display: inline-block;
-  min-height: 92px;
-  width: 140px;
+  width: .35 * $width;
   vertical-align: top;
   img {
     display: block;

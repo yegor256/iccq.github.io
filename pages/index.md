@@ -106,47 +106,44 @@ Submissions do not meet the above requirements will be rejected without review.
 
 # Partners # {#partners}
 
+Academic and not-for-profit organizations:
+
 ![hse](/images/hse.svg)
 [Higher School of Economics](https://www.hse.ru/en/)
-is the primary academic partner, hosting the conference
 {: .partner}
 
 ![isp](/images/isp.png)
 [Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/)
-is our long-time research partner, helping organize the event
 {: .partner}
 
 ![msu](/images/msu.png)
 [Moscow State University](https://www.msu.ru/)
-is a valuable academic and research partner
 {: .partner}
 
 ![mipt](/images/mipt.png)
 [Moscow Institute of Physics and Technology](https://mipt.ru/english/)
-is a valuable academic and research partner
 {: .partner}
 
 ![russoft](/images/russoft.svg)
-[RUSSOFT](https://russoft.org/en/)
-is an industry media partner helping us reach 160+
-software developing companies in Russia
+[RUSSOFT](https://russoft.org/en/),
+a non-profit union of software companies
 {: .partner}
 
 ![secr](/images/secr.png)
-[Software Engineering Conference Russia (SECR)](https://2021.secrus.org/?lang=en)
-is one of the best scientific+industrial conference in Russia,
-which helps us make our event even better
+[SECR](https://2021.secrus.org/?lang=en),
+a famous Russian software conference
 {: .partner}
 
+Industry partners:
+
 ![huawei](/images/huawei.svg)
-[Huawei Technologies Co., Ltd.](https://www.huawei.com)
-is the primary industry partner, helping us organize the conference
+[Huawei](https://www.huawei.com),
+a Chinese multinational technology company
 {: .partner}
 
 ![sbercloud](/images/sbercloud.svg)
-[SberCloud](https://sbercloud.ru/)
-is a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overview),
-a cloud service provider, our industry partner
+[SberCloud](https://sbercloud.ru/),
+a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overview)
 {: .partner}
 
 Interested in joining and helping us make ICCQ even better?
