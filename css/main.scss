@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Inconsolata:wght@400&display=swap');
 
 $em: 22px;
-$width: 18 * $em;
+$width: 32 * $em;
 
 body {
   font-family: 'Inconsolata', monospace;
@@ -29,7 +29,7 @@ header {
     background-repeat: no-repeat;
     p {
       padding: 4em;
-      width: $width;
+      width: 1.4 * $width;
       margin: auto;
       font-family: 'Fira Code', monospace;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -62,7 +62,7 @@ header {
 }
 
 section {
-  width: 32em;
+  width: $width;
   padding: 0;
   max-width: 100%;
   margin-left: auto;
@@ -102,7 +102,7 @@ h1 {
 
 .partner {
   display: inline-block;
-  width: 0.7 * $width;
+  width: 0.35 * $width;
   vertical-align: top;
   text-align: left;
   margin-right: 1em;
@@ -117,7 +117,7 @@ h1 {
 
 .org {
   display: inline-block;
-  width: .35 * $width;
+  width: .2 * $width;
   vertical-align: top;
   img {
     display: block;
