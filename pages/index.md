@@ -74,8 +74,14 @@ Camera ready submissions: Fri 27 Nov 2020
 
 # Call for Papers # {#cfp}
 
-Papers appear in ...
+Papers appear in ... to be decided soon.
 {: .firebrick}
+
+<!--
+We are negotiating the possibility of the proceedings
+to be published by Elsevier and indexed by
+Google Scholar, DBLP, ACM and IEEE digital libraries.
+-->
 
 We consider the following criteria when evaluating papers:
 
