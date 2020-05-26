@@ -29,7 +29,7 @@ computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
 
-# Program Committee # {#pc}
+<!-- # Program Committee # {#pc} -->
 
 <!--
 
@@ -61,8 +61,9 @@ Alexander Gerasimov
 
 -->
 
-To be defined soon...
+<!-- To be defined soon...
 {: .firebrick}
+-->
 
 # Important Dates # {#dates}
 
@@ -172,7 +173,11 @@ to report serious incidents to [abuse@iccq.ru](mailto:abuse@iccq.ru).
 
 # Organizers # {#organizers}
 
-These people are making ICCQ (in alphabetic order of their last names):
+These people are making ICCQ:
+
+![yegor bugayenko](/images/orgs/yegor-bugayenko.jpg)
+Yegor<br/>Bugayenko
+{: .org}
 
 ![anastasia alexandrova](/images/orgs/anastasia-alexandrova.jpg)
 Anastasia<br/>Alexandrova
@@ -180,10 +185,6 @@ Anastasia<br/>Alexandrova
 
 ![sergey belov](/images/orgs/sergey-belov.jpg)
 Sergey<br/>Belov
-{: .org}
-
-![yegor bugayenko](/images/orgs/yegor-bugayenko.jpg)
-Yegor<br/>Bugayenko
 {: .org}
 
 ![alexander gerasimov](/images/orgs/alexander-gerasimov.jpg)
