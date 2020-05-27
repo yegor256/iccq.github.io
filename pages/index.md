@@ -97,6 +97,8 @@ We consider the following criteria when evaluating papers:
 Papers will be reviewed by three [PC](#pc) members using
 [double-blind reviewing](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
 
+PDF version of the CFP is [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).
+
 # Instructions for Authors # {#authors}
 
 Submissions must be in PDF, printable in black and white on
