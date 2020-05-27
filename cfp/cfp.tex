@@ -1,0 +1,74 @@
+\documentclass[12pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{xcolor}
+  \definecolor{xred}{HTML}{b02428}
+\usepackage{hyperref}
+  \hypersetup{colorlinks=true,allcolors=xred}
+\pagestyle{empty}
+\usepackage[left=1.5in, right=1.5in, top=1.5in, bottom=1.5in]{geometry}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos}\TPGrid{16}{16}
+\usepackage{tikz}
+\usepackage{everypage}
+  \AddEverypageHook{
+    \begin{textblock}{0.5}[0,0](0,0)
+      \tikz \node[fill=xred,minimum width=0.5\TPHorizModule,minimum height=16\TPVertModule] {};
+    \end{textblock}
+  }
+\begin{document}
+\fontfamily{cmtt}\selectfont
+\raggedbottom
+\raggedright
+\setlength{\topskip}{6pt}
+\setlength{\parindent}{0pt} % indent first line
+\setlength{\parskip}{6pt} % before par
+
+\includegraphics[height=4em]{../logo}
+
+\textcolor{xred}{\bfseries
+{\large The First} \\
+{\Large International Conference on\\[3pt]
+Code Quality (ICCQ)}}
+
+\vspace{6pt}
+
+Moscow, Russia \\
+12-Dec-2020 (one day) \\
+\href{https://www.iccq.ru}{www.iccq.ru} / \href{https://easychair.org/cfp/ICCQ20}{EasyChair CFP}\\
+
+Sponsored by and held at \href{https://www.hse.ru/en/}{HSE University}
+
+Estimated attendance: 150-200 \\
+Estimated number of papers submitted: 50+ \\
+Papers to be accepted: 10
+
+\vspace{6pt}
+
+Topics: Static Analysis, Refactoring, Maintainability
+
+We believe that the quality of the source code millions of programmers
+write every day could be much higher than it is now. We believe that the
+contribution computer science can make to improve this situation is greatly
+undervalued. We are aiming at solving this problem by getting
+together cutting edge researchers and letting them share their most recent ideas.
+
+\vspace{6pt}
+
+Paper submission date: 11 Sep 2020 \\
+Author notification: Fri 13 Nov 2020 \\
+Camera ready submissions: Fri 27 Nov 2020
+
+\vspace{6pt}
+
+ICCQ is also sponsored by:
+\href{https://www.ispras.ru/en/}{Ivannikov Institute for System Programming (ISP) of the RAS},
+\href{https://www.msu.ru/}{Moscow State University (MSU)},
+\href{https://mipt.ru/english/}{Moscow Institute of Physics and Technology (MIPT)},
+\href{https://russoft.org/en/}{RUSSOFT},
+\href{https://2021.secrus.org/?lang=en}{SECR},
+\href{https://www.huawei.com}{Huawei Technologies Co., Ltd.},
+\href{https://sbercloud.ru/}{SberCloud},
+and \href{https://www.iccq.ru/#partners}{others}.
+
+\end{document}
