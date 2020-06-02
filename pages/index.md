@@ -155,6 +155,11 @@ a Chinese multinational technology company
 a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overview)
 {: .partner}
 
+![yandex](/images/yandex.svg)
+[Yandex](https://yandex.com/company/),
+a Russian technology company
+{: .partner}
+
 Interested in joining and helping us make ICCQ even better?
 [Click here](/partnership.html).
 
