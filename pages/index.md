@@ -79,7 +79,9 @@ Camera ready submissions: Fri 27 Nov 2020
 
 # Call for Papers # {#cfp}
 
-Papers appear in IEEE Xplore® and will be indexed by Google Scholar, DBLP, etc.
+Papers appear in
+[IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp)
+and will be indexed by Google Scholar, DBLP, etc.
 
 We consider the following criteria when evaluating papers:
 
