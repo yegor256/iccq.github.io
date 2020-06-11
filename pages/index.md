@@ -29,6 +29,10 @@ computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
 
+![ieee](/images/ieee.svg)
+ICCQ is organized in cooperation with [IEEE](https://www.ieee.org/).
+{: .nonprofit}
+
 <!-- # Program Committee # {#pc} -->
 
 <!--
@@ -75,14 +79,7 @@ Camera ready submissions: Fri 27 Nov 2020
 
 # Call for Papers # {#cfp}
 
-Papers appear in ... to be decided soon.
-{: .firebrick}
-
-<!--
-We are negotiating the possibility of the proceedings
-to be published by Elsevier and indexed by
-Google Scholar, DBLP, ACM and IEEE digital libraries.
--->
+Papers appear in IEEE Xplore® and will be indexed by Google Scholar, DBLP, etc.
 
 We consider the following criteria when evaluating papers:
 
