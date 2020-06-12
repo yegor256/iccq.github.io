@@ -30,7 +30,7 @@ bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
 
 ![ieee](/images/ieee.svg)
-ICCQ is organized in cooperation with [IEEE](https://www.ieee.org/).
+ICCQ is organized in cooperation with [IEEE](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
 {: .nonprofit}
 
 <!-- # Program Committee # {#pc} -->
