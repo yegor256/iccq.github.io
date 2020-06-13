@@ -81,7 +81,11 @@ Camera ready submissions: Fri 27 Nov 2020
 
 Papers appear in
 [IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp)
-and will be indexed by Google Scholar, DBLP, etc.
+and will be indexed by
+[Web of Science](https://clarivate.com/webofsciencegroup/solutions/web-of-science/),
+[Scopus](https://www.scopus.com/home.uri),
+[Google Scholar](https://scholar.google.com/),
+[DBLP](https://dblp.uni-trier.de/), and others.
 
 We consider the following criteria when evaluating papers:
 
