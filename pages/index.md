@@ -29,8 +29,8 @@ computer science conference focused on static analysis, program verification,
 bug detection, compiler optimization, program understanding,
 software maintenance, and design patterns.
 
-![ieee](/images/ieee.svg)
-ICCQ is organized in cooperation with [IEEE](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
+[![ieee](/images/ieee.svg)](https://www.computer.org/)
+ICCQ is organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
 {: .nonprofit}
 
 <!-- # Program Committee # {#pc} -->
