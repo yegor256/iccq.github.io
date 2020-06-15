@@ -112,7 +112,7 @@ template (available in both LaTeX and Word formats).
 Submitted papers may be at least 4 and at most 12 pages,
 including bibliographic references and appendices.
 
-Submissions do not meet the above requirements will be rejected without review.
+Submissions that do not meet the above requirements will be rejected without review.
 
 [Click here](https://easychair.org/cfp/ICCQ20) to submit via EasyChair.
 
