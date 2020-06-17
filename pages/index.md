@@ -24,12 +24,13 @@ Sat 27 Mar 2021
 <br/>
 Moscow, Russia
 
-The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a one-day
-computer science conference focused on static analysis, program verification,
+The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ)
+is a one-day computer science conference
+organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
+and focused on static analysis, program verification,
 bug detection, program understanding, and software maintenance.
 
-[![ieee](/images/ieee.svg)](https://www.computer.org/)
-ICCQ is organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
+[![ieee](/images/ieee-cs.svg)](https://www.computer.org/)
 {: .nonprofit}
 
 # Program Committee # {#pc}
