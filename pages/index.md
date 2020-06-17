@@ -33,41 +33,54 @@ software maintenance, and design patterns.
 ICCQ is organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
 {: .nonprofit}
 
-<!-- # Program Committee # {#pc} -->
-
-<!--
+# Program Committee # {#pc}
 
 In alphabetic order of their last names:
 
-![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
-Alexander Gerasimov
+![julia belyakova](/images/pc/julia-belyakova.jpg)
+[Julia Belyakova](https://julbinb.github.io/), PhD
 <br/>
-[Huawei RRI](https://career.huawei.ru/rri/)
+[Northeastern University](https://www.northeastern.edu/), USA
+{: .pc}
+
+![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
+Alexander Gerasimov, PhD
+<br/>
+[Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
 
 ![wang qianxiang](/images/pc/wang-qianxiang.jpg)
-[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900)
+[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900), PhD
 <br/>
-[Huawei](https://www.huawei.com/)
+[Huawei](https://www.huawei.com/), China
 {: .pc}
 
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
-[Vladimir Rubanov](https://www.rubanov.pro/)
+[Vladimir Rubanov](https://www.rubanov.pro/), PhD
 <br/>
-[Huawei RRI](https://career.huawei.ru/rri/)
+[Huawei RRI](https://career.huawei.ru/rri/), Russia
+{: .pc}
+
+![jubi taneja](/images/pc/jubi-taneja.jpg)
+[Jubi Taneja](http://www.cs.utah.edu/~jubi/)
+<br/>
+[University of Utah](https://www.cs.utah.edu/), USA
+{: .pc}
+
+![zheng wang](/images/pc/zheng-wang.jpg)
+[Zheng Wang](https://zwang4.github.io/), PhD
+<br/>
+[University of Leeds](http://www.leeds.ac.uk/), UK
 {: .pc}
 
 ![sergey zykov](/images/pc/sergey-zykov.jpg)
-[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
+[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en), PhD
 <br/>
-[HSE](https://www.hse.ru/en/org/persons/3468544)
+[HSE](https://www.hse.ru/en/org/persons/3468544), Russia
 {: .pc}
 
--->
-
-<!-- To be defined soon...
-{: .firebrick}
--->
+We extend the list right now. If you want to join,
+please [email us](mailto:pc@iccq.ru).
 
 # Important Dates # {#dates}
 
