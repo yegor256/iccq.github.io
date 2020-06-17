@@ -26,8 +26,7 @@ Moscow, Russia
 
 The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ) is a one-day
 computer science conference focused on static analysis, program verification,
-bug detection, compiler optimization, program understanding,
-software maintenance, and design patterns.
+bug detection, program understanding, software maintenance, and design patterns.
 
 [![ieee](/images/ieee.svg)](https://www.computer.org/)
 ICCQ is organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190).
