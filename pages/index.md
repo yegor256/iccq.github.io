@@ -210,17 +210,21 @@ Anastasia<br/>Alexandrova
 Sergey<br/>Belov
 {: .org}
 
+<!--
 ![alexander gerasimov](/images/orgs/alexander-gerasimov.jpg)
 Alexander<br/>Gerasimov
 {: .org}
+-->
 
 ![sergei prokhorov](/images/orgs/sergei-prokhorov.jpg)
 Sergei<br/>Prokhorov
 {: .org}
 
+<!--
 ![vladimir rubanov](/images/orgs/vladimir-rubanov.jpg)
 Vladimir<br/>Rubanov
 {: .org}
+-->
 
 ![jeff zhu](/images/orgs/jeff-zhu.jpg)
 Jeff<br/>Zhu
