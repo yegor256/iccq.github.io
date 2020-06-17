@@ -172,7 +172,7 @@ a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overvi
 
 ![yandex](/images/yandex.svg)
 [Yandex](https://yandex.com/company/),
-a Russian technology company
+a Russian intelligent technology company
 {: .partner}
 
 Interested in joining and helping us make ICCQ even better?
