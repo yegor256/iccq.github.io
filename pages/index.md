@@ -30,7 +30,7 @@ organized in cooperation with [IEEE Computer Society](https://conferences.ieee.o
 and focused on static analysis, program verification,
 bug detection, program understanding, and software maintenance.
 
-[![ieee](/images/ieee-cs.svg)](https://www.computer.org/)
+[![ieee](/images/ieee-cs.svg)](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
 {: .nonprofit}
 
 # Program Committee # {#pc}
