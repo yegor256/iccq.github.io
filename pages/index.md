@@ -84,11 +84,11 @@ please [email us](mailto:pc@iccq.ru).
 
 # Important Dates # {#dates}
 
-Paper submission: Fri 4 Dec 2020
+Paper submission: 4 Dec 2020 (till the end of the day)
 
-Author notification: Fri 5 Feb 2021
+Author notification: 5 Feb 2021
 
-Camera ready submissions: Fri 19 Feb 2021
+Camera ready submissions: 19 Feb 2021
 
 # Call for Papers # {#cfp}
 
