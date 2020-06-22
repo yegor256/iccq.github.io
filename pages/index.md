@@ -87,6 +87,8 @@ Alexander Gerasimov, PhD
 
 ![david west](/images/pc/david-west.jpg)
 [David West](http://davewest.us/), PhD
+<br/>
+US
 {: .pc}
 
 
