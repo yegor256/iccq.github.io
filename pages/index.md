@@ -43,10 +43,22 @@ In alphabetic order of their last names:
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
 
+![kiko fernandez-reyes](/images/pc/kiko-fernandez-reyes.jpg)
+[Kiko Fernandez-Reyes](https://www.plresearcher.com/)
+<br/>
+[Uppsala University](Uppsala University), Sweden
+{: .pc}
+
 ![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
 Alexander Gerasimov, PhD
 <br/>
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
+{: .pc}
+
+![petr maj](/images/pc/petr-maj.jpg)
+[Petr Maj](http://petamaj.github.io/)
+<br/>
+[FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
 {: .pc}
 
 ![wang qianxiang](/images/pc/wang-qianxiang.jpg)
