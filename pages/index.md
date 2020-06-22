@@ -73,6 +73,11 @@ Alexander Gerasimov, PhD
 [University of Leeds](http://www.leeds.ac.uk/), UK
 {: .pc}
 
+![david west](/images/pc/david-west.jpg)
+[David West](http://davewest.us/), PhD
+{: .pc}
+
+
 ![sergey zykov](/images/pc/sergey-zykov.jpg)
 [Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en), PhD
 <br/>
