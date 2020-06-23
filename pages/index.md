@@ -37,6 +37,12 @@ bug detection, program understanding, and software maintenance.
 
 In alphabetic order of their last names:
 
+![sergey zykov](/images/pc/sergey-zykov.jpg)
+[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en) (Chair)
+<br/>
+[HSE](https://www.hse.ru/en/org/persons/3468544), Russia
+{: .pc}
+
 ![julia belyakova](/images/pc/julia-belyakova.jpg)
 [Julia Belyakova](https://julbinb.github.io/)
 <br/>
@@ -89,12 +95,6 @@ Alexander Gerasimov
 [David West](http://davewest.us/)
 <br/>
 US
-{: .pc}
-
-![sergey zykov](/images/pc/sergey-zykov.jpg)
-[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
-<br/>
-[HSE](https://www.hse.ru/en/org/persons/3468544), Russia
 {: .pc}
 
 We extend the list right now. If you want to join,
