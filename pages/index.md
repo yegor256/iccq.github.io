@@ -38,7 +38,7 @@ bug detection, program understanding, and software maintenance.
 In alphabetic order of their last names:
 
 ![julia belyakova](/images/pc/julia-belyakova.jpg)
-[Julia Belyakova](https://julbinb.github.io/), PhD
+[Julia Belyakova](https://julbinb.github.io/)
 <br/>
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
@@ -50,7 +50,7 @@ In alphabetic order of their last names:
 {: .pc}
 
 ![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
-Alexander Gerasimov, PhD
+Alexander Gerasimov
 <br/>
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
@@ -62,13 +62,13 @@ Alexander Gerasimov, PhD
 {: .pc}
 
 ![wang qianxiang](/images/pc/wang-qianxiang.jpg)
-[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900), PhD
+[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900)
 <br/>
 [Huawei](https://www.huawei.com/), China
 {: .pc}
 
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
-[Vladimir Rubanov](https://www.rubanov.pro/), PhD
+[Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
@@ -80,20 +80,19 @@ Alexander Gerasimov, PhD
 {: .pc}
 
 ![zheng wang](/images/pc/zheng-wang.jpg)
-[Zheng Wang](https://zwang4.github.io/), PhD
+[Zheng Wang](https://zwang4.github.io/)
 <br/>
 [University of Leeds](http://www.leeds.ac.uk/), UK
 {: .pc}
 
 ![david west](/images/pc/david-west.jpg)
-[David West](http://davewest.us/), PhD
+[David West](http://davewest.us/)
 <br/>
 US
 {: .pc}
 
-
 ![sergey zykov](/images/pc/sergey-zykov.jpg)
-[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en), PhD
+[Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
 <br/>
 [HSE](https://www.hse.ru/en/org/persons/3468544), Russia
 {: .pc}
@@ -218,7 +217,7 @@ to report serious incidents to [abuse@iccq.ru](mailto:abuse@iccq.ru).
 These people are making ICCQ:
 
 ![yegor bugayenko](/images/orgs/yegor-bugayenko.jpg)
-Yegor<br/>Bugayenko
+[Yegor<br/>Bugayenko](https://www.yegor256.com/about-me.html) (Chair)
 {: .org}
 
 ![anastasia alexandrova](/images/orgs/anastasia-alexandrova.jpg)
