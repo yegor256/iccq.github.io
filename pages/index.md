@@ -43,6 +43,12 @@ In alphabetic order of their last names:
 [HSE](https://www.hse.ru/en/org/persons/3468544), Russia
 {: .pc}
 
+![anastasios antoniadis](/images/pc/anastasios-antoniadis.jpg)
+[Anastasios Antoniadis](https://conf.researchr.org/profile/conf/anastasiosantoniadis)
+<br/>
+[University of Athens](https://en.uoa.gr/), Greece
+{: .pc}
+
 ![julia belyakova](/images/pc/julia-belyakova.jpg)
 [Julia Belyakova](https://julbinb.github.io/)
 <br/>
