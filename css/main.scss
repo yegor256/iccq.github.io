@@ -110,8 +110,8 @@ h1 {
     display: block;
     margin: 0;
     margin-bottom: .5em;
-    height: 92px;
-    width: 92px;
+    max-height: 64px;
+    max-width: 128px;
   }
 }
 

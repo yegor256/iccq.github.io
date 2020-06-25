@@ -200,6 +200,11 @@ a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overvi
 a Russian intelligent technology company
 {: .partner}
 
+![kaspersky](/images/kaspersky.svg)
+[Kaspersky](https://www.kaspersky.com/),
+a multinational cybersecurity and anti-virus provider
+{: .partner}
+
 Interested in joining and helping us make ICCQ even better?
 [Click here](/partnership.html).
 
