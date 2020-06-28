@@ -271,7 +271,7 @@ of organizers, please email to [team@iccq.ru](mailto:team@iccq.ru).
 Registration is not yet open.
 {: .firebrick}
 
-The attendance is free, both for authors and listeners.
+Thanks to our partners, the attendance is free both for authors and listeners.
 
 # Got questions or suggestions? # {#authors}
 
