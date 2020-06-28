@@ -17,6 +17,7 @@ breadcrumbs:
   - partners: Partners
   - coc: Code of Conduct
   - organizers: Organizers
+  - registration: Registration
   - questions: Questions?
 ---
 
@@ -116,13 +117,16 @@ Camera ready submissions: 19 Feb 2021
 
 # Call for Papers # {#cfp}
 
-Papers appear in
-[IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp)
+Papers will be published in the _Proceedings of ICCQ_,
+will appear in
+[IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp),
 and will be indexed by
 [Web of Science](https://clarivate.com/webofsciencegroup/solutions/web-of-science/),
 [Scopus](https://www.scopus.com/home.uri),
 [Google Scholar](https://scholar.google.com/),
 [DBLP](https://dblp.uni-trier.de/), and others.
+
+Thanks to our partners, publishing is free.
 
 We consider the following criteria when evaluating papers:
 
@@ -261,6 +265,13 @@ Jeff<br/>Zhu
 
 If you are interested in helping us and joining the team
 of organizers, please email to [team@iccq.ru](mailto:team@iccq.ru).
+
+# Registration # {#registration}
+
+Registration is not yet open.
+{: .firebrick}
+
+The attendance is free, both for authors and listeners.
 
 # Got questions or suggestions? # {#authors}
 
