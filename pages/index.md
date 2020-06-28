@@ -5,8 +5,9 @@ title: "ICCQ"
 permalink: /index.html
 front: /images/winter.jpg
 description: |
-  International Conference on Code Quality with
-  a focus on static analysis, bug detection, and design patterns.
+  International Conference on Code Quality
+  focused on static analysis, program verification,
+  bug detection, and software maintenance
 header: |
   The First International Conference on Code Quality
 breadcrumbs:
