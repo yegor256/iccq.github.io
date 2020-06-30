@@ -28,7 +28,7 @@ Moscow, Russia
 
 The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ)
 is a one-day computer science event
-organized in cooperation with [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
+organized in cooperation with the [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
 and focused on static analysis, program verification,
 bug detection, and software maintenance.
 
@@ -37,13 +37,13 @@ bug detection, and software maintenance.
 
 # Program Committee # {#pc}
 
-In alphabetic order of their last names:
-
 ![sergey zykov](/images/pc/sergey-zykov.jpg)
 [Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en) (Chair)
 <br/>
 [HSE](https://www.hse.ru/en/org/persons/3468544), Russia
 {: .pc}
+
+And in alphabetical order:
 
 ![anastasios antoniadis](/images/pc/anastasios-antoniadis.jpg)
 [Anastasios Antoniadis](https://conf.researchr.org/profile/conf/anastasiosantoniadis)
@@ -75,12 +75,6 @@ Alexander Gerasimov
 [FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
 {: .pc}
 
-![wang qianxiang](/images/pc/wang-qianxiang.jpg)
-[Wang Qianxiang](https://ieeexplore.ieee.org/author/37278378900)
-<br/>
-[Huawei](https://www.huawei.com/), China
-{: .pc}
-
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
 [Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
@@ -91,6 +85,12 @@ Alexander Gerasimov
 [Jubi Taneja](http://www.cs.utah.edu/~jubi/)
 <br/>
 [University of Utah](https://www.cs.utah.edu/), USA
+{: .pc}
+
+![qianxiang wang](/images/pc/wang-qianxiang.jpg)
+[Qianxiang Wang](https://ieeexplore.ieee.org/author/37278378900)
+<br/>
+[Huawei](https://www.huawei.com/), China
 {: .pc}
 
 ![zheng wang](/images/pc/zheng-wang.jpg)
@@ -105,7 +105,7 @@ Alexander Gerasimov
 US
 {: .pc}
 
-We extend the list right now. If you want to join,
+We are expanding the committee right now. If you want to join,
 please [email us](mailto:pc@iccq.ru).
 
 # Important Dates # {#dates}
@@ -114,7 +114,7 @@ Paper submission: 4 Dec 2020 (till the end of the day)
 
 Author notification: 5 Feb 2021
 
-Camera ready submissions: 19 Feb 2021
+Camera-ready submissions: 19 Feb 2021
 
 # Call for Papers # {#cfp}
 
@@ -127,7 +127,7 @@ and will be indexed by
 [Google Scholar](https://scholar.google.com/),
 [DBLP](https://dblp.uni-trier.de/), and others.
 
-Thanks to our partners, publishing is free.
+Thanks to our partners, publishing will be free.
 
 We consider the following criteria when evaluating papers:
 
@@ -140,9 +140,9 @@ We consider the following criteria when evaluating papers:
   * Clarity: The paper presents its contributions, methodology and results clearly.
 
 Papers will be reviewed by three [PC](#pc) members using
-[double-blind reviewing](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
+a [double-blind review](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
 
-PDF version of the CFP is [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).
+A PDF version of the CFP can be found [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).
 
 # Instructions for Authors # {#authors}
 
@@ -151,8 +151,8 @@ Submissions must be in PDF, printable in black and white on
 [ACM Small](http://www.acm.org/publications/authors/submissions)
 template (available in both LaTeX and Word formats).
 
-Submitted papers may be at least 4 and at most 12 pages,
-including bibliographic references and appendices.
+Submitted papers must be at least 4 and at most 12 pages long,
+including bibliographical references and appendices.
 
 Submissions that do not meet the above requirements will be rejected without review.
 
@@ -265,14 +265,14 @@ Jeff<br/>Zhu
 {: .org}
 
 If you are interested in helping us and joining the team
-of organizers, please email to [team@iccq.ru](mailto:team@iccq.ru).
+of organizers, please email [team@iccq.ru](mailto:team@iccq.ru).
 
 # Registration # {#registration}
 
 Registration is not yet open.
 {: .firebrick}
 
-Thanks to our partners, the attendance is free both for authors and listeners.
+Thanks to our partners, attendance is free both for speakers and listeners.
 
 # Got questions or suggestions? # {#authors}
 
