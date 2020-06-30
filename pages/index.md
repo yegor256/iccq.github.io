@@ -87,8 +87,8 @@ Alexander Gerasimov
 [University of Utah](https://www.cs.utah.edu/), USA
 {: .pc}
 
-![qianxiang_wang](/images/pc/wang-qianxiang.jpg)
-[Qianxiang_Wang](https://ieeexplore.ieee.org/author/37278378900)
+![qianxiang wang](/images/pc/wang-qianxiang.jpg)
+[Qianxiang Wang](https://ieeexplore.ieee.org/author/37278378900)
 <br/>
 [Huawei](https://www.huawei.com/), China
 {: .pc}
