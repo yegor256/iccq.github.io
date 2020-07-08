@@ -116,6 +116,8 @@ Author notification: 5 Feb 2021
 
 Camera-ready submissions: 19 Feb 2021
 
+Conference: 27 Mar 2021
+
 # Call for Papers # {#cfp}
 
 Papers will be published in the _Proceedings of ICCQ_,
