@@ -60,7 +60,7 @@ And in alphabetical order:
 ![kiko fernandez-reyes](/images/pc/kiko-fernandez-reyes.jpg)
 [Kiko Fernandez-Reyes](https://www.plresearcher.com/)
 <br/>
-[Uppsala University](Uppsala University), Sweden
+[Uppsala University](https://www.uu.se/en), Sweden
 {: .pc}
 
 ![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
