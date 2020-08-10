@@ -238,9 +238,11 @@ These people are making ICCQ:
 [Yegor<br/>Bugayenko](https://www.yegor256.com/about-me.html) (Chair)
 {: .org}
 
+<!--
 ![anastasia alexandrova](/images/orgs/anastasia-alexandrova.jpg)
 Anastasia<br/>Alexandrova
 {: .org}
+-->
 
 ![sergey belov](/images/orgs/sergey-belov.jpg)
 Sergey<br/>Belov
