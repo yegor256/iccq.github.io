@@ -81,6 +81,12 @@ Alexander Gerasimov
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
 
+![yulei sui](/images/pc/yulei-sui.jpg)
+[Yulei Sui](https://yuleisui.github.io/)
+<br/>
+[University of Technology Sydney](https://www.uts.edu.au/), AU
+{: .pc}
+
 ![jubi taneja](/images/pc/jubi-taneja.jpg)
 [Jubi Taneja](http://www.cs.utah.edu/~jubi/)
 <br/>
