@@ -84,7 +84,7 @@ Alexander Gerasimov
 ![yulei sui](/images/pc/yulei-sui.jpg)
 [Yulei Sui](https://yuleisui.github.io/)
 <br/>
-[University of Technology Sydney](https://www.uts.edu.au/), AU
+[University of Technology Sydney](https://www.uts.edu.au/), Australia
 {: .pc}
 
 ![jubi taneja](/images/pc/jubi-taneja.jpg)
