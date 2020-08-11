@@ -57,6 +57,12 @@ And in alphabetical order:
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
 
+![umar farooq](/images/pc/umar-farooq.jpg)
+[Umar Farooq](http://www.cs.ucr.edu/~ufaro001/)
+<br/>
+[University of California](https://www.ucr.edu/), USA
+{: .pc}
+
 ![kiko fernandez-reyes](/images/pc/kiko-fernandez-reyes.jpg)
 [Kiko Fernandez-Reyes](https://www.plresearcher.com/)
 <br/>
