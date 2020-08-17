@@ -75,6 +75,12 @@ Alexander Gerasimov
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
 
+![robert hirschfeld](/images/pc/robert-hirschfeld.jpg)
+[Robert Hirschfeld](http://www.hpi.uni-potsdam.de/hirschfeld/people/hirschfeld/index.html)
+<br/>
+[University of Potsdam](https://hpi.de/), Germany
+{: .pc}
+
 ![petr maj](/images/pc/petr-maj.jpg)
 [Petr Maj](http://petamaj.github.io/)
 <br/>
