@@ -87,6 +87,12 @@ Alexander Gerasimov
 [FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
 {: .pc}
 
+![pens palsberg](/images/pc/jens-palsberg.jpg)
+[Jens Palsberg](https://web.cs.ucla.edu/~palsberg/)
+<br/>
+[UCLA](https://web.cs.ucla.edu/), USA
+{: .pc}
+
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
 [Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
