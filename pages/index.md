@@ -93,6 +93,12 @@ Alexander Gerasimov
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
 {: .pc}
 
+![malavika samak](/images/pc/malavika-samak.jpg)
+[Malavika Samak](https://sites.google.com/site/malavikasamak/home)
+<br/>
+[MIT](https://www.csail.mit.edu/), USA
+{: .pc}
+
 ![yulei sui](/images/pc/yulei-sui.jpg)
 [Yulei Sui](https://yuleisui.github.io/)
 <br/>
