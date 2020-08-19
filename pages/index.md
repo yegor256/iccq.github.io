@@ -57,6 +57,12 @@ And in alphabetical order:
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
 
+![yufei ding](/images/pc/yufei-ding.jpg)
+[Yufei Ding](https://sites.cs.ucsb.edu/~yufeiding/)
+<br/>
+[University of California](https://cs.ucsb.edu/), USA
+{: .pc}
+
 ![umar farooq](/images/pc/umar-farooq.jpg)
 [Umar Farooq](http://www.cs.ucr.edu/~ufaro001/)
 <br/>
