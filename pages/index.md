@@ -57,6 +57,12 @@ And in alphabetical order:
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
 
+![magiel bruntink](/images/pc/magiel-bruntink.jpg)
+[Magiel Bruntink](https://scholar.google.com/citations?user=aoOPOWAAAAAJ&hl=en)
+<br/>
+[SIG](https://www.softwareimprovementgroup.com/), The Netherlands
+{: .pc}
+
 ![yufei ding](/images/pc/yufei-ding.jpg)
 [Yufei Ding](https://sites.cs.ucsb.edu/~yufeiding/)
 <br/>
