@@ -93,6 +93,12 @@ Alexander Gerasimov
 [FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
 {: .pc}
 
+![brandon lucia](/images/pc/brandon-lucia.jpg)
+[Brandon Lucia](https://brandonlucia.com/)
+<br/>
+[Carnegie Mellon University](https://www.ece.cmu.edu/), USA
+{: .pc}
+
 ![pens palsberg](/images/pc/jens-palsberg.jpg)
 [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/)
 <br/>
