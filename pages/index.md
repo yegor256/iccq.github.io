@@ -93,6 +93,12 @@ Alexander Gerasimov
 [University of Potsdam](https://hpi.de/), Germany
 {: .pc}
 
+![hugh leather](/images/pc/hugh-leather.jpg)
+[Hugh Leather](http://homepages.inf.ed.ac.uk/hleather/)
+<br/>
+[University of Edinburgh](https://www.ed.ac.uk/), UK
+{: .pc}
+
 ![petr maj](/images/pc/petr-maj.jpg)
 [Petr Maj](http://petamaj.github.io/)
 <br/>
