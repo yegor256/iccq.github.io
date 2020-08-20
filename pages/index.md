@@ -60,13 +60,13 @@ And in alphabetical order:
 ![yufei ding](/images/pc/yufei-ding.jpg)
 [Yufei Ding](https://sites.cs.ucsb.edu/~yufeiding/)
 <br/>
-[University of California](https://cs.ucsb.edu/), USA
+[UCSB](https://cs.ucsb.edu/), USA
 {: .pc}
 
 ![umar farooq](/images/pc/umar-farooq.jpg)
 [Umar Farooq](http://www.cs.ucr.edu/~ufaro001/)
 <br/>
-[University of California](https://www.ucr.edu/), USA
+[UCR](https://www.ucr.edu/), USA
 {: .pc}
 
 ![kiko fernandez-reyes](/images/pc/kiko-fernandez-reyes.jpg)
@@ -79,6 +79,12 @@ And in alphabetical order:
 Alexander Gerasimov
 <br/>
 [Huawei RRI](https://career.huawei.ru/rri/), Russia
+{: .pc}
+
+![ben hardekopf](/images/pc/ben-hardekopf.jpg)
+[Ben Hardekopf](https://www.cs.ucsb.edu/people/faculty/hardekopf)
+<br/>
+[UCSB](https://www.cs.ucsb.edu/), USA
 {: .pc}
 
 ![robert hirschfeld](/images/pc/robert-hirschfeld.jpg)
