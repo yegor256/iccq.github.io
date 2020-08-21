@@ -93,6 +93,12 @@ Alexander Gerasimov
 [UCSB](https://www.cs.ucsb.edu/), USA
 {: .pc}
 
+![mats heimdahl](/images/pc/mats-heimdahl.jpg)
+[Mats Heimdahl](https://www.umsec.umn.edu/directory/mats-heimdahl)
+<br/>
+[University of Minnesota](https://twin-cities.umn.edu/), USA
+{: .pc}
+
 ![robert hirschfeld](/images/pc/robert-hirschfeld.jpg)
 [Robert Hirschfeld](http://www.hpi.uni-potsdam.de/hirschfeld/people/hirschfeld/index.html)
 <br/>
