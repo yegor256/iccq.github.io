@@ -63,6 +63,12 @@ And in alphabetical order:
 [SIG](https://www.softwareimprovementgroup.com/), The Netherlands
 {: .pc}
 
+![laura m. castro](/images/pc/laura-castro.jpg)
+[Laura M. Castro](https://scholar.google.com/citations?user=uWBv3OMAAAAJ&hl=en)
+<br/>
+[Universidade da Coruña](https://www.udc.es/en/), Spain
+{: .pc}
+
 ![yufei ding](/images/pc/yufei-ding.jpg)
 [Yufei Ding](https://sites.cs.ucsb.edu/~yufeiding/)
 <br/>
