@@ -11,6 +11,7 @@ description: |
 header: |
   The First International Conference on Code Quality
 breadcrumbs:
+  - keynote: Keynote
   - pc: Program&nbsp;Committee
   - dates: Important&nbsp;Dates
   - cfp: Call&nbsp;for&nbsp;Papers
@@ -34,6 +35,14 @@ bug detection, and software maintenance.
 
 [![ieee](/images/ieee-cs.svg)](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
 {: .nonprofit}
+
+# Keynote
+
+![anders møller](/images/keynote/anders-moller.jpg)
+[Anders Møller](https://cs.au.dk/~amoeller/)
+<br/>
+[Aarhus University](https://www.au.dk/), Denmark
+{: .pc}
 
 # Program Committee # {#pc}
 
