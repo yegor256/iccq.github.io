@@ -144,6 +144,12 @@ Alexander Gerasimov
 [UCLA](https://web.cs.ucla.edu/), USA
 {: .pc}
 
+![alexander petrenko](/images/pc/alexander-petrenko.jpg)
+[Alexander K. Petrenko](https://scholar.google.com/citations?user=CB_gppkAAAAJ&hl=en)
+<br/>
+[ISP RAS](https://www.ispras.ru/en/), Russia
+{: .pc}
+
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
 [Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
