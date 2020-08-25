@@ -108,6 +108,12 @@ Alexander Gerasimov
 [UCSB](https://www.cs.ucsb.edu/), USA
 {: .pc}
 
+![christian hammer](/images/pc/christian-hammer.jpg)
+[Christian Hammer](https://www.uni-potsdam.de/en/cs-se/team/prof-dr-ing-christian-hammer.html)
+<br/>
+[University of Potsdam](https://www.uni-potsdam.de/en/cs-se/index), Germany
+{: .pc}
+
 ![mats heimdahl](/images/pc/mats-heimdahl.jpg)
 [Mats Heimdahl](https://www.umsec.umn.edu/directory/mats-heimdahl)
 <br/>
@@ -126,16 +132,16 @@ Alexander Gerasimov
 [University of Edinburgh](https://www.ed.ac.uk/), UK
 {: .pc}
 
-![petr maj](/images/pc/petr-maj.jpg)
-[Petr Maj](http://petamaj.github.io/)
-<br/>
-[FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
-{: .pc}
-
 ![brandon lucia](/images/pc/brandon-lucia.jpg)
 [Brandon Lucia](https://brandonlucia.com/)
 <br/>
 [Carnegie Mellon University](https://www.ece.cmu.edu/), USA
+{: .pc}
+
+![petr maj](/images/pc/petr-maj.jpg)
+[Petr Maj](http://petamaj.github.io/)
+<br/>
+[FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
 {: .pc}
 
 ![pens palsberg](/images/pc/jens-palsberg.jpg)
