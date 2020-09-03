@@ -52,12 +52,18 @@ header {
     max-width: 40em;
     margin: auto;
     li {
-      list-style: none;
-      display: inline;
+      margin: 0;
       &:not(:first-child):before {
         content: '·';
       }
     }
+  }
+}
+
+footer {
+  ul {
+    padding: 0em;
+    margin: auto;
   }
 }
 

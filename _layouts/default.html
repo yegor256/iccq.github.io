@@ -33,15 +33,17 @@ layout: compress
             {{ page.header }}
           </p>
         </div>
-        <ul>
-          {% for hash in page.breadcrumbs %}
-            {% for b in hash %}
-              <li>
-                <a href="#{{ b[0] }}">{{ b[1] }}</a>
-              </li>
+        <nav>
+          <ul>
+            {% for hash in page.breadcrumbs %}
+              {% for b in hash %}
+                <li>
+                  <a href="{% if b[0] contains 'https://' %}{% else %}#{% endif %}{{ b[0] }}">{{ b[1] }}</a>
+                </li>
+              {% endfor %}
             {% endfor %}
-          {% endfor %}
-        </ul>
+          </ul>
+        </nav>
       </header>
     {% endif %}
     <section>
@@ -54,9 +56,21 @@ layout: compress
         {{ content }}
       </article>
       <footer>
-        <p>
-          &copy; ICCQ, 2020
-        </p>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://twitter.com/iccq_ru">Twitter</a>
+            </li>
+            <li>
+              <a href="mailto:team@iccq.ru">Email us</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              &copy; ICCQ, 2020
+            </li>
+          </ul>
+        </nav>
       </footer>
     </section>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1963507-55"></script>
