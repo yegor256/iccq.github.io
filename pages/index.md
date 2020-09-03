@@ -114,7 +114,7 @@ Alexander Gerasimov
 <br/>
 [University of Potsdam](https://www.uni-potsdam.de/en/cs-se/index), Germany
 {: .pc}
-􏰀
+
 ![mats heimdahl](/images/pc/mats-heimdahl.jpg)
 [Mats Heimdahl](https://www.umsec.umn.edu/directory/mats-heimdahl)
 <br/>
