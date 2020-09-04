@@ -12,6 +12,7 @@ header: |
   The First International Conference on Code Quality
 breadcrumbs:
   - keynote: Keynote
+  - steering: Steering&nbsp;Committee
   - pc: Program&nbsp;Committee
   - dates: Important&nbsp;Dates
   - cfp: Call&nbsp;for&nbsp;Papers
@@ -43,6 +44,20 @@ bug detection, and software maintenance.
 [Anders Møller](https://cs.au.dk/~amoeller/)
 <br/>
 [Aarhus University](https://www.au.dk/), Denmark
+{: .pc}
+
+# Steering Committee # {#steering}
+
+![zhang yuxin](/images/steering/zhang-yuxin.jpg)
+[Zhang Yuxin](https://www.huaweicloud.com/intl/en-us/news/building-a-smart-future-with-full-stack-innovation-for-the-cloud.html)
+<br/>
+CTO of [Huawei Cloud](https://www.huaweicloud.com/)
+{: .pc}
+
+![yevgeny kolbin](/images/steering/yevgeny-kolbin.jpg)
+[Yevgeny Kolbin](https://www.sberbank.ru/en/press_center/all/article?newsID=ef3e1c1b-fc7f-4eb5-9d36-db23e2ed42fc&blockID=1539&regionID=77&lang=en&type=NEWS)
+<br/>
+CEO of [SberCloud](https://sbercloud.ru/en)
 {: .pc}
 
 # Program Committee # {#pc}
@@ -245,6 +260,10 @@ Papers will be reviewed by three [PC](#pc) members using
 a [double-blind review](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
 
 A PDF version of the CFP can be found [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).
+
+Our CFP is also published at
+[WikiCFP](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=112792),
+[call4paper](https://www.call4paper.com/).
 
 # Instructions for Authors # {#authors}
 
