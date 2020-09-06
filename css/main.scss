@@ -60,7 +60,7 @@ header {
         display: block;
       }
       @media all and (min-width: 1024px) {
-        &:not(:first-child):before {
+        &:not(:last-child):after {
           content: '·';
         }
       }
