@@ -51,10 +51,18 @@ header {
     padding: 1em;
     max-width: 40em;
     margin: auto;
+    @media all and (max-width: 1024px) {
+      text-align: left;
+    }
     li {
       margin: 0;
-      &:not(:first-child):before {
-        content: '·';
+      @media all and (max-width: 1024px) {
+        display: block;
+      }
+      @media all and (min-width: 1024px) {
+        &:not(:first-child):before {
+          content: '·';
+        }
       }
     }
   }
