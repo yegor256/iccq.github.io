@@ -49,7 +49,7 @@ bug detection, and software maintenance.
 # Steering Committee # {#steering}
 
 ![zhang yuxin](/images/steering/zhang-yuxin.jpg)
-[Zhang Yuxin](https://www.huaweicloud.com/intl/en-us/news/building-a-smart-future-with-full-stack-innovation-for-the-cloud.html)
+[Zhang Yuxin](https://www.huaweicloud.com/intl/en-us/news/building-a-smart-future-with-full-stack-innovation-for-the-cloud.html) (Chair)
 <br/>
 CTO of [Huawei Cloud](https://www.huaweicloud.com/)
 {: .pc}
