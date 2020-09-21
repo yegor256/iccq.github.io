@@ -1,13 +1,12 @@
 ---
 layout: default
 date: 2020-04-20
-title: "ICCQ"
+title: "ICCQ: International Conference on Code Quality"
 permalink: /index.html
 front: /images/winter.jpg
 description: |
-  International Conference on Code Quality
-  focused on static analysis, program verification,
-  bug detection, and software maintenance
+  ICCQ is sponsored by IEEE Computer Society and focused on static analysis,
+  program verification, bug detection, and software maintenance.
 header: |
   The First International Conference on Code Quality
 breadcrumbs:
