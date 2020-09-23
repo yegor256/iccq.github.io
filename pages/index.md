@@ -264,7 +264,7 @@ Our CFP is also published at
 [WikiCFP](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=112792),
 [call4paper](https://www.call4paper.com/detail/event/PGNZHDXH27553174),
 [AllConferenceCfpAlerts](https://allconferencecfpalerts.com/cfp/view.php?eno=20859),
-[SEWORLD](https://www.sigsoft.org/resources/seworld.html),
+[SEWORLD](https://listserv.acm.org/scripts/wa-acmlpx.exe?A2=ind2009&L=SEWORLD&P=R5608),
 [types-announce](http://lists.seas.upenn.edu/pipermail/types-announce/2020/009182.html).
 
 # Instructions for Authors # {#authors}
