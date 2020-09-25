@@ -171,6 +171,12 @@ Alexander Gerasimov
 [ISP RAS](https://www.ispras.ru/en/), Russia
 {: .pc}
 
+![alex potanin](/images/pc/alex-potanin.jpg)
+[Alex Potanin](https://conf.researchr.org/profile/conf/alexpotanin)
+<br/>
+[Victoria University of Wellington](https://www.wgtn.ac.nz/ecs), New Zealand
+{: .pc}
+
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
 [Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
