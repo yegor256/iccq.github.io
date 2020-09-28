@@ -81,6 +81,12 @@ And in alphabetical order:
 [Northeastern University](https://www.northeastern.edu/), USA
 {: .pc}
 
+![aysu betin-can](/images/pc/aysu-betin-can.jpg)
+[Aysu Betin-Can](https://scholar.google.com/citations?user=qKRjBaUAAAAJ&hl=en)
+<br/>
+[Middle East Technical University](https://www.metu.edu.tr/), Turkey
+{: .pc}
+
 ![magiel bruntink](/images/pc/magiel-bruntink.jpg)
 [Magiel Bruntink](https://scholar.google.com/citations?user=aoOPOWAAAAAJ&hl=en)
 <br/>
