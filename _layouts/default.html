@@ -38,7 +38,7 @@ layout: compress
             {% for hash in page.breadcrumbs %}
               {% for b in hash %}
                 <li>
-                  <a href="{% if b[0] contains 'https://' %}{% else %}#{% endif %}{{ b[0] }}">{{ b[1] }}</a>
+                  <a href="{% if b[0] contains '/' %}{% else %}#{% endif %}{{ b[0] }}">{{ b[1] }}</a>
                 </li>
               {% endfor %}
             {% endfor %}

@@ -20,6 +20,7 @@ breadcrumbs:
   - coc: Code of Conduct
   - organizers: Organizers
   - registration: Registration
+  - /travel.html: Travel Info
   - https://twitter.com/iccq_ru: Twitter
   - questions: Questions?
 ---
