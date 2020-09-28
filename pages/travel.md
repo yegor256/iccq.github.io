@@ -37,7 +37,9 @@ We suggest you to stay in one of these hotels:
 
   * [PR Myasnitsky Boutique Hotel](https://prhotelgroup.ru/en/) (1.3km)
 
-We recommend you try one of these restaurants:
+You can find many restaurants near by your hotel and most of them will be
+good. We also recommend you try one of these high-class restaurants and taste
+traditional Russian cousine:
 
   * [Ruski](http://ruski.354group.com/en/) (approx. $30 per person)
 
