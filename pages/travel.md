@@ -17,7 +17,7 @@ your original passport, visa application form, two passport-size photos,
 hotel confirmation, and flight tickets.
 The visa will be issued in up to 30 days and will cost up to $120.
 
-We recommend you to use Uber.
+We recommend you to use [Uber](https://www.uber.com/).
 
 ICCQ will be held in the Higher School of Economics (HSE)
 at 11, Pokrovsky Blvd in Moscow.
