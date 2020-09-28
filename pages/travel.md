@@ -47,7 +47,7 @@ traditional Russian cousine:
 
   * [Dr. Zhivago](https://drzhivago.ru/en/about) ($60)
 
-You most definitely want to see The Kremlin.
+You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Moscow_Kremlin).
 
 Also, try to order a guided half-day trips around the most famous sights in Moscow,
 [here](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95).
