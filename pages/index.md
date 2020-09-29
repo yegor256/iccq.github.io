@@ -196,6 +196,12 @@ Alexander Gerasimov
 [MIT](https://www.csail.mit.edu/), USA
 {: .pc}
 
+![aaron smith](/images/pc/aaron-smith.jpg)
+[Aaron Smith](https://www.microsoft.com/en-us/research/people/aasmith/)
+<br/>
+[Microsoft](https://www.microsoft.com/), USA
+{: .pc}
+
 ![johannes späth](/images/pc/johannes-spath.jpg)
 [Johannes Späth](https://johspaeth.github.io/)
 <br/>
