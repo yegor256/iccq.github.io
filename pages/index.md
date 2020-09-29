@@ -43,7 +43,7 @@ bug detection, and software maintenance.
 ![anders møller](/images/keynote/anders-moller.jpg)
 [Anders Møller](https://cs.au.dk/~amoeller/)
 <br/>
-[Aarhus University](https://www.au.dk/), Denmark
+[Aarhus University](https://www.au.dk/)<!-- , Denmark -->
 {: .pc}
 
 # Steering Committee # {#steering}
@@ -65,7 +65,7 @@ CEO of [SberCloud](https://sbercloud.ru/en)
 ![sergey zykov](/images/pc/sergey-zykov.jpg)
 [Sergey Zykov](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en) (Chair)
 <br/>
-[HSE](https://www.hse.ru/en/org/persons/3468544), Russia
+[HSE](https://www.hse.ru/en/org/persons/3468544)<!--, Russia -->
 {: .pc}
 
 And in alphabetical order:
@@ -73,169 +73,169 @@ And in alphabetical order:
 ![anastasios antoniadis](/images/pc/anastasios-antoniadis.jpg)
 [Anastasios Antoniadis](https://conf.researchr.org/profile/conf/anastasiosantoniadis)
 <br/>
-[University of Athens](https://en.uoa.gr/), Greece
+[University of Athens](https://en.uoa.gr/)<!--, Greece -->
 {: .pc}
 
 ![julia belyakova](/images/pc/julia-belyakova.jpg)
 [Julia Belyakova](https://julbinb.github.io/)
 <br/>
-[Northeastern University](https://www.northeastern.edu/), USA
+[Northeastern University](https://www.northeastern.edu/)<!--, USA-->
 {: .pc}
 
 ![aysu betin-can](/images/pc/aysu-betin-can.jpg)
 [Aysu Betin-Can](https://scholar.google.com/citations?user=qKRjBaUAAAAJ&hl=en)
 <br/>
-[Middle East Technical University](https://www.metu.edu.tr/), Turkey
+[Middle East Technical University](https://www.metu.edu.tr/)<!--, Turkey-->
 {: .pc}
 
 ![magiel bruntink](/images/pc/magiel-bruntink.jpg)
 [Magiel Bruntink](https://scholar.google.com/citations?user=aoOPOWAAAAAJ&hl=en)
 <br/>
-[SIG](https://www.softwareimprovementgroup.com/), The Netherlands
+[SIG](https://www.softwareimprovementgroup.com/)<!--, The Netherlands-->
 {: .pc}
 
 ![laura m. castro](/images/pc/laura-castro.jpg)
 [Laura M. Castro](https://scholar.google.com/citations?user=uWBv3OMAAAAJ&hl=en)
 <br/>
-[Universidade da Coruña](https://www.udc.es/en/), Spain
+[Universidade da Coruña](https://www.udc.es/en/)<!--, Spain-->
 {: .pc}
 
 ![yufei ding](/images/pc/yufei-ding.jpg)
 [Yufei Ding](https://sites.cs.ucsb.edu/~yufeiding/)
 <br/>
-[UCSB](https://cs.ucsb.edu/), USA
+[UCSB](https://cs.ucsb.edu/)<!--, USA-->
 {: .pc}
 
 ![umar farooq](/images/pc/umar-farooq.jpg)
 [Umar Farooq](http://www.cs.ucr.edu/~ufaro001/)
 <br/>
-[UCR](https://www.ucr.edu/), USA
+[UCR](https://www.ucr.edu/)<!--, USA-->
 {: .pc}
 
 ![kiko fernandez-reyes](/images/pc/kiko-fernandez-reyes.jpg)
 [Kiko Fernandez-Reyes](https://www.plresearcher.com/)
 <br/>
-[Uppsala University](https://www.uu.se/en), Sweden
+[Uppsala University](https://www.uu.se/en)<!--, Sweden-->
 {: .pc}
 
 ![alexander gerasimov](/images/pc/alexander-gerasimov.jpg)
 Alexander Gerasimov
 <br/>
-[Huawei RRI](https://career.huawei.ru/rri/), Russia
+[Huawei RRI](https://career.huawei.ru/rri/)<!--, Russia-->
 {: .pc}
 
 ![ben hardekopf](/images/pc/ben-hardekopf.jpg)
 [Ben Hardekopf](https://www.cs.ucsb.edu/people/faculty/hardekopf)
 <br/>
-[UCSB](https://www.cs.ucsb.edu/), USA
+[UCSB](https://www.cs.ucsb.edu/)<!--, USA-->
 {: .pc}
 
 ![christian hammer](/images/pc/christian-hammer.jpg)
 [Christian Hammer](https://www.uni-potsdam.de/en/cs-se/team/prof-dr-ing-christian-hammer.html)
 <br/>
-[University of Potsdam](https://www.uni-potsdam.de/en/cs-se/index), Germany
+[University of Potsdam](https://www.uni-potsdam.de/en/cs-se/index)<!--, Germany-->
 {: .pc}
 
 ![mats heimdahl](/images/pc/mats-heimdahl.jpg)
 [Mats Heimdahl](https://www.umsec.umn.edu/directory/mats-heimdahl)
 <br/>
-[University of Minnesota](https://twin-cities.umn.edu/), USA
+[University of Minnesota](https://twin-cities.umn.edu/)<!--, USA-->
 {: .pc}
 
 ![robert hirschfeld](/images/pc/robert-hirschfeld.jpg)
 [Robert Hirschfeld](http://www.hpi.uni-potsdam.de/hirschfeld/people/hirschfeld/index.html)
 <br/>
-[University of Potsdam](https://hpi.de/), Germany
+[University of Potsdam](https://hpi.de/)<!--, Germany-->
 {: .pc}
 
 ![hugh leather](/images/pc/hugh-leather.jpg)
 [Hugh Leather](http://homepages.inf.ed.ac.uk/hleather/)
 <br/>
-[University of Edinburgh](https://www.ed.ac.uk/), UK
+[University of Edinburgh](https://www.ed.ac.uk/)<!--, UK-->
 {: .pc}
 
 ![brandon lucia](/images/pc/brandon-lucia.jpg)
 [Brandon Lucia](https://brandonlucia.com/)
 <br/>
-[Carnegie Mellon University](https://www.ece.cmu.edu/), USA
+[Carnegie Mellon University](https://www.ece.cmu.edu/)<!--, USA-->
 {: .pc}
 
 ![petr maj](/images/pc/petr-maj.jpg)
 [Petr Maj](http://petamaj.github.io/)
 <br/>
-[FIT CTU](https://old.fit.cvut.cz/en), Czech Republic
+[FIT CTU](https://old.fit.cvut.cz/en)<!--, Czech Republic-->
 {: .pc}
 
 ![pens palsberg](/images/pc/jens-palsberg.jpg)
 [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/)
 <br/>
-[UCLA](https://web.cs.ucla.edu/), USA
+[UCLA](https://web.cs.ucla.edu/)<!--, USA-->
 {: .pc}
 
 ![alexander petrenko](/images/pc/alexander-petrenko.jpg)
 [Alexander K. Petrenko](https://scholar.google.com/citations?user=CB_gppkAAAAJ&hl=en)
 <br/>
-[ISP RAS](https://www.ispras.ru/en/), Russia
+[ISP RAS](https://www.ispras.ru/en/)<!--, Russia-->
 {: .pc}
 
 ![alex potanin](/images/pc/alex-potanin.jpg)
 [Alex Potanin](https://conf.researchr.org/profile/conf/alexpotanin)
 <br/>
-[Victoria University of Wellington](https://www.wgtn.ac.nz/ecs), New Zealand
+[Victoria University of Wellington](https://www.wgtn.ac.nz/ecs)<!--, New Zealand-->
 {: .pc}
 
 ![vladimir rubanov](/images/pc/vladimir-rubanov.jpg)
 [Vladimir Rubanov](https://www.rubanov.pro/)
 <br/>
-[Huawei RRI](https://career.huawei.ru/rri/), Russia
+[Huawei RRI](https://career.huawei.ru/rri/)<!--, Russia-->
 {: .pc}
 
 ![malavika samak](/images/pc/malavika-samak.jpg)
 [Malavika Samak](https://sites.google.com/site/malavikasamak/home)
 <br/>
-[MIT](https://www.csail.mit.edu/), USA
+[MIT](https://www.csail.mit.edu/)<!--, USA-->
 {: .pc}
 
 ![aaron smith](/images/pc/aaron-smith.jpg)
 [Aaron Smith](https://www.microsoft.com/en-us/research/people/aasmith/)
 <br/>
-[Microsoft](https://www.microsoft.com/), USA
+[Microsoft](https://www.microsoft.com/)<!--, USA-->
 {: .pc}
 
 ![johannes späth](/images/pc/johannes-spath.jpg)
 [Johannes Späth](https://johspaeth.github.io/)
 <br/>
-[University of Paderborn](https://www.uni-paderborn.de/en/university/), Germany
+[University of Paderborn](https://www.uni-paderborn.de/en/university/)<!--, Germany-->
 {: .pc}
 
 ![yulei sui](/images/pc/yulei-sui.jpg)
 [Yulei Sui](https://yuleisui.github.io/)
 <br/>
-[University of Technology Sydney](https://www.uts.edu.au/), Australia
+[University of Technology Sydney](https://www.uts.edu.au/)<!--, Australia-->
 {: .pc}
 
 ![jubi taneja](/images/pc/jubi-taneja.jpg)
 [Jubi Taneja](http://www.cs.utah.edu/~jubi/)
 <br/>
-[University of Utah](https://www.cs.utah.edu/), USA
+[University of Utah](https://www.cs.utah.edu/)<!--, USA-->
 {: .pc}
 
 ![qianxiang wang](/images/pc/wang-qianxiang.jpg)
 [Qianxiang Wang](https://ieeexplore.ieee.org/author/37278378900)
 <br/>
-[Huawei](https://www.huawei.com/), China
+[Huawei](https://www.huawei.com/)<!--, China-->
 {: .pc}
 
 ![zheng wang](/images/pc/zheng-wang.jpg)
 [Zheng Wang](https://zwang4.github.io/)
 <br/>
-[University of Leeds](http://www.leeds.ac.uk/), UK
+[University of Leeds](http://www.leeds.ac.uk/)<!--, UK-->
 {: .pc}
 
 ![david west](/images/pc/david-west.jpg)
 [David West](http://davewest.us/)
 <br/>
-US
+<!--US-->
 {: .pc}
 
 We are expanding the committee right now. If you want to join,
