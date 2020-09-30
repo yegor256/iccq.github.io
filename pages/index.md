@@ -25,6 +25,11 @@ breadcrumbs:
   - questions: Questions?
 ---
 
+Due to the [pandemic situation](https://en.wikipedia.org/wiki/COVID-19_pandemic),
+the conference will be held in **semi-online** mode: speakers will be allowed to present
+their works remotely over [Zoom](https://zoom.us/).
+{: .warning}
+
 Sat 27 Mar 2021
 <br/>
 Moscow, Russia

@@ -147,3 +147,13 @@ h1 {
     height: 92px;
   }
 }
+
+.warning {
+  border-left: 4px solid firebrick;
+  padding-left: 1em;
+  color: firebrick;
+  a {
+    color: firebrick;
+    text-decoration: underline;
+  }
+}
