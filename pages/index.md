@@ -238,8 +238,10 @@ Alexander Gerasimov
 <!--US-->
 {: .pc}
 
+<!--
 We are expanding the committee right now. If you want to join,
 please [email us](mailto:pc@iccq.ru).
+-->
 
 # Important Dates # {#dates}
 
