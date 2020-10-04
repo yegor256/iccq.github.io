@@ -18,10 +18,6 @@ your original passport, visa application form, two passport-size photos,
 hotel confirmation, and flight tickets.
 The visa will be issued in up to 30 days and will cost up to $120.
 
-You should be aware of the weather you may bump into in Moscow in March. Thanks to
-TripSavvy, you may follow their [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events-and-tips-1501814)
-on what coat is better to put on.
-
 ICCQ will be held in the Higher School of Economics (HSE)
 at [11, Pokrovsky Blvd in Moscow](https://goo.gl/maps/B587C4Q8YdBZZ7WT9).
 
@@ -52,6 +48,10 @@ traditional Russian cuisine:
   * [Selfie](https://selfiemoscow.ru/en/) ($50)
 
   * [Dr. Zhivago](https://drzhivago.ru/en/about) ($60)
+
+It may be a bit cold in Moscow in March; check
+these [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events-and-tips-1501814)
+on what coat is better to put on.
 
 Maybe you will want to visit different restaurants which are English-speaker friendly and bars
 around the city while sightseeing. These places are happy to have you as a guest to
