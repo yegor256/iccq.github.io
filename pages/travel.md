@@ -23,7 +23,7 @@ TripSavvy, you may follow their [recommendations](https://www.tripsavvy.com/mosc
 on what coat is better to put on.
 
 ICCQ will be held in the Higher School of Economics (HSE)
-at 11, Pokrovsky Blvd in Moscow.
+at [11, Pokrovsky Blvd in Moscow](https://goo.gl/maps/B587C4Q8YdBZZ7WT9).
 
 We recommend you to use [Uber](https://www.uber.com/) as a taxi service.
 
