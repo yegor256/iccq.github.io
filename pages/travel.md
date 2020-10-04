@@ -11,14 +11,15 @@ description: |
 
 # Travel Information
 
-You will need to obtain an entry visa to travel to Russia, either in
-Russian Embassy or Consulate in your country. They will ask you to provide
+You will need to obtain a [tourist visa](https://en.wikipedia.org/wiki/Visa_policy_of_Russia)
+to travel to Russia, either in Russian Embassy or Consulate in your country.
+They will ask you to provide
 your original passport, visa application form, two passport-size photos,
 hotel confirmation, and flight tickets.
 The visa will be issued in up to 30 days and will cost up to $120.
 
 You should be aware of the weather you may bump into in Moscow in March. Thanks to
-TripSavvy, you may follow their [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events-and-tips-1501814) 
+TripSavvy, you may follow their [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events-and-tips-1501814)
 on what coat is better to put on.
 
 ICCQ will be held in the Higher School of Economics (HSE)
@@ -51,10 +52,10 @@ traditional Russian cuisine:
   * [Selfie](https://selfiemoscow.ru/en/) ($50)
 
   * [Dr. Zhivago](https://drzhivago.ru/en/about) ($60)
-  
-Maybe you will want to visit different restaurants which are English-speaker friendly and bars 
-around the city while sightseeing. These places are happy to have you as a guest to 
-[eat](https://www.tripsavvy.com/best-inexpensive-moscow-restaurants-and-cafes-1622506) and 
+
+Maybe you will want to visit different restaurants which are English-speaker friendly and bars
+around the city while sightseeing. These places are happy to have you as a guest to
+[eat](https://www.tripsavvy.com/best-inexpensive-moscow-restaurants-and-cafes-1622506) and
 [drink](https://www.tripsavvy.com/top-bars-and-pubs-in-moscow-1622465) in comfort.
 
 You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Moscow_Kremlin).
