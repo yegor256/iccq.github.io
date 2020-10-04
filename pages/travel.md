@@ -62,7 +62,7 @@ You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Mosc
 You might also want to see some other sights during your trip by yourself, for more of them,
 you can visit this [article](https://www.tripsavvy.com/moscow-must-see-sights-1502282),
 or maybe you'll want to explore some [Soviet sights](https://www.tripsavvy.com/soviet-sights-in-moscow-1622455)
-in Moscow, or look at the [Stalin's Seven Sisters](https://www.tripsavvy.com/photos-of-stalins-seven-sisters-in-moscow-1501848)
+in Moscow, or look at the [Stalin's Seven Sisters](https://en.wikipedia.org/wiki/Seven_Sisters_%28Moscow%29)
 in person.
 
 Also, try to order a guided half-day trip around the most famous sights in Moscow,
