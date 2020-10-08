@@ -86,6 +86,12 @@ Also, try to order a guided half-day trip around the most famous sights in Mosco
 ([2.0km](https://goo.gl/maps/5MyW3nrzfm9mfECS7))
 ![red-square](/images/city/red-square.jpg)
 
+[Patriarshiye Prudy](https://en.wikipedia.org/wiki/Patriarch_Ponds)
+([4.2km](https://goo.gl/maps/5N3wqjdBFTdyoRiz6))
+[&copy; photo](https://www.gazeta.ru/social/2017/07/28/10809524.shtml)
+![patriarshiye-prudy](/images/city/patriarshiye-prudy.jpg)
+
 [Arbat St.](https://en.wikipedia.org/wiki/Arbat_Street)
 ([4.5km](https://goo.gl/maps/paJ6UmW6StBmLZDM6))
 ![arbat](/images/city/arbat.jpg)
+
