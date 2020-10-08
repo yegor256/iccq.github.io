@@ -97,3 +97,8 @@ Watch this [intro video](https://www.youtube.com/watch?v=pnN2BNrSrXY) by Expedia
 ([4.5km](https://goo.gl/maps/paJ6UmW6StBmLZDM6))
 ![arbat](/images/city/arbat.jpg)
 
+[VDNH](https://en.wikipedia.org/wiki/Exhibition_of_Achievements_of_National_Economy)
+([8.8km](https://goo.gl/maps/BLMyZxsu1BUfJ8mi9))
+[&copy; photo](https://zen.yandex.ru/media/sysoevfm/gde-est-na-vdnh-5d2e444ac49f2900aef436a2)
+![vdnh](/images/city/vdnh.jpg)
+
