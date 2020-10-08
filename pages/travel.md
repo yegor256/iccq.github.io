@@ -67,3 +67,25 @@ in person.
 
 Also, try to order a guided half-day trip around the most famous sights in Moscow,
 [here](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95).
+
+# Best Places to See
+
+[Chistie Prudy](https://en.wikipedia.org/wiki/Clean_Ponds)
+([450m](https://goo.gl/maps/UZ4ymutEreZjEUPM9) from the venue)
+![chistie-prudy](/images/city/chistie-prudy.jpg)
+
+[Metro Station Ploshchad Revolyutsii](https://en.wikipedia.org/wiki/Ploshchad_Revolyutsii_%28Moscow_Metro%29)
+([1.8km](https://goo.gl/maps/95uwV6GDtKCVZK8eA))
+![ploshchad-revolyutsii](/images/city/ploshchad-revolyutsii.jpg)
+
+[Nikolskaya St.](https://en.wikipedia.org/wiki/Nikolskaya_Street)
+([1.9km](https://goo.gl/maps/auRUDXYy6SbMX7pg8))
+![nikolskaya](/images/city/nikolskaya.jpg)
+
+[Red Square](https://en.wikipedia.org/wiki/Red_Square)
+([2.0km](https://goo.gl/maps/5MyW3nrzfm9mfECS7))
+![red-square](/images/city/red-square.jpg)
+
+[Arbat St.](https://en.wikipedia.org/wiki/Arbat_Street)
+([4.5km](https://goo.gl/maps/paJ6UmW6StBmLZDM6))
+![arbat](/images/city/arbat.jpg)
