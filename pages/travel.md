@@ -70,6 +70,8 @@ Also, try to order a guided half-day trip around the most famous sights in Mosco
 
 # Best Places to See
 
+Watch this [intro video](https://www.youtube.com/watch?v=pnN2BNrSrXY) by Expedia.
+
 [Chistie Prudy](https://en.wikipedia.org/wiki/Clean_Ponds)
 ([450m](https://goo.gl/maps/UZ4ymutEreZjEUPM9) from the venue)
 ![chistie-prudy](/images/city/chistie-prudy.jpg)
