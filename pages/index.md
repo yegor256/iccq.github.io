@@ -269,7 +269,7 @@ and will be indexed by
 [Google Scholar](https://scholar.google.com/),
 [DBLP](https://dblp.uni-trier.de/), and others.
 
-Thanks to our partners, publishing will be free.
+Publishing fee is <del>$699</del> free (thanks to our partners).
 
 We consider the following criteria when evaluating papers:
 
@@ -424,7 +424,8 @@ of organizers, please email [team@iccq.ru](mailto:team@iccq.ru).
 Registration is not yet open.
 {: .firebrick}
 
-Thanks to our partners, attendance is free both for speakers and listeners.
+Registration fee: <del>$199</del> free
+(thanks to our partners).
 
 # Got questions or suggestions? # {#authors}
 
