@@ -75,13 +75,18 @@ around the most famous sights in Moscow. You don't want to miss these places:
 ([1.8km](https://goo.gl/maps/95uwV6GDtKCVZK8eA))
 ![ploshchad-revolyutsii](/images/city/ploshchad-revolyutsii.jpg)
 
-[Nikolskaya St.](https://en.wikipedia.org/wiki/Nikolskaya_Street)
+[Nikolskaya St.](https://en.wikipedia.org/wiki/Nikolskaya_Street) at night
 ([1.9km](https://goo.gl/maps/auRUDXYy6SbMX7pg8))
 ![nikolskaya](/images/city/nikolskaya.jpg)
 
 [Red Square](https://en.wikipedia.org/wiki/Red_Square)
 ([2.0km](https://goo.gl/maps/5MyW3nrzfm9mfECS7))
 ![red-square](/images/city/red-square.jpg)
+
+[Muzeon](https://en.wikipedia.org/wiki/Fallen_Monument_Park)
+([4.5km](https://goo.gl/maps/knkEJEz6wq68R1Tf8))
+[&copy; photo](https://kudago.com/msk/place/park-iskusstv-muzeon/)
+![muzeon](/images/city/muzeon.jpg)
 
 [Patriarshiye Prudy](https://en.wikipedia.org/wiki/Patriarch_Ponds)
 ([4.2km](https://goo.gl/maps/5N3wqjdBFTdyoRiz6))
