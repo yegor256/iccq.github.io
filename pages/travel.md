@@ -57,22 +57,10 @@ these [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events
 on what coat is better to put on.
 
 **Sightseeing**<br/>
-Maybe you will want to visit different restaurants which are English-speaker friendly and bars
-around the city while sightseeing. These places are happy to have you as a guest to
-[eat](https://www.tripsavvy.com/best-inexpensive-moscow-restaurants-and-cafes-1622506) and
-[drink](https://www.tripsavvy.com/top-bars-and-pubs-in-moscow-1622465) in comfort.
-You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Moscow_Kremlin).
-You might also want to see some other sights during your trip by yourself, for more of them,
-you can visit this [article](https://www.tripsavvy.com/moscow-must-see-sights-1502282),
-or maybe you'll want to explore some [Soviet sights](https://www.tripsavvy.com/soviet-sights-in-moscow-1622455)
-in Moscow, or look at the [Stalin's Seven Sisters](https://en.wikipedia.org/wiki/Seven_Sisters_%28Moscow%29)
-in person.
-Also, try to order a guided half-day trip around the most famous sights in Moscow,
-[here](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95).
-
-# Best Places to See
-
 Watch this [intro video](https://www.youtube.com/watch?v=pnN2BNrSrXY) by Expedia.
+You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Moscow_Kremlin)
+or even order a [guided half-day trip](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95)
+around the most famous sights in Moscow. Don't miss these places:
 
 [Chistie Prudy](https://en.wikipedia.org/wiki/Clean_Ponds)
 ([450m](https://goo.gl/maps/UZ4ymutEreZjEUPM9) from the venue)
