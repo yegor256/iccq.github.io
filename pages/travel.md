@@ -63,10 +63,9 @@ these [recommendations](https://www.tripsavvy.com/moscow-in-march-weather-events
 on what coat is better to put on.
 
 **Sightseeing**<br/>
-Watch this [intro video](https://www.youtube.com/watch?v=pnN2BNrSrXY) by Expedia.
-You most definitely want to see the [Kremlin](https://en.wikipedia.org/wiki/Moscow_Kremlin)
-or even order a [guided half-day trip](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95)
-around the most famous sights in Moscow. Don't miss these places:
+Watch this [intro video](https://www.youtube.com/watch?v=pnN2BNrSrXY) by Expedia
+and consider ordering a [guided half-day trip](https://www.viator.com/Moscow-tours/Half-day-Tours/d5066-g12-c95)
+around the most famous sights in Moscow. You don't want to miss these places:
 
 [Chistie Prudy](https://en.wikipedia.org/wiki/Clean_Ponds)
 ([450m](https://goo.gl/maps/UZ4ymutEreZjEUPM9) from the venue)
