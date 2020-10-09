@@ -51,8 +51,8 @@ good. We also recommend you try one of these high-class restaurants and taste
 traditional Russian cuisine:
 [Ruski](http://ruski.354group.com/en/)
   ([8.4km](https://goo.gl/maps/1NspQgaCk2MH3b3a6) from the venue, approx. $30 per person),
-[Selfie]([4.8km](https://g.page/selfie_moscow?share), https://selfiemoscow.ru/en/)
-  ($50),
+[Selfie](https://selfiemoscow.ru/en/)
+  ([4.8km](https://g.page/selfie_moscow?share), $50),
 or
 [Dr. Zhivago](https://drzhivago.ru/en/about)
   ([2.5km](https://goo.gl/maps/qazAFK7TeAqxTQdcA), $60).
