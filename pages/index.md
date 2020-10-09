@@ -421,11 +421,15 @@ of organizers, please email [team@iccq.ru](mailto:team@iccq.ru).
 
 # Registration # {#registration}
 
-Registration is not yet open.
-{: .firebrick}
+The conference will be streamed live on YouTube and you
+will be able to watch it without registration.
+However, registration is mandatory if you want to attend the event
+and enjoy a tasty lunch with our speakers.
 
 Registration fee: <del>$199</del> free
 (thanks to our partners).
+
+Register [here](https://www.meetup.com/iccq-ru/events/273816665/).
 
 # Got questions or suggestions? # {#authors}
 
