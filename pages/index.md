@@ -250,7 +250,7 @@ please [email us](mailto:pc@iccq.ru).
 
 # Important Dates # {#dates}
 
-Paper submission: 4 Dec 2020 (till the end of the day)
+Paper submission: 4 Dec 2020 (anywhere on earth)
 
 Author notification: 5 Feb 2021
 
