@@ -8,6 +8,8 @@ https://www.iccq.ru
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
 
+Due to the COVID-19 situation, the conference will be held in semi-online mode: speakers will be allowed to present their works remotely over Zoom.
+
 IMPORTANT DATES
 
 Paper submission: 4 Dec 2020 (anywhere on Earth)
