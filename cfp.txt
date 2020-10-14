@@ -10,7 +10,7 @@ We believe that the quality of the source code that millions of programmers writ
 
 IMPORTANT DATES
 
-Paper submission: 4 Dec 2020 (till the end of the day)
+Paper submission: 4 Dec 2020 (anywhere on Earth)
 Author notification: 5 Feb 2021
 Camera-ready submissions: 19 Feb 2021
 Conference: 27 Mar 2021
