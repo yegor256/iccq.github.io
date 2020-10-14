@@ -434,4 +434,5 @@ Register [here](https://www.meetup.com/iccq-ru/events/273816665/).
 # Got questions or suggestions? # {#authors}
 
 For additional information or answers to questions please write
-to [team@iccq.ru](mailto:team@iccq.ru).
+to [team@iccq.ru](mailto:team@iccq.ru) or better join our
+[Telegram chat](https://t.me/joinchat/CLxAaRZ03vNRu3XW-IzqKw) and ask there.
