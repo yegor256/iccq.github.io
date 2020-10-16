@@ -313,50 +313,50 @@ Submissions that do not meet the above requirements will be rejected without rev
 
 Academic and not-for-profit organizations:
 
-![hse](/images/hse.svg)
+![hse](/images/partners/hse.svg)
 [Higher School of Economics](https://www.hse.ru/en/)
 {: .partner}
 
-![isp](/images/isp.png)
+![isp](/images/partners/isp.png)
 [Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/)
 {: .partner}
 
-![msu](/images/msu.png)
+![msu](/images/partners/msu.png)
 [Moscow State University](https://www.msu.ru/)
 {: .partner}
 
-![mipt](/images/mipt.png)
+![mipt](/images/partners/mipt.png)
 [Moscow Institute of Physics and Technology](https://mipt.ru/english/)
 {: .partner}
 
-![russoft](/images/russoft.svg)
+![russoft](/images/partners/russoft.svg)
 [RUSSOFT](https://russoft.org/en/),
 a non-profit union of software companies
 {: .partner}
 
-![secr](/images/secr.png)
+![secr](/images/partners/secr.png)
 [SECR](https://2021.secrus.org/?lang=en),
 a famous Russian software conference
 {: .partner}
 
 Industry partners:
 
-![huawei](/images/huawei.svg)
+![huawei](/images/partners/huawei.svg)
 [Huawei](https://www.huawei.com),
 a Chinese multinational technology company
 {: .partner}
 
-![sbercloud](/images/sbercloud.svg)
+![sbercloud](/images/partners/sbercloud.svg)
 [SberCloud](https://sbercloud.ru/),
 a cloud platform of [Sberbank Group](https://www.sberbank.com/about/group-overview)
 {: .partner}
 
-![yandex](/images/yandex.svg)
+![yandex](/images/partners/yandex.svg)
 [Yandex](https://yandex.com/company/),
 a Russian intelligent technology company
 {: .partner}
 
-![kaspersky](/images/kaspersky.svg)
+![kaspersky](/images/partners/kaspersky.svg)
 [Kaspersky](https://www.kaspersky.com/),
 a multinational cybersecurity and anti-virus provider
 {: .partner}
