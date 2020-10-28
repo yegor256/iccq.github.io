@@ -36,12 +36,14 @@ Moscow, Russia
 
 The First **I**nternational **C**onference on **C**ode **Q**uality (ICCQ)
 is a one-day computer science event
-organized in cooperation with the [IEEE Computer Society](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
+organized in cooperation with the [IEEE Russia Section C Chapter](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
 and focused on static analysis, program verification,
 bug detection, and software maintenance.
 
+<!--
 [![ieee](/images/ieee-cs.svg)](https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190)
 {: .nonprofit}
+-->
 
 # Keynote
 
@@ -260,10 +262,11 @@ Conference: 27 Mar 2021
 
 # Call for Papers # {#cfp}
 
-Papers will be published in the _Proceedings of ICCQ_,
-will appear in
-[IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp),
-and will be indexed by
+Papers will be published in the _Proceedings of ICCQ_
+and submitted for inclusion into
+[IEEE Xplore®](https://ieeexplore.ieee.org/Xplore/home.jsp)
+subject to meeting their scope and quality requirements;
+to be indexed by
 [Web of Science](https://clarivate.com/webofsciencegroup/solutions/web-of-science/),
 [Scopus](https://www.scopus.com/home.uri),
 [Google Scholar](https://scholar.google.com/),
