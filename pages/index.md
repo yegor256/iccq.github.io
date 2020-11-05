@@ -435,7 +435,7 @@ Registration fee: <del>$199</del> free
 
 Register [here](https://www.meetup.com/iccq-ru/events/273816665/).
 
-# Got questions or suggestions? # {#authors}
+# Got questions or suggestions? # {#questions}
 
 For additional information or answers to questions please write
 to [team@iccq.ru](mailto:team@iccq.ru) or better join our
