@@ -299,11 +299,14 @@ Our CFP is also published at
 
 # Instructions for Authors # {#authors}
 
+[![sigplan](/images/sigplan-sample.png)](/images/sigplan-sample.png)
+{: .sigplan}
+
 Submissions must be in PDF, printable in black and white on
 [US Letter](https://en.wikipedia.org/wiki/Letter_%28paper_size%29) sized paper.
 All submissions must adhere to the
-[ACM Small](http://www.acm.org/publications/authors/submissions)
-template (sigplan, two columns, 11pt font size).
+[acmart sigplan](https://www.sigplan.org/Resources/Author/)
+template (two columns, 11pt font size).
 
 Submitted papers must be at least 4 and at most 12 pages long,
 including bibliographical references and appendices.

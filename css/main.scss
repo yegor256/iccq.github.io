@@ -101,6 +101,15 @@ h1 {
   clear: both;
 }
 
+.sigplan {
+  img {
+    float: left;
+    margin-right: 1em;
+    height: 120px;
+    border: 1px solid lightgray;
+  }
+}
+
 .pc {
   clear: both;
   min-height: 64px;
