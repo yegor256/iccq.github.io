@@ -299,7 +299,7 @@ Our CFP is also published at
 
 # Instructions for Authors # {#authors}
 
-[![sigplan](/images/sigplan-sample.png)](/images/sigplan-sample.png)
+[![sigplan](/images/sample-sigplan.png)](/images/sample-sigplan.pdf)
 {: .sigplan}
 
 Submissions must be in PDF, printable in black and white on
