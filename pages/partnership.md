@@ -3,10 +3,6 @@ layout: default
 date: 2020-05-13
 title: "Partnership"
 permalink: /partnership.html
-description: |
-  If you care about quality of code, please join our
-  computer science event as partners and help us make
-  it even better, by spreading the word and contributing.
 ---
 
 # How to Become a Partner

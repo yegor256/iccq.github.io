@@ -3,10 +3,6 @@ layout: default
 date: 2020-09-28
 title: "Travel Info"
 permalink: /travel.html
-description: |
-  If you care about quality of code, please join our
-  computer science event as partners and help us make
-  it even better, by spreading the word and contributing.
 ---
 
 # Travel Information
