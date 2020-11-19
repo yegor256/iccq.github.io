@@ -212,6 +212,12 @@ Alexander Gerasimov
 [University of Paderborn](https://www.uni-paderborn.de/en/university/)<!--, Germany-->
 {: .pc}
 
+![yulei sui](/images/pc/giancarlo-succi.jpg)
+[Giancarlo Succi](https://scholar.google.com/citations?user=PdMO57sAAAAJ&hl=en)
+<br/>
+[Innopolis University](https://innopolis.university/en/labofindustrializingsoftwareproduction%20/)<!--, Russia-->
+{: .pc}
+
 ![yulei sui](/images/pc/yulei-sui.jpg)
 [Yulei Sui](https://yuleisui.github.io/)
 <br/>
