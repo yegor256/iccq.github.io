@@ -255,8 +255,10 @@ please [email us](mailto:pc@iccq.ru).
 
 # Important Dates # {#dates}
 
-Paper/abstract submission: <del>4 Dec 2020</del> 18 Dec 2020
+<del>
+Paper/abstract submission: 18 Dec 2020
 ([anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth))
+</del>
 
 Author notification: 5 Feb 2021
 
