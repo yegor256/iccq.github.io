@@ -11,6 +11,8 @@ breadcrumbs:
   - steering: Steering&nbsp;Committee
   - pc: Program&nbsp;Committee
   - dates: Important&nbsp;Dates
+  - program: Program
+  - accepted: Accepted&nbsp;Papers
   - cfp: Call&nbsp;for&nbsp;Papers
   - authors: Instructions&nbsp;for&nbsp;Authors
   - partners: Partners
@@ -265,6 +267,18 @@ Author notification: 5 Feb 2021
 Camera-ready submissions: 19 Feb 2021
 
 Conference: 27 Mar 2021
+
+# Program # {#program}
+
+To be published on the 28th of Feb.
+{: .firebrick}
+
+# Accepted Papers # {#papers}
+
+We received 24 submissions.
+
+Accepted papers will be published on the 5th of Feb.
+{: .firebrick}
 
 # Call for Papers # {#cfp}
 
