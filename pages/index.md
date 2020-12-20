@@ -12,7 +12,7 @@ breadcrumbs:
   - pc: Program&nbsp;Committee
   - dates: Important&nbsp;Dates
   - program: Program
-  - accepted: Accepted&nbsp;Papers
+  - papers: Accepted&nbsp;Papers
   - cfp: Call&nbsp;for&nbsp;Papers
   - authors: Instructions&nbsp;for&nbsp;Authors
   - partners: Partners
