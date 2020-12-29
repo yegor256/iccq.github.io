@@ -333,7 +333,7 @@ including bibliographical references and appendices.
 
 Submissions that do not meet the above requirements will be rejected without review.
 
-[Click here](https://easychair.org/cfp/ICCQ20) to submit via EasyChair.
+<del>[Click here](https://easychair.org/cfp/ICCQ20) to submit via EasyChair.</del>
 
 # Partners # {#partners}
 
