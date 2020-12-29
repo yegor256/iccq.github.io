@@ -275,7 +275,9 @@ To be published on the 28th of Feb.
 
 # Accepted Papers # {#papers}
 
-We received 23 submissions.
+19-Dec: We received 23 submissions.
+
+29-Dec: 6 papers were desk-rejected.
 
 Accepted papers will be published on the 5th of Feb.
 {: .firebrick}
