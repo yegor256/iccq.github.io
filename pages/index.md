@@ -275,7 +275,7 @@ To be published on the 28th of Feb.
 
 # Accepted Papers # {#papers}
 
-We received 24 submissions.
+We received 23 submissions.
 
 Accepted papers will be published on the 5th of Feb.
 {: .firebrick}
