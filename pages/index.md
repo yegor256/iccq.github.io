@@ -371,7 +371,7 @@ Industry partners:
 
 ![huawei](/images/partners/huawei.svg)
 [Huawei](https://www.huawei.com),
-a Chinese multinational technology company
+a global provider of ICT infrastructure and smart devices
 {: .partner}
 
 ![sbercloud](/images/partners/sbercloud.svg)
