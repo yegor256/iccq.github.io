@@ -1,0 +1,22 @@
+\documentclass[12pt,a4,twosides]{book}
+\usepackage[paperwidth=10in, paperheight=12in, bindingoffset=0.25in, left=0.75in, right=2in, top=0.75in, bottom=1.25in]{geometry}
+\usepackage{pdfpages}
+\begin{document}
+International Conference on Code Quality
+
+...
+
+\newpage
+
+\section{Preface}
+
+...
+
+\newpage
+
+\tableofcontents
+
+
+\includepdf[pages=-, offset=0.5in 0, noautoscale=true, scale=0.8, pagecommand={}, openright,
+addtotoc={3,section,2,{Exploring the Effect of NULL Usage in Source Code},label}]{papers/23.pdf}
+\end{document}

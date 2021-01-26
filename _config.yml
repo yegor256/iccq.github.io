@@ -16,6 +16,7 @@ exclude:
   - Gemfile.lock
   - Gemfile
   - LICENSE.txt
+  - proceedings
 
 plugins:
   - jekyll-feed
