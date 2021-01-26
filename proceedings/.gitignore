@@ -1,7 +1,6 @@
 .DS_Store
 target/
 _minted-article
-*.pdf
 *.bbl
 *.bcf
 *.blg
