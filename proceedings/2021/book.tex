@@ -1,26 +1,44 @@
-\documentclass[12pt,a4,twosides]{book}
+\documentclass[12pt,twosides]{book}
 \usepackage[paperwidth=10in, paperheight=12in, bindingoffset=0.25in, left=0.75in, right=2in, top=1.25in, bottom=1.25in]{geometry}
+\usepackage{charter} % new font
 \usepackage{pdfpages}
 \usepackage{multicol}
-\raggedbottom
+\usepackage[inline]{enumitem}
+  \setlist{noitemsep}
+  \setlist{nosep}
+\usepackage{xcolor}
+\usepackage{setspace}
+  \setstretch{1.1}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  \fancyhf{}
+  \usepackage{tcolorbox}
+  \newtcbox{\pagebox}{nobeforeafter,colframe=gray!60!white,colback=gray!15!white,boxrule=0.2pt,arc=2pt,
+  boxsep=1.5pt,left=4pt,right=4pt,top=1pt,bottom=1pt,tcbox raise base}
+  \fancyhead[RE,LO]{\pagebox{\Large\texttt{\thepage}}}
 \setlength{\topskip}{0mm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
+\raggedbottom
 \begin{document}
+
 International Conference on Code Quality
 
-...
+\newpage
+\tableofcontents
 
 \newpage
 
-\section{Preface}
+\section*{Preface}
 
 We believe that the quality of the source code that millions of programmers
 write every day could be much higher than it is now. We believe that the
 contribution computer science can make to improve this situation is greatly
 undervalued. We aim to solve this problem by gathering
 together cutting-edge researchers and letting them share their most recent ideas.
-
 
 \newpage
 
@@ -97,7 +115,88 @@ Conference Publishing Services (CPS)\\
 http://www.computer.org/cps
 \end{center}
 
-\tableofcontents
+\newpage
+
+\section*{Organization}
+
+\begin{multicols}{2}
+\raggedright
+Steering Committee
+
+\begin{itemize}
+\item Zhang Yuxin (Chair), CTO of Huawei Cloud
+\item Yevgeny Kolbin, CEO of SberCloud
+\end{itemize}
+
+Program Committee
+
+\begin{itemize}
+\item Sergey Zykov (Chair), HSE University
+\item Anastasios Antoniadis, University of Athens
+\item Julia Belyakova, Northeastern University
+\item Aysu Betin-Can, Middle East Technical University
+\item Magiel Bruntink, SIG
+\item Laura M. Castro, Universidade da Coruña
+\item Yufei Ding, UCSB
+\item Umar Farooq, UCR
+\item Kiko Fernandez-Reyes, Uppsala University
+\item Alexander Gerasimov, Huawei RRI
+\item Ben Hardekopf, UCSB
+\item Christian Hammer, University of Potsdam
+\item Mats Heimdahl, University of Minnesota
+\item Robert Hirschfeld, University of Potsdam
+\item Hugh Leather, University of Edinburgh
+\item Brandon Lucia, Carnegie Mellon University
+\item Petr Maj, FIT CTU
+\item Jens Palsberg, UCLA
+\item Alexander K. Petrenko, ISP RAS
+\item Alex Potanin, Victoria University of Wellington
+\item Vladimir Rubanov, Huawei RRI
+\item Malavika Samak, MIT
+\item Aaron Smith, Microsoft
+\item Johannes Späth, University of Paderborn
+\item Giancarlo Succi, Innopolis University
+\item Yulei Sui, University of Technology Sydney
+\item Jubi Taneja, University of Utah
+\item Qianxiang Wang, Huawei
+\item Zheng Wang, University of Leeds
+\item David West
+\end{itemize}
+
+Academic Partners
+
+\begin{itemize}
+\item Higher School of Economics (HSE)
+\item Ivannikov Institute for System Programming (ISP) of the RAS
+\item Moscow State University (MSU)
+\item Moscow Institute of Physics and Technology (MIPT)
+\end{itemize}
+
+Media Partners
+
+\begin{itemize}
+\item RUSSOFT
+\item SECR
+\end{itemize}
+
+Industry Partners
+
+\begin{itemize}
+\item Huawei
+\item SberCloud
+\item Yandex
+\item Kaspersky
+\end{itemize}
+
+Organizers
+
+\begin{itemize}
+\item Yegor Bugayenko (Chair)
+\item Sergey Belov
+\item Sergei Prokhorov
+\item Jeff Zhu
+\end{itemize}
+\end{multicols}
 
 
 \includepdf[pages=-, offset=0.5in 0, noautoscale=true, scale=0.8, pagecommand={}, openright,
