@@ -1,4 +1,4 @@
-all: book.pdf spell qc
+all: book.pdf cover.pdf spell qc
 
 install:
 	gem install texsc
