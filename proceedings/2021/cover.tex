@@ -2,20 +2,33 @@
 \usepackage[paperwidth=20in, paperheight=12in, left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
 \usepackage[absolute]{textpos}
 \usepackage{charter} % new font
-\usepackage{xcolor}
 \usepackage{microtype}
 \usepackage{tikz}
 \setlength{\topskip}{0mm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
+\usepackage{fancyhdr}
+  \pagestyle{empty}
 \usepackage{setspace}
   \setstretch{1.2}
+\usepackage{xcolor}
+  \definecolor{firebrick}{HTML}{B22222}
 \begin{document}
 \TPGrid{16}{16}\ttfamily
 
+\begin{textblock}{7}[1,1](16,16)
+  \includegraphics[width=7\TPHorizModule]{../../cfp/moscow}
+\end{textblock}
+
 \begin{textblock}{2.4}[0.5,0](8,0)
   \begin{tikzpicture}
-    \node [rectangle, inner sep=0em, fill=black, minimum width=2.4\TPHorizModule, minimum height=16\TPVertModule] at (0,0) {};
+    \node [rectangle, inner sep=0em, fill=firebrick, minimum width=2.4\TPHorizModule, minimum height=16\TPVertModule] at (0,0) {};
+  \end{tikzpicture}
+\end{textblock}
+
+\begin{textblock}{7}[0,0](0,0)
+  \begin{tikzpicture}
+    \node [rectangle, inner sep=0em, fill=firebrick, minimum width=7\TPHorizModule, minimum height=16\TPVertModule] at (0,0) {};
   \end{tikzpicture}
 \end{textblock}
 
@@ -38,10 +51,6 @@
     March 2021, Moscow, Russia\\
     www.iccq.ru
   }
-\end{textblock}
-
-\begin{textblock}{7}[1,1](16,16)
-  \includegraphics[width=7\TPHorizModule]{../../cfp/moscow}
 \end{textblock}
 
 \end{document}

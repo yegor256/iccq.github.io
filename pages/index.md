@@ -247,7 +247,7 @@ Alexander Gerasimov
 ![david west](/images/pc/david-west.jpg)
 [David West](http://davewest.us/)
 <br/>
-<!--US-->
+[Object Guild BV](https://objectguild.com) <!-- Netherlands -->
 {: .pc}
 
 <!--

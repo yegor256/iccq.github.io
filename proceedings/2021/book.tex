@@ -36,6 +36,14 @@
 
 \input{orgs}
 
-\includepdf[pages=-, offset=0.5in 0, noautoscale=true, scale=1, frame=false, pagecommand={}, openright,
-addtotoc={3,chapter,1,{Exploring the Effect of NULL Usage in Source Code},label}]{papers/23.pdf}
+\newcommand\paper[2]{
+  \includepdf[pages=-, offset=0.5in 0, noautoscale=true, scale=1, frame=false, pagecommand={}, openright,
+addtotoc={3,chapter,1,{#2},label}]{papers/#1.pdf}
+}
+\paper{23}{Exploring the Effect of NULL Usage in Source Code}
+\paper{16}{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}
+\paper{19}{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}
+\paper{14}{...}
+\paper{20}{...}
+\paper{24}{...}
 \end{document}
