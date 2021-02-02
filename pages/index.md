@@ -262,7 +262,7 @@ Paper/abstract submission: 18 Dec 2020
 ([anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth))
 </del>
 
-Author notification: 5 Feb 2021
+Author notification: <del>5</del> 10 Feb 2021
 
 Camera-ready submissions: 19 Feb 2021
 
@@ -279,7 +279,7 @@ To be published on the 28th of Feb.
 
 29-Dec: 6 papers were desk-rejected.
 
-The list of accepted papers will be published on the 5th of Feb.
+The list of accepted papers will be published on the <del>5th</del> 10th of Feb.
 {: .firebrick}
 
 # Call for Papers # {#cfp}
