@@ -279,7 +279,7 @@ To be published on the 28th of Feb.
 
 29-Dec: 6 papers were desk-rejected.
 
-Accepted papers will be published on the 5th of Feb.
+The list of accepted papers will be published on the 5th of Feb.
 {: .firebrick}
 
 # Call for Papers # {#cfp}
