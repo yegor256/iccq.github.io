@@ -1,7 +1,9 @@
 \documentclass[12pt,twosides]{book}
-\usepackage[paperwidth=10in, paperheight=12in, bindingoffset=0.5in, left=1in, right=1in, top=1.25in, bottom=1.25in]{geometry}
+\usepackage[paperwidth=210mm, paperheight=297mm,
+  bindingoffset=25mm, left=20mm, right=20mm, top=25mm, bottom=25mm]{geometry}
 \usepackage{charter} % new font
 \usepackage{pdfpages}
+\usepackage{svg}
 \usepackage{multicol}
 \usepackage[inline]{enumitem}
   \setlist{noitemsep}
@@ -17,12 +19,12 @@
   \renewcommand{\footrulewidth}{0pt}
   \usepackage{tcolorbox}
   \newtcbox{\pagebox}{nobeforeafter,colframe=gray!60!white,colback=gray!15!white,boxrule=0.2pt,arc=2pt,boxsep=1.5pt,left=4pt,right=4pt,top=1pt,bottom=1pt}
-  \fancyhead[RO,LE]{\pagebox{\Large\texttt{\thepage}}}
   \renewcommand{\sectionmark}[1]{\markright{#1}{}}
-  \fancyhead[RE]{\small\texttt{ICCQ'21, March 2021, Moscow, Russia\\\nouppercase{\rightmark}}}
 \setlength{\topskip}{0mm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{0}
 \raggedbottom
 \begin{document}
 
@@ -30,15 +32,28 @@
 
 \input{copyright}
 
+\cleardoublepage
+\thispagestyle{empty}
 \tableofcontents
 
-\input{preface}
+\input{preface-steering}
+
+\input{preface-program}
 
 \input{orgs}
 
+\input{partners}
+
+\fancyhead[RO,LE]{\pagebox{\Large\texttt{\thepage}}}
+\fancyhead[RE]{\small\texttt{
+  ICCQ'21, March 2021, Moscow, Russia
+  %\\
+  %\nouppercase{\rightmark}
+}}
+
 \newcommand\paper[2]{
   \includepdf[pages=-, offset=0.5in 0, noautoscale=true, scale=1, frame=false, pagecommand={}, openright,
-addtotoc={3,chapter,1,{#2},label}]{papers/#1.pdf}
+addtotoc={3,chapter,1,{#2\\John},label}]{papers/#1.pdf}
 }
 \paper{23}{Exploring the Effect of NULL Usage in Source Code}
 \paper{16}{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}

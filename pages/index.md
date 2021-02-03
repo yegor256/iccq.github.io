@@ -339,13 +339,13 @@ Submissions that do not meet the above requirements will be rejected without rev
 
 # Partners # {#partners}
 
-Academic and not-for-profit organizations:
+Academia:
 
 ![hse](/images/partners/hse.svg)
 [Higher School of Economics](https://www.hse.ru/en/)
 {: .partner}
 
-![isp](/images/partners/isp.png)
+![isp](/images/partners/isp.svg)
 [Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/)
 {: .partner}
 
@@ -353,9 +353,11 @@ Academic and not-for-profit organizations:
 [Moscow State University](https://www.msu.ru/)
 {: .partner}
 
-![mipt](/images/partners/mipt.png)
+![mipt](/images/partners/mipt.svg)
 [Moscow Institute of Physics and Technology](https://mipt.ru/english/)
 {: .partner}
+
+Not-for-profit:
 
 ![russoft](/images/partners/russoft.svg)
 [RUSSOFT](https://russoft.org/en/),
@@ -367,7 +369,7 @@ a non-profit union of software companies
 a famous Russian software conference
 {: .partner}
 
-Industry partners:
+Industry:
 
 ![huawei](/images/partners/huawei.svg)
 [Huawei](https://www.huawei.com),
