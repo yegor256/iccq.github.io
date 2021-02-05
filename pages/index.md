@@ -270,8 +270,29 @@ Conference: 27 Mar 2021
 
 # Program # {#program}
 
-To be published on the 28th of Feb.
-{: .firebrick}
+10:00 (Moscow time): Opening (10 minutes)
+
+10:15 Welcome from Steering Committee (10min)
+
+10:30 Welcome from Program Committee (10min)
+
+10:45 Keynote (30min)
+
+11:30 Invited Paper/Talk (45min)
+
+12:30 Paper #1 (45min)
+
+13:30 Paper #2 (45min)
+
+14:30 Paper #3 (45min)
+
+15:30 Paper #4 (45min)
+
+16:30 Paper #5 (45min)
+
+17:30 Paper #6 (45min)
+
+18:30 Closing (10min)
 
 # Accepted Papers # {#papers}
 
