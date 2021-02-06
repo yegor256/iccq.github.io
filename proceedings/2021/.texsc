@@ -1,10 +1,5 @@
 --pws=aspell.en.pws
 --ignore=nospell
---ignore=equation*
---ignore=eocode,javacode,bnfcode,setminted
---ignore=newminted:opp
---ignore=newtcbox:pp
---ignore=settopmatter
---ignore=CJK*
---ignore=newmdenv:op
---ignore=code,nospell,citet,citep
+--ignore=setlist
+--ignore=includepdf:op
+--ignore=partner

@@ -1,6 +1,6 @@
-\documentclass[12pt,twosides]{book}
+\documentclass[12pt,twoside]{book}
 \usepackage[paperwidth=210mm, paperheight=297mm,
-  bindingoffset=5mm, left=20mm, right=20mm, top=25mm, bottom=25mm]{geometry}
+  bindingoffset=15mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
 \usepackage{charter} % new font
 \usepackage{pdfpages}
 \usepackage{tocloft}
@@ -26,11 +26,12 @@
 \setlength{\parskip}{6pt}
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{1}
+\newcommand{\nospell}[1]{#1}
 \raggedbottom
 \newcommand\sect[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
 \begin{document}
 \newcommand\head[1]{\scriptsize\texttt{#1}}
-\fancyfoot[C]{\head{\{ \thepage{} of \pageref{LastPage} \}}}
+\fancyfoot[C]{\head{[ \thepage{} of \pageref{LastPage} ]}}
 
 \input{title}
 
@@ -59,10 +60,10 @@
   \fancyhead[LE]{\head{ICCQ'21}}
   \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=0.9, frame=true, pagecommand={}]{papers/#1.pdf}
 }
-\paper{23}{Exploring the Effect of NULL Usage in Source Code}{Ekaterina Garmash and Anton Cheshkov}
-\paper{16}{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}{somebody}
-\paper{19}{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}{somebody}
-\paper{14}{...}{somebody}
-\paper{20}{...}{Mr. X}
-\paper{24}{...}{Jeff}
+\paper{23}{\nospell{Exploring the Effect of NULL Usage in Source Code}}{\nospell{Ekaterina Garmash and Anton Cheshkov}}
+\paper{16}{\nospell{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}}{somebody}
+\paper{19}{\nospell{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}}{somebody}
+\paper{14}{\nospell{...}}{somebody}
+\paper{20}{\nospell{...}}{Mr. X}
+\paper{24}{\nospell{...}}{Jeff}
 \end{document}

@@ -1,14 +1,14 @@
-all: book.pdf cover.pdf spell qc
+all: book.pdf cover.pdf texsc texqc
 
 install:
 	gem install texsc
 	gem install texqc
 
-qc:
-	texqc book
-
-spell:
+texsc:
 	texsc *.tex
+
+texqc:
+	texqc book
 
 clean:
 	rm -rf *.aux *.bbl *.bcf *.blg *.fdb_latexmk *.fls *.log *.run.xml *.pdf *.out
