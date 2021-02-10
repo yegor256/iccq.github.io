@@ -314,7 +314,7 @@ Christina Peterson and Damian Dechev
 Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden
 {: .accepted}
 
-**Exploring the effect of NULL usage in source code**
+**Exploring the Effect of NULL Usage in Source Code**
 Ekaterina Garmash and Anton Cheshkov
 {: .accepted}
 
