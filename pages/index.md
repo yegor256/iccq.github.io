@@ -262,9 +262,11 @@ Paper/abstract submission: 18 Dec 2020
 ([anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth))
 </del>
 
-Author notification: <del>5</del> 10 Feb 2021
+<del>
+Author notification: 10 Feb 2021
+</del>
 
-Camera-ready submissions: 19 Feb 2021
+Camera-ready submissions: <del>19</del> 28 Feb 2021
 
 Conference: 27 Mar 2021
 
@@ -296,12 +298,33 @@ Conference: 27 Mar 2021
 
 # Accepted Papers # {#papers}
 
-19-Dec: We received 23 submissions.
+We received 23 submissions. 6 papers were desk-rejected.
+Each paper received at least three reviews from PC members.
+6 papers were accepted (25% acceptance ratio):
 
-29-Dec: 6 papers were desk-rejected.
+**Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model**
+Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc
+{: .accepted}
 
-The list of accepted papers will be published on the <del>5th</del> 10th of Feb.
-{: .firebrick}
+**An Efficient Dynamic Analysis Tool for Checking Durable Linearizability**
+Christina Peterson and Damian Dechev
+{: .accepted}
+
+**Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON**
+Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden
+{: .accepted}
+
+**Exploring the effect of NULL usage in source code**
+Ekaterina Garmash and Anton Cheshkov
+{: .accepted}
+
+**Striffs: Architectural Component Diagrams for Code Reviews**
+Muntazir Fadhel and Emil Sekerinski.
+{: .accepted}
+
+**Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses**
+Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque.
+{: .accepted}
 
 # Call for Papers # {#cfp}
 
