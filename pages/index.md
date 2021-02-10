@@ -315,7 +315,7 @@ forecasting possible security issues in programs. However,
 there are at least two areas where most of the current approaches fall short of developer demands: explainability and
 granularity of predictions.
 In this paper, we propose a novel and simple yet, promising approach to identify potentially vulnerable source code
-in JavaScript programs. The model improves the state-ofthe-art in terms of explainability and prediction granularity
+in JavaScript programs. The model improves the state-of-the-art in terms of explainability and prediction granularity
 as it gives results at the level of individual source code lines,
 which is fine-grained enough for developers to take immediate actions. Additionally, the model explains each predicted
 line (i.e., provides the most similar vulnerable line from the
