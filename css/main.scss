@@ -173,3 +173,18 @@ h1 {
   }
 }
 
+.abstract {
+  font-family: serif;
+  font-size: 0.8em;
+  color: gray;
+  line-height: 1.1em;
+  margin-left: 2em;
+  margin-top: -1em;
+  &:before {
+    content: '“';
+  }
+  &:after {
+    content: '”';
+  }
+}
+

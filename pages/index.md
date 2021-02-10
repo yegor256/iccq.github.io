@@ -306,25 +306,156 @@ Each paper received at least three reviews from PC members.
 Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc
 {: .accepted}
 
+Security has become a central and unavoidable aspect of
+today’s software development. Practitioners and researchers
+have proposed many code analysis tools and techniques to
+mitigate security risks. These tools apply static and dynamic
+analysis or, more recently, machine learning. Machine learning models can achieve impressive results in finding and
+forecasting possible security issues in programs. However,
+there are at least two areas where most of the current approaches fall short of developer demands: explainability and
+granularity of predictions.
+In this paper, we propose a novel and simple yet, promising approach to identify potentially vulnerable source code
+in JavaScript programs. The model improves the state-ofthe-art in terms of explainability and prediction granularity
+as it gives results at the level of individual source code lines,
+which is fine-grained enough for developers to take immediate actions. Additionally, the model explains each predicted
+line (i.e., provides the most similar vulnerable line from the
+training set) using a prototype-based approach. In a study of
+186 real-world and confirmed JavaScript vulnerability fixes
+of 91 projects, the approach could flag 60% of the known
+vulnerable lines on average by marking only 10% of the
+code-base, but in certain cases the model identified 100% of
+the vulnerable code lines while flagging only 8.72% of the
+code-base.
+{: .abstract}
+
 **An Efficient Dynamic Analysis Tool for Checking Durable Linearizability**
 Christina Peterson and Damian Dechev
 {: .accepted}
+
+Designing efficient and correct durable data structures
+is indispensable because Non-Volatile Memory (NVM)
+is positioned as a successor to DRAM due to its energy
+efficiency and reliability. The challenge with ensuring
+correctness for efficient durable data structures is that
+caches and registers are expected to remain volatile, and
+the explicit cache line flush and barrier instructions are
+expensive. As a result cache line flushes and barriers
+are used sparingly, leading to potential inconsistencies
+in the recoverable state of the data structure. Crash
+consistency tools are available to ensure recoverability to a consistent state, but these tools are not able to
+check correctness of data structure semantics. Furthermore, the formal logic proposed to verify correctness
+conditions such as durable linearizability involve labor
+intensive mechanical proofs using a theorem prover.
+In this paper, we present the first dynamic analysis
+tool that checks durable linearizability at runtime. Our
+proposed tool, VSV-D, uses a vector space analysis to
+achieve a worst-case 𝑂(𝑛<sup>2</sup>) time complexity. We extend the analysis to transactional correctness to enable
+VSV-D to check durable transactional data structures.
+Our experimental evaluation applies VSV-D to check
+the correctness of a large variety of durable data structures including log-free data structures, link-free data
+structures, Romulus, OneFile, PMDK, and PETRA.
+{: .abstract}
 
 **Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON**
 Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden
 {: .accepted}
 
+As one of the most popular programming languages, Python has
+become a relevant target language for static analysis tools. The
+primary data structure for performing an inter-procedural static
+analysis is callgraph (CG), which links call sites to potential call targets in a program. There exists multiple algorithms for constructing
+callgraphs, tailored to specific languages. However, comparatively
+few implementations target Python. Moreover, there is still lack
+of empirical evidence as to how these few algorithms perform in
+terms of precision and recall.
+This paper thus presents eval_CG, an extensible framework for
+comparative analysis of Python callgraphs. We conducted two
+experiments which run the CG algorithms on different Python
+programming constructs and real-world applications. In both experiments, we evaluate three CG generation frameworks namely,
+Code2flow, Pyan, and Wala. We record precision, recall, and running time, and identify sources of unsoundness of each framework.
+Our evaluation shows that none of the current CG construction
+frameworks produce a sound CG. Moreover, the static CGs contain many spurious edges. Code2flow is also comparatively slow.
+Hence, further research is needed to support CG generation for
+Python programs.
+{: .abstract}
+
 **Exploring the Effect of NULL Usage in Source Code**
 Ekaterina Garmash and Anton Cheshkov
 {: .accepted}
+
+In this paper we propose a methodology to reason about
+code smells, or anti-patterns, using causal inference (CI).
+We specifically focus on one notorious case of code smells,
+the usage of NULL. CI provides methods to estimate the
+magnitude of effect of certain actions on some target value
+from observational data only. Applying the methods to the
+domain of software engineering, we would like to estimate
+the average effect of using a certain pattern on some characterization of code quality. If code quality systematically
+deteriorates when a certain pattern is used, it can serve as
+empirical confirmation that it is in fact an anti-pattern. We
+narrow down the problem and study the effect of using a
+selection of NULL-based patterns on code complexity metrics. The experiments on open source Java code show preliminary confirmation that NULL is in fact an anti-pattern,
+but the results are not always consistent. We think that the
+main reason for such inconclusive results is the fact that
+our underlying causal model is too simplistic. As the next
+step of our follow-up research, we will work on improving
+the causal model. We believe that this can be a promising
+line of research towards building an explanatory theory of
+software engineering, since it does not rely on expensive
+controlled experiments with human experts and can make
+use of abundant open source observational data resources,
+such as Github.
+{: .abstract}
 
 **Striffs: Architectural Component Diagrams for Code Reviews**
 Muntazir Fadhel and Emil Sekerinski.
 {: .accepted}
 
+Despite recent advancements in automated code quality
+and defect finding tools, developers spend a significant
+amount of time completing code reviews. Code understandability is a key contributor to this phenomenon,
+since engineers need to understand both microscopic
+and macroscopic level details of the code under review.
+Existing tools for code reviews including diffing, inline
+commenting and syntax highlighting provide limited
+support for the macroscopic understanding needs of
+reviewers. When reviewing code for architectural and
+design quality, such tools do not enable reviewers to
+understand the code from a top-down lens which the
+original architects of the code would have likely used to
+design the system. To overcome these limitations and
+to complement existing approaches, we introduce structure diff (striff) diagrams. Striffs provide reviewers with
+an architectural understanding of the incoming code in
+relation to the existing system, allowing reviewers to
+gain a more complete view of the scope and impact of
+the proposed code changes in a code review.
+{: .abstract}
+
 **Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses**
 Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque.
 {: .accepted}
+
+Security bugs are errors in code that, when exploited, can
+lead to serious software vulnerabilities. These bugs could
+allow an attacker to take over an application and steal information. One of the ways to address this issue is by means
+of awareness training. The Sifu platform was developed in
+the industry, for the industry, with the aim to raise software
+developers’ awareness of secure coding. This paper extends
+the Sifu platform with three challenges that specifically address embedded programming courses, and describes how
+to implement these challenges, while also evaluating the
+usefulness of these challenges to raise security awareness
+in an academic setting. Our work presents technical details
+on the detection mechanisms for software vulnerabilities
+and gives practical advice on how to implement them. The
+evaluation of the challenges is performed through two trial
+runs with a total of 16 participants. Our preliminary results
+show that the challenges are suitable for academia, and can
+even potentially be included in official teaching curricula.
+One major finding is an indicator of the lack of awareness of
+secure coding by undergraduates. Finally, we compare our
+results with previous work done in the industry and extract
+advice for practitioners.
+{: .abstract}
 
 # Call for Papers # {#cfp}
 
