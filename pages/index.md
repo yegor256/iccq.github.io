@@ -524,7 +524,7 @@ Academia:
 [Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/)
 {: .partner}
 
-![msu](/images/partners/msu.png)
+![msu](/images/partners/msu.svg)
 [Moscow State University](https://www.msu.ru/)
 {: .partner}
 
@@ -539,7 +539,7 @@ Not-for-profit:
 a non-profit union of software companies
 {: .partner}
 
-![secr](/images/partners/secr.png)
+![secr](/images/partners/secr.svg)
 [SECR](https://2021.secrus.org/?lang=en),
 a famous Russian software conference
 {: .partner}
