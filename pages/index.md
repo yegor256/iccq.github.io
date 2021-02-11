@@ -272,29 +272,69 @@ Conference: 27 Mar 2021
 
 # Program # {#program}
 
-10:00 ([Moscow time](https://en.wikipedia.org/wiki/Moscow_Time)): Opening (10 minutes)
+10:00 ([Moscow time](https://en.wikipedia.org/wiki/Moscow_Time))
+**Yegor Bugayenko**
+Opening
+{: .agenda .agenda-15 .agenda-welcome}
 
-10:15 Welcome from Steering Committee (10min)
+10:15
+**Zhang Yuxin**
+Welcome from Steering Committee
+{: .agenda .agenda-15 .agenda-welcome}
 
-10:30 Welcome from Program Committee (10min)
+10:30
+**Sergey Zykov**
+Welcome from Program Committee
+{: .agenda .agenda-15 .agenda-welcome}
 
-10:45 Keynote (45min)
+10:45
+**Anders Møller**
+_To be determined later_
+{: .agenda .agenda-45 .agenda-keynote}
 
-11:30 Invited Paper/Talk (45min)
+11:30
+**Veselin Raychev**
+_To be determined later_
+{: .agenda  .agenda-45 .agenda-keynote}
 
-12:30 Paper #1 (30min)
+12:30
+**Balázs Mosolygó**
+Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model
+{: .agenda .agenda-30 .agenda-regular}
 
-13:00 Paper #2 (30min)
+13:00
+**Christina Peterson**
+An Efficient Dynamic Analysis Tool for Checking Durable Linearizability
+{: .agenda .agenda-30 .agenda-regular}
 
-13:30 Paper #3 (30min)
+13:30
+**Sriteja Kummita**
+Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON
+{: .agenda .agenda-30 .agenda-regular}
 
-14:30 Paper #4 (30min)
+14:00
+**Lunch**
+{: .agenda .agenda-30}
 
-15:00 Paper #5 (30min)
+14:30
+**Ekaterina Garmash**
+Exploring the Effect of NULL Usage in Source Code
+{: .agenda .agenda-30 .agenda-regular}
 
-15:30 Paper #6 (30min)
+15:00
+**Muntazir Fadhel**
+Striffs: Architectural Component Diagrams for Code Reviews
+{: .agenda .agenda-30 .agenda-regular}
 
-16:00 Closing (10min)
+15:30
+**Tiago Espinha Gasiba**
+Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses
+{: .agenda .agenda-30 .agenda-regular}
+
+16:00
+**Yegor Bugayenko**
+Closing
+{: .agenda .agenda-15 .agenda-welcome}
 
 # Accepted Papers # {#papers}
 
@@ -481,7 +521,7 @@ We consider the following criteria when evaluating papers:
 
   * Clarity: The paper presents its contributions, methodology and results clearly.
 
-Papers will be reviewed by three [PC](#pc) members using
+Papers will be reviewed by at least three [PC](#pc) members using
 a [double-blind review](https://www.journals.elsevier.com/social-science-and-medicine/policies/double-blind-peer-review-guidelines) process.
 
 A PDF version of the CFP can be found [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).

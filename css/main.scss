@@ -169,6 +169,36 @@ h1 {
   }
 }
 
+.agenda {
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  padding-left: 8px;
+  margin-bottom: 2px;
+  font-size: 0.8em;
+  strong {
+    display: block;
+  }
+}
+
+.agenda-welcome {
+  border-left-color: salmon;
+}
+
+.agenda-regular {
+  border-left-color: tomato;
+}
+
+.agenda-keynote {
+  border-left-color: orange;
+}
+
+@for $i from 1 through 4 {
+  .agenda-#{$i * 15} {
+    height: 80px * $i;
+  }
+}
+
 .accepted {
   strong {
     display: block;
