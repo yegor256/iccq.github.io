@@ -275,22 +275,22 @@ Subscribe to our [YouTube channel](https://www.youtube.com/channel/UC_W-pjp6HWJG
 to watch it all live.
 
 10:00 ([Moscow time](https://en.wikipedia.org/wiki/Moscow_Time))
-**Yegor Bugayenko**
+[**Yegor Bugayenko**](https://www.yegor256.com/about-me.html)
 Opening
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:15
-**Zhang Yuxin**
+[**Zhang Yuxin**](https://www.huaweicloud.com/)
 Steering Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:30
-**Sergey Zykov**
+[**Sergey Zykov**](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
 PC Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:45
-**Anders Møller**
+[**Anders Møller**](https://cs.au.dk/~amoeller/)
 _To be determined later_
 {: .agenda .agenda-45 .agenda-keynote}
 
@@ -334,7 +334,6 @@ Raising Security Awareness using Cybersecurity Challenges in Embedded Programmin
 {: .agenda .agenda-30 .agenda-regular}
 
 16:00
-**Yegor Bugayenko**
 Closing
 {: .agenda .agenda-15 .agenda-welcome}
 
