@@ -303,7 +303,7 @@ Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model
 {: .agenda .agenda-30 .agenda-regular}
 
 13:00
-**Christina Peterson**
+[**Christina Peterson**](https://area67.cs.ucf.edu/alumni/christina-peterson/)
 An Efficient Dynamic Analysis Tool for Checking Durable Linearizability
 {: .agenda .agenda-30 .agenda-regular}
 
@@ -369,7 +369,8 @@ code-base.
 {: .abstract}
 
 **An Efficient Dynamic Analysis Tool for Checking Durable Linearizability**
-Christina Peterson and Damian Dechev
+[Christina Peterson](https://area67.cs.ucf.edu/alumni/christina-peterson/)
+and [Damian Dechev](http://area67.cs.ucf.edu/the-team/dechev/)
 {: .accepted}
 
 Designing efficient and correct durable data structures
@@ -397,7 +398,10 @@ structures, Romulus, OneFile, PMDK, and PETRA.
 {: .abstract}
 
 **Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON**
-Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden
+Sriteja Kummita,
+[Goran Piskachev](https://piskahev.github.io),
+Johannes Spaeth
+and Eric Bodden
 {: .accepted}
 
 As one of the most popular programming languages, Python has
