@@ -399,7 +399,7 @@ structures, Romulus, OneFile, PMDK, and PETRA.
 
 **Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON**
 Sriteja Kummita,
-[Goran Piskachev](https://piskahev.github.io),
+[Goran Piskachev](https://piskachev.github.io),
 Johannes Spaeth
 and Eric Bodden
 {: .accepted}
