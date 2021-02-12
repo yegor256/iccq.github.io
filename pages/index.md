@@ -300,7 +300,7 @@ _To be determined later_
 {: .agenda  .agenda-45 .agenda-keynote}
 
 12:30
-**Balázs Mosolygó**
+[**Péter Hegedűs**](http://www.inf.u-szeged.hu/~hpeter/)
 Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model
 {: .agenda .agenda-30 .agenda-regular}
 
@@ -310,7 +310,7 @@ An Efficient Dynamic Analysis Tool for Checking Durable Linearizability
 {: .agenda .agenda-30 .agenda-regular}
 
 13:30
-**Sriteja Kummita**
+[**Sriteja Kummita**](https://sritejakv.github.io/me/)
 Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON
 {: .agenda .agenda-30 .agenda-regular}
 
@@ -345,7 +345,11 @@ Each paper received at least three reviews from PC members.
 6 papers were accepted (25% acceptance ratio):
 
 **Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model**
-Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc
+Balázs Mosolygó,
+Norbert Vándor,
+Gábor Antal,
+[Péter Hegedűs](http://www.inf.u-szeged.hu/~hpeter/)
+and Rudolf Ferenc
 {: .accepted}
 
 Security has become a central and unavoidable aspect of
@@ -400,7 +404,7 @@ structures, Romulus, OneFile, PMDK, and PETRA.
 {: .abstract}
 
 **Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON**
-Sriteja Kummita,
+[Sriteja Kummita](https://sritejakv.github.io/me/),
 [Goran Piskachev](https://piskachev.github.io),
 Johannes Spaeth
 and Eric Bodden
