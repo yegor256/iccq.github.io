@@ -271,6 +271,9 @@ Conference: 27 Mar 2021
 
 # Program # {#program}
 
+Subscribe to our [YouTube channel](https://www.youtube.com/channel/UC_W-pjp6HWJGjK2sayFrnag)
+to watch it all live.
+
 10:00 ([Moscow time](https://en.wikipedia.org/wiki/Moscow_Time))
 **Yegor Bugayenko**
 Opening
