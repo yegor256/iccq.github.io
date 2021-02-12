@@ -281,12 +281,12 @@ Opening
 
 10:15
 **Zhang Yuxin**
-Welcome from Steering Committee
+Steering Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:30
 **Sergey Zykov**
-Welcome from Program Committee
+PC Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:45
