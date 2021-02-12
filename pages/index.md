@@ -295,7 +295,7 @@ _To be determined later_
 {: .agenda .agenda-45 .agenda-keynote}
 
 11:30
-**Veselin Raychev**
+[**Veselin Raychev**](https://www.sri.inf.ethz.ch/people/veselin)
 _To be determined later_
 {: .agenda  .agenda-45 .agenda-keynote}
 
