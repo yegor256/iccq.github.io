@@ -20,7 +20,6 @@ breadcrumbs:
   - organizers: Organizers
   - registration: Registration
   - /travel.html: Travel Info
-  - https://twitter.com/iccq_ru: Twitter
   - questions: Questions?
 ---
 
