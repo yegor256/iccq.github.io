@@ -317,7 +317,7 @@ Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON
 {: .agenda .agenda-30}
 
 14:30
-**Ekaterina Garmash**
+[**Ekaterina Garmash**](https://scholar.google.ru/citations?user=x79aj7sAAAAJ)
 Exploring the Effect of NULL Usage in Source Code
 {: .agenda .agenda-30 .agenda-regular}
 
@@ -424,7 +424,7 @@ Python programs.
 {: .abstract}
 
 **Exploring the Effect of NULL Usage in Source Code**
-Ekaterina Garmash and Anton Cheshkov
+[Ekaterina Garmash](https://scholar.google.ru/citations?user=x79aj7sAAAAJ) and Anton Cheshkov
 {: .accepted}
 
 In this paper we propose a methodology to reason about
