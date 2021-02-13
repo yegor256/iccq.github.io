@@ -179,6 +179,10 @@ h1 {
   strong {
     display: block;
   }
+  img[src$='#ical'] {
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
 .agenda-welcome {
