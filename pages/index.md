@@ -324,12 +324,12 @@ Exploring the Effect of NULL Usage in Source Code
 {: .agenda .agenda-30 .agenda-regular}
 
 15:00
-**Muntazir Fadhel**
+[**Muntazir Fadhel**](http://mfadhel.com/)
 Striffs: Architectural Component Diagrams for Code Reviews
 {: .agenda .agenda-30 .agenda-regular}
 
 15:30
-**Tiago Espinha Gasiba**
+[**Tiago Espinha Gasiba**](https://dblp.org/pid/81/6719.html)
 Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses
 {: .agenda .agenda-30 .agenda-regular}
 
@@ -348,7 +348,8 @@ Balázs Mosolygó,
 Norbert Vándor,
 Gábor Antal,
 [Péter Hegedűs](http://www.inf.u-szeged.hu/~hpeter/)
-and Rudolf Ferenc
+and
+[Rudolf Ferenc](http://www.inf.u-szeged.hu/~ferenc/)
 {: .accepted}
 
 Security has become a central and unavoidable aspect of
@@ -457,7 +458,9 @@ such as Github.
 {: .abstract}
 
 **Striffs: Architectural Component Diagrams for Code Reviews**
-Muntazir Fadhel and Emil Sekerinski
+[Muntazir Fadhel](http://mfadhel.com/)
+and
+Emil Sekerinski
 {: .accepted}
 
 Despite recent advancements in automated code quality
@@ -481,7 +484,11 @@ the proposed code changes in a code review.
 {: .abstract}
 
 **Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses**
-Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque
+[Tiago Espinha Gasiba](https://dblp.org/pid/81/6719.html),
+Samra Hodzic,
+Ulrike Lechner
+and
+Maria Pinto-Albuquerque
 {: .accepted}
 
 Security bugs are errors in code that, when exploited, can
