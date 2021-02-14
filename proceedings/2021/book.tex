@@ -5,6 +5,9 @@
 \usepackage{pdfpages}
 \usepackage{tocloft}
   \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\usepackage{imakeidx}
+\makeindex
+  \indexsetup{othercode={\hyphenpenalty=10000}}
 \usepackage{lastpage}
 \usepackage{svg}
 \usepackage{multicol}
@@ -60,10 +63,51 @@
   \fancyhead[LE]{\head{ICCQ'21}}
   \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=0.9, frame=true, pagecommand={}]{papers/#1.pdf}
 }
-\paper{23}{\nospell{Exploring the Effect of NULL Usage in Source Code}}{\nospell{Ekaterina Garmash and Anton Cheshkov}}
-\paper{16}{\nospell{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}}{somebody}
-\paper{19}{\nospell{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}}{somebody}
-\paper{14}{\nospell{...}}{somebody}
-\paper{20}{\nospell{...}}{Mr. X}
-\paper{24}{\nospell{...}}{Jeff}
+
+\index{Mosolygó, Balázs}
+\index{Vándor, Norbert}
+\index{Antal, Gábor}
+\index{Hegedűs, Péter}
+\index{Ferenc, Rudolf}
+\paper{14}
+  {\nospell{Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model}}
+  {\nospell{Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc}}
+
+\index{Peterson, Christina}
+\index{Dechev, Damian}
+\paper{19}
+  {\nospell{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}}
+  {\nospell{Christina Peterson and Damian Dechev}}
+
+\index{Kummita, Sriteja}
+\index{Piskachev, Goran}
+\index{Spaeth, Johannes}
+\index{Bodden, Eric}
+\paper{20}
+  {\nospell{Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON}}
+  {\nospell{Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden}}
+
+\index{Garmash, Ekaterina}
+\index{Cheshkov, Anton}
+\paper{23}
+  {\nospell{Exploring the Effect of NULL Usage in Source Code}}
+  {\nospell{Ekaterina Garmash and Anton Cheshkov}}
+
+\index{Fadhel, Muntazir}
+\index{Sekerinski, Emil}
+\paper{24}
+  {\nospell{Striffs: Architectural Component Diagrams for Code Reviews}}
+  {\nospell{Muntazir Fadhel and Emil Sekerinski}}
+
+\index{Gasiba, Tiago Espinha }
+\index{Hodzic, Samra}
+\index{Lechner, Ulrike}
+\index{Pinto-Albuquerque, Maria}
+\paper{16}
+  {\nospell{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}}
+  {\nospell{Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque}}
+
+\addcontentsline{toc}{chapter}{Author Index}
+\renewcommand\indexname{Author Index}
+\printindex
 \end{document}
