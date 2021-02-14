@@ -4,6 +4,7 @@
 \usepackage{charter} % new font
 \usepackage{microtype}
 \usepackage{tikz}
+\usepackage{lmodern}
 \setlength{\topskip}{0mm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
@@ -40,17 +41,29 @@
   \end{tikzpicture}
 \end{textblock}
 
-\begin{textblock}{5}(10,4)
+\begin{textblock}{1}[0.5,1](8,14)
+  \begin{tikzpicture}
+    \node [color=white, inner sep=0cm, outer sep=0cm, rotate=270, minimum height=\TPHorizModule] at (0,0) {
+      \textbf{\Large www.iccq.ru}
+    };
+  \end{tikzpicture}
+\end{textblock}
+
+\begin{textblock}{6}(10,4)
+  \includegraphics[height=1.5in]{../../logo}
+\end{textblock}
+
+\begin{textblock}{6}(10,7)
   \fontsize{16}{16}\selectfont\textbf{%
-    \includegraphics[height=1.5in]{../../logo}
-    \\
-    \vspace{0.5in}
-    \\
     Proceedings of The First \\
     International Conference on Code Quality (ICCQ) \\
-    March 2021, Moscow, Russia\\
-    www.iccq.ru
+    March 2021, Moscow, Russia
   }
+\end{textblock}
+
+\begin{textblock}{6}(10,9)
+  \fontsize{14}{14}\selectfont\textbf{%
+  Edited by Yegor Bugayenko and Sergey Zykov}
 \end{textblock}
 
 \end{document}
