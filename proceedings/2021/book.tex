@@ -5,9 +5,10 @@
 \usepackage{pdfpages}
 \usepackage{tocloft}
   \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\hyphenpenalty=10000
+\headheight=18pt
 \usepackage{imakeidx}
 \makeindex
-  \indexsetup{othercode={\hyphenpenalty=10000}}
 \usepackage{lastpage}
 \usepackage{svg}
 \usepackage{multicol}
@@ -70,13 +71,13 @@
 \index{Hegedűs, Péter}
 \index{Ferenc, Rudolf}
 \paper{14}
-  {\nospell{Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model}}
-  {\nospell{Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc}}
+  {\nospell{Towards a Prototype Based Explainable JavaScript \\ Vulnerability Prediction Model}}
+  {\nospell{Balázs Mosolygó, Norbert Vándor, Gábor Antal, \\ Péter Hegedűs and Rudolf Ferenc}}
 
 \index{Peterson, Christina}
 \index{Dechev, Damian}
 \paper{19}
-  {\nospell{An Efficient Dynamic Analysis Tool for Checking Durable Linearizability}}
+  {\nospell{An Efficient Dynamic Analysis Tool \\ for Checking Durable Linearizability}}
   {\nospell{Christina Peterson and Damian Dechev}}
 
 \index{Kummita, Sriteja}
@@ -84,8 +85,8 @@
 \index{Spaeth, Johannes}
 \index{Bodden, Eric}
 \paper{20}
-  {\nospell{Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON}}
-  {\nospell{Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden}}
+  {\nospell{Qualitative and Quantitative Analysis \\ of Callgraph Algorithms for PYTHON}}
+  {\nospell{Sriteja Kummita, Goran Piskachev, \\ Johannes Spaeth and Eric Bodden}}
 
 \index{Garmash, Ekaterina}
 \index{Cheshkov, Anton}
@@ -104,10 +105,10 @@
 \index{Lechner, Ulrike}
 \index{Pinto-Albuquerque, Maria}
 \paper{16}
-  {\nospell{Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses}}
-  {\nospell{Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque}}
+  {\nospell{Raising Security Awareness using Cybersecurity Challenges \\ in Embedded Programming Courses}}
+  {\nospell{Tiago Espinha Gasiba, Samra Hodzic, \\ Ulrike Lechner and Maria Pinto-Albuquerque}}
 
-\addcontentsline{toc}{chapter}{Author Index}
 \renewcommand\indexname{Author Index}
+\addcontentsline{toc}{chapter}{\indexname}
 \printindex
 \end{document}

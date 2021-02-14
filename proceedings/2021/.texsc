@@ -3,3 +3,4 @@
 --ignore=setlist
 --ignore=includepdf:op
 --ignore=partner
+--ignore=indexsetup,index
