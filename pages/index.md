@@ -280,25 +280,25 @@ Opening
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:15
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T071500Z/20210327T073000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Welcome%20Speech%20by%20Zhang%20Yuxin&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T071500Z/20210327T073000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Welcome%20Speech%20by%20Zhang%20Yuxin&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Zhang Yuxin**](https://www.huaweicloud.com/)
 Steering Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T073000Z/20210327T074500Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Welcome%20Speech%20by%20Sergey%20Zykov&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T073000Z/20210327T074500Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Welcome%20Speech%20by%20Sergey%20Zykov&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Sergey Zykov**](https://scholar.google.com/citations?user=68uxw-AAAAAJ&hl=en)
 PC Welcome Speech
 {: .agenda .agenda-15 .agenda-welcome}
 
 10:45
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T074500Z/20210327T083000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Keynote%20by%20Anders%20Møller&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T074500Z/20210327T083000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Keynote%20by%20Anders%20Møller&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Anders Møller**](https://cs.au.dk/~amoeller/)
 _To be determined later_
 {: .agenda .agenda-45 .agenda-keynote}
 
 11:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T083000Z/20210327T090000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Guest%20Talk%20by%20Veselin%20Raychev&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T083000Z/20210327T090000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Guest%20Talk%20by%20Veselin%20Raychev&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Veselin Raychev**](https://www.sri.inf.ethz.ch/people/veselin)
 _To be determined later_
 {: .agenda  .agenda-30 .agenda-keynote}
@@ -308,19 +308,19 @@ _To be determined later_
 {: .agenda .agenda-30}
 
 12:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T093000Z/20210327T100000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Péter%20Hegedűs&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T093000Z/20210327T100000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Péter%20Hegedűs&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Péter Hegedűs**](http://www.inf.u-szeged.hu/~hpeter/)
 Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model
 {: .agenda .agenda-30 .agenda-regular}
 
 13:00
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T100000Z/20210327T103000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Christina%20Peterson&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T100000Z/20210327T103000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Christina%20Peterson&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Christina Peterson**](https://area67.cs.ucf.edu/alumni/christina-peterson/)
 An Efficient Dynamic Analysis Tool for Checking Durable Linearizability
 {: .agenda .agenda-30 .agenda-regular}
 
 13:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T103000Z/20210327T110000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Sriteja%20Kummita&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T103000Z/20210327T110000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Sriteja%20Kummita&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Sriteja Kummita**](https://sritejakv.github.io/me/)
 Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON
 {: .agenda .agenda-30 .agenda-regular}
@@ -330,19 +330,19 @@ Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON
 {: .agenda .agenda-30}
 
 14:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T113000Z/20210327T120000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Ekaterina%20Garmash&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T113000Z/20210327T120000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Ekaterina%20Garmash&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Ekaterina Garmash**](https://scholar.google.ru/citations?user=x79aj7sAAAAJ)
 Exploring the Effect of NULL Usage in Source Code
 {: .agenda .agenda-30 .agenda-regular}
 
 15:00
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T120000Z/20210327T123000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Muntazir%20Fadhel&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T120000Z/20210327T123000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Muntazir%20Fadhel&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Muntazir Fadhel**](http://mfadhel.com/)
 Striffs: Architectural Component Diagrams for Code Reviews
 {: .agenda .agenda-30 .agenda-regular}
 
 15:30
-[![ical icon](/images/ical.svg#ical "Click to add it to your Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T123000Z/20210327T130000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Tiago%20Espinha%20Gasiba&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
+[![ical icon](/images/ical.svg#ical "Click to add it to your Google Calendar")](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210327T123000Z/20210327T130000Z&sprop=website:https://youtu.be/eja5tZ--OW0&text=ICCQ-2021%20Talk%20by%20Tiago%20Espinha%20Gasiba&location=YouTube%20Live&details=Watch%20ICCQ%20Live:%20https://youtu.be/eja5tZ--OW0)
 [**Tiago Espinha Gasiba**](https://dblp.org/pid/81/6719.html)
 Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses
 {: .agenda .agenda-30 .agenda-regular}
