@@ -272,7 +272,7 @@ Conference: 27 Mar 2021
 # Program # {#program}
 
 Subscribe to our [YouTube channel](https://www.youtube.com/channel/UC_W-pjp6HWJGjK2sayFrnag)
-to watch it all [live](https://youtu.be/eja5tZ--OW0).
+to watch us [live](https://youtu.be/eja5tZ--OW0).
 
 10:00 ([Moscow time](https://en.wikipedia.org/wiki/Moscow_Time))
 [**Yegor Bugayenko**](https://www.yegor256.com/about-me.html)
@@ -697,7 +697,8 @@ of organizers, please email [team@iccq.ru](mailto:team@iccq.ru).
 
 # Registration # {#registration}
 
-The conference will be streamed live on YouTube and you
+The conference will be streamed [live](https://youtu.be/eja5tZ--OW0)
+on YouTube and you
 will be able to watch it without registration.
 <del>However, registration is mandatory if you want to attend the event
 and enjoy a tasty lunch with our speakers.</del>
