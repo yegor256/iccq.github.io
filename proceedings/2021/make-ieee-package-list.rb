@@ -50,11 +50,11 @@ lines = [
   '+79855806546',
   'ICCQ 2021',
   'Moscow, Russia',
-  "2020-03-27 2020-03-27\n",
+  "2020-03-27 2020-03-27\r\n",
   'Final',
   File.read(File.join(dir, 'ieee-record.txt')),
   "#{File.read(File.join(dir, 'issn.txt'))} Electronic",
-  "#{File.read(File.join(dir, 'isbn.txt'))} Electronic\n\n"
+  "#{File.read(File.join(dir, 'isbn.txt'))} Electronic\r\n\r\n"
 ]
 
 lines += items.map do |i|
@@ -72,4 +72,4 @@ lines += items.map do |i|
   ].join("\t")
 end
 
-File.write('package.txt', lines.join("\n") + "\n")
+File.write('package.txt', lines.join("\r\n") + "\r\n")
