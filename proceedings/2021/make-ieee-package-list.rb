@@ -1,6 +1,35 @@
 require 'time'
+require 'fileutils'
 
 dir = ARGV[0]
+
+items = []
+
+FileUtils.cp(File.join(dir, 'cover.pdf'), 'cover.pdf')
+items << { file: 'cover.pdf', type: 'front-cover' }
+
+File.readlines(File.join(dir, 'book.toc')).each do |t|
+  next unless t.start_with?('\contentsline {section}')
+  m = t.scan(/\{([^\}]+)\}*/)
+  title = m[1][0].strip
+  page = m[2][0].strip.to_i
+  `pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf`
+  fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
+  File.rename("#{page}.pdf", fname)
+  items << { file: fname, type: 'supp' }
+end
+
+Dir[File.join(dir, 'papers/*.pdf')].each_with_index do |f, i|
+  fname = format('paper-%d.pdf', i)
+  FileUtils.cp(f, fname)
+  items << { file: fname, type: 'paper' }
+end
+
+items.each_with_index do |item, idx|
+  fname = format('%02d-%s', idx, item[:file])
+  File.rename(item[:file], fname)
+  item[:file] = fname
+end
 
 lines = [
   "3\t1.17",
@@ -16,25 +45,16 @@ lines = [
   "#{File.read(File.join(dir, 'isbn.txt'))} Electronic\n\n"
 ]
 
-File.readlines(File.join(dir, 'book.toc')).each do |t|
-  next unless t.start_with?('\contentsline {section}')
-  m = t.scan(/\{([^\}]+)\}*/)
-  title = m[1][0].strip
-  page = m[2][0].strip.to_i
-  `pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf`
-  fname = format('%02d-%s.pdf', page, title.downcase.gsub(/[^a-z]/, '-'))
-  File.rename("#{page}.pdf", fname)
-  lines << [
+lines += items.map do |i|
+  [
+    i[:file],
     'Y',
-    page,
-    'front-cover',
+    '1',
+    i[:type],
     'N',
     'X',
     'NA'
   ].join("\t")
 end
 
-lines << ''
-
-File.write('package.txt', lines.join("\n"))
-
+File.write('package.txt', lines.join("\n") + "\n")
