@@ -1,0 +1,18 @@
+---
+---
+
+@charset 'utf-8';
+
+$body: crimson;
+$border: black;
+
+header {
+  .front {
+    background-image: url('/images/2022/moscow-spring.jpg');
+    p {
+      color: $body;
+      text-shadow: -1px 0 $border, 0 1px $border, 1px 0 $border, 0 -1px $border;
+    }
+  }
+}
+
