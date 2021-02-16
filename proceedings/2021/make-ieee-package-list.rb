@@ -6,7 +6,7 @@ dir = ARGV[0]
 items = []
 
 FileUtils.cp(File.join(dir, 'cover.pdf'), 'cover.pdf')
-items << { file: 'cover.pdf', type: 'front-cover' }
+items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
 File.readlines(File.join(dir, 'book.toc')).each do |t|
   next unless t.start_with?('\contentsline {section}')
@@ -16,7 +16,10 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   `pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf`
   fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
   File.rename("#{page}.pdf", fname)
-  items << { file: fname, type: 'supp', ecf: 'NA', ecf_id: '' }
+  type = 'commentary'
+  type = 'toc' if fname.include?('contents')
+  type = 'index-author' if fname.include?('author-index')
+  items << { file: fname, type: type, ecf: 'NA', ecf_id: '' }
 end
 
 Dir[File.join(dir, 'papers/*.pdf')].each_with_index do |f, i|
@@ -41,7 +44,7 @@ items.each_with_index do |item, idx|
 end
 
 lines = [
-  "3\t1.17",
+  "3\t1.7",
   'Yegor Bugayenko',
   'yegor256@gmail.com',
   '+79855806546',
@@ -60,7 +63,6 @@ lines += items.map do |i|
     'Y',
     i[:index],
     i[:type],
-    '',
     '',
     '',
     'N',
