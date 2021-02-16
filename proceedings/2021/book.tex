@@ -1,6 +1,14 @@
 \documentclass[12pt,twoside]{book}
-\usepackage[paperwidth=210mm, paperheight=297mm,
-  bindingoffset=15mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+\newif\ifbinding\bindingfalse
+\ifbinding
+  \usepackage[paperwidth=210mm, paperheight=297mm,
+    bindingoffset=5mm,
+    left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+\else
+  \usepackage[paperwidth=210mm, paperheight=297mm,
+    bindingoffset=5mm,
+    left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+\fi
 \usepackage{charter} % new font
 \usepackage{pdfpages}
 \usepackage{tocloft}
@@ -62,7 +70,11 @@
   % \fancyhead[LO]{\head{#2}}
   % \fancyhead[RE]{\head{#3}}
   % \fancyhead[LE]{\head{ICCQ'21}}
-  \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
+  \ifbinding
+    \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
+  \else
+    \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
+  \fi
 }
 
 \index{Mosolygó, Balázs}
