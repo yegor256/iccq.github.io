@@ -13,10 +13,11 @@
 \usepackage{pdfpages}
 \usepackage{tocloft}
   \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+  \renewcommand\indexname{Author Index}
 \hyphenpenalty=10000
 \headheight=18pt
 \usepackage{imakeidx}
-\makeindex
+  \makeindex
 \usepackage{lastpage}
 \usepackage{svg}
 \usepackage{multicol}
@@ -47,11 +48,11 @@
 
 \input{title}
 
-\input{copyright}
-
 \clearpage
 \tableofcontents
 \thispagestyle{empty}
+
+\input{copyright}
 
 \input{preface-steering}
 
@@ -62,6 +63,8 @@
 \input{orgs}
 
 \input{partners}
+
+\cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
 
 \newcommand\paper[3]{
   \cleardoublepage
@@ -120,7 +123,7 @@
   {\nospell{Raising Security Awareness using Cybersecurity Challenges \\ in Embedded Programming Courses}}
   {\nospell{Tiago Espinha Gasiba, Samra Hodzic, \\ Ulrike Lechner and Maria Pinto-Albuquerque}}
 
-\renewcommand\indexname{Author Index}
-\addcontentsline{toc}{chapter}{\indexname}
+\label{ref:index}
 \printindex
+
 \end{document}

@@ -11,7 +11,7 @@ texqc:
 	texqc book
 
 clean:
-	rm -rf *.aux *.bbl *.bcf *.blg *.fdb_latexmk *.fls *.log *.run.xml *.pdf *.out
+	rm -rf *.toc *.ilg *.idx *.ind *.aux *.bbl *.bcf *.blg *.fdb_latexmk *.fls *.log *.run.xml *.pdf *.out
 	rm -rf _minted-article
 
 %.pdf: %.tex *.tex
