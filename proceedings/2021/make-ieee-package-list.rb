@@ -16,19 +16,28 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   `pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf`
   fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
   File.rename("#{page}.pdf", fname)
-  items << { file: fname, type: 'supp' }
+  items << { file: fname, type: 'supp', ecf: 'NA', ecf_id: '' }
 end
 
 Dir[File.join(dir, 'papers/*.pdf')].each_with_index do |f, i|
+  pid = f.gsub(/^.+\/(\d\d)\.pdf$/, '\1')
+  tex = File.readlines(File.join(dir, 'book.tex')).select { |t| t.start_with? ("\\paper{#{pid}}") }.first
+  m = tex.scan(/([A-Z]+)=([^,]+)/)
   fname = format('paper-%d.pdf', i)
   FileUtils.cp(f, fname)
-  items << { file: fname, type: 'paper' }
+  items << {
+    file: fname,
+    type: 'orig-research',
+    ecf: 'Y',
+    ecf_id: m.select { |p| p[0] == 'ECF' }.first[1].strip
+  }
 end
 
 items.each_with_index do |item, idx|
-  fname = format('%02d-%s', idx, item[:file])
+  fname = format('%02d-%s', idx + 1, item[:file])
   File.rename(item[:file], fname)
   item[:file] = fname
+  item[:index] = idx + 1
 end
 
 lines = [
@@ -49,11 +58,15 @@ lines += items.map do |i|
   [
     i[:file],
     'Y',
-    '1',
+    i[:index],
     i[:type],
+    '',
+    '',
+    '',
     'N',
     'X',
-    'NA'
+    i[:ecf_id],
+    i[:ecf]
   ].join("\t")
 end
 
