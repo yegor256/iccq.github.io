@@ -15,3 +15,6 @@ LaTeX,
 and
 [`texqc`](https://rubygems.org/gems/texqc)
 installed.
+
+You should have conference papers located in the `papers` directory.
+They are not in Git for copyright reasons.
