@@ -4,4 +4,5 @@ svg-inkscape/
 *.idx
 *.ilg
 *.ind
-package-list.txt
+pdf/
+ieee-package-list/
