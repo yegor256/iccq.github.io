@@ -5,7 +5,7 @@ dir = ARGV[0]
 
 items = []
 
-FileUtils.cp(File.join(dir, 'cover.pdf'), 'cover.pdf')
+`pdfcrop --margins '-790 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf`
 items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
 File.readlines(File.join(dir, 'book.toc')).each do |t|
