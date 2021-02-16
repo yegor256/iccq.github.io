@@ -4,3 +4,5 @@
 --ignore=includepdf:op
 --ignore=partner
 --ignore=indexsetup,index
+--ignore=fancypagestyle:pp
+--ignore=thispagestyle

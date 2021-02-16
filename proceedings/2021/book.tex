@@ -10,6 +10,7 @@
 \fi
 \usepackage{charter} % new font
 \usepackage{pdfpages}
+\usepackage{textcomp}
 \usepackage{tocloft}
   \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
   \renewcommand\indexname{Author Index}
@@ -43,7 +44,8 @@
 \newcommand\sect[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
 \begin{document}
 \newcommand\head[1]{\scriptsize\texttt{#1}}
-\fancyfoot[C]{\head{[ \thepage{} of \pageref{LastPage} ]}}
+\newcommand\paging{[ \thepage{} of \pageref{LastPage} ]}
+\fancyfoot[C]{\head{\paging}}
 
 \input{title}
 
@@ -67,8 +69,14 @@
 
 \cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
 
+\fancypagestyle{ieee}{\fancyfoot[C]{
+  \head{\paging} \\
+  \head{\input{isbn.txt}/21/\$31.00 \textcopyright{} \the\year{} IEEE}
+}}
+
 \newcommand\paper[3]{
   \cleardoublepage
+  \thispagestyle{ieee}
   \addcontentsline{toc}{chapter}{#2\\{\normalfont\small #3}}
   % \fancyhead[RO]{\head{ICCQ'21, March 2021, Moscow, Russia}}
   % \fancyhead[LO]{\head{#2}}
