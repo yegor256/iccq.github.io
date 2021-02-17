@@ -74,6 +74,9 @@
   \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
 }}
 
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
 \newcommand\paper[3]{
   \cleardoublepage
   \thispagestyle{ieee}
@@ -82,11 +85,13 @@
   % \fancyhead[LO]{\head{#2}}
   % \fancyhead[RE]{\head{#3}}
   % \fancyhead[LE]{\head{ICCQ'21}}
+  \def\start{\thepage}
   \ifbinding
     \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
   \else
     \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
   \fi
+  \write\pages{#1-\start-\thepage}
 }
 
 \index{Mosolygó, Balázs}
@@ -124,7 +129,7 @@
   {\nospell{Striffs: Architectural Component Diagrams for Code Reviews}}
   {\nospell{Muntazir Fadhel and Emil Sekerinski}}
 
-\index{Gasiba, Tiago Espinha }
+\index{Gasiba, Tiago Espinha}
 \index{Hodzic, Samra}
 \index{Lechner, Ulrike}
 \index{Pinto-Albuquerque, Maria}

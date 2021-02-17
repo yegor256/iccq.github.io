@@ -5,7 +5,12 @@ dir = ARGV[0]
 
 items = []
 
-`pdfcrop --margins '-790 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf`
+def exec(cmd)
+  puts "+ #{cmd}"
+  `#{cmd}`
+end
+
+exec("pdfcrop --margins '-790 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
 items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
 File.readlines(File.join(dir, 'book.toc')).each do |t|
@@ -13,7 +18,7 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   m = t.scan(/\{([^\}]+)\}*/)
   title = m[1][0].strip
   page = m[2][0].strip.to_i
-  `pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf`
+  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf")
   fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
   File.rename("#{page}.pdf", fname)
   type = 'commentary'
@@ -22,12 +27,13 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   items << { file: fname, type: type, ecf: 'NA', ecf_id: '' }
 end
 
-Dir[File.join(dir, 'papers/*.pdf')].each_with_index do |f, i|
-  pid = f.gsub(/^.+\/(\d\d)\.pdf$/, '\1')
+File.readlines(File.join(dir, 'book.pages')).each do |t|
+  pid, first, last = t.strip.split('-')
+  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
+  fname = "research-paper-#{pid}.pdf"
+  File.rename("#{first}.pdf", fname)
   tex = File.readlines(File.join(dir, 'book.tex')).select { |t| t.start_with? ("\\paper{#{pid}}") }.first
   m = tex.scan(/([A-Z]+)=([^,]+)/)
-  fname = format('paper-%d.pdf', i)
-  FileUtils.cp(f, fname)
   items << {
     file: fname,
     type: 'orig-research',
