@@ -8,6 +8,7 @@
   \usepackage[paperwidth=210mm, paperheight=297mm,
     left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
 \fi
+\usepackage{refcount}
 \usepackage{charter} % new font
 \usepackage{pdfpages}
 \usepackage{textcomp}
@@ -77,6 +78,8 @@
 \newwrite\pages
 \immediate\openout\pages=\jobname.pages
 
+\newcounter{start}
+
 \newcommand\paper[3]{
   \cleardoublepage
   \thispagestyle{ieee}
@@ -85,13 +88,13 @@
   % \fancyhead[LO]{\head{#2}}
   % \fancyhead[RE]{\head{#3}}
   % \fancyhead[LE]{\head{ICCQ'21}}
-  \def\start{\thepage}
+  \label{start:#1}
   \ifbinding
     \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
   \else
     \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
   \fi
-  \write\pages{#1-\start-\thepage}
+  \write\pages{#1-\getpagerefnumber{start:#1}-\thepage}
 }
 
 \index{Mosolygó, Balázs}

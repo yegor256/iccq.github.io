@@ -29,9 +29,12 @@ end
 
 File.readlines(File.join(dir, 'book.pages')).each do |t|
   pid, first, last = t.strip.split('-')
+  first = first.to_i
+  last = last.to_i - 1
   exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
-  File.rename("#{first}.pdf", fname)
+  exec("qpdf --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   tex = File.readlines(File.join(dir, 'book.tex')).select { |t| t.start_with? ("\\paper{#{pid}}") }.first
   m = tex.scan(/([A-Z]+)=([^,]+)/)
   items << {
