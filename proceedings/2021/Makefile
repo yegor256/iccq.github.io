@@ -15,7 +15,7 @@ clean:
 	rm -rf _minted-article
 	rm -rf ieee-package-list
 
-%.pdf: %.tex *.tex
+%.pdf: %.tex *.tex papers/*.pdf
 	latexmk -pdf $<
 
 ieee: ieee-package-list/package.txt
