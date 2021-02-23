@@ -13,38 +13,38 @@ The data will be sent to
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script>
 var papers = {
-  '01': {
+  1: {
     'title': 'Foreword of Organizers',
     'authors': 'Yegor Bugayenko'
   },
-  '14': {
+  14: {
     'title': 'Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model',
     'authors': 'Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc'
   },
-  '19': {
+  19: {
     'title': 'An Efficient Dynamic Analysis Tool for Checking Durable Linearizability',
     'authors': 'Christina Peterson and Damian Dechev'
   },
-  '20': {
+  20: {
     'title': 'Qualitative and Quantitative Analysis of Callgraph Algorithms for PYTHON',
     'authors': 'Sriteja Kummita, Goran Piskachev, Johannes Spaeth and Eric Bodden'
   },
-  '23': {
+  23: {
     'title': 'Exploring the Effect of NULL Usage in Source Code',
     'authors': 'Ekaterina Garmash and Anton Cheshkov'
   },
-  '24': {
+  24: {
     'title': 'Striffs: Architectural Component Diagrams for Code Reviews',
     'authors': 'Muntazir Fadhel and Emil Sekerinski'
   },
-  '16': {
+  16: {
     'title': 'Raising Security Awareness using Cybersecurity Challenges in Embedded Programming Courses',
     'authors': 'Tiago Espinha Gasiba, Samra Hodzic, Ulrike Lechner and Maria Pinto-Albuquerque'
   },
 };
 $(function() {
   let p = new URLSearchParams(window.location.search);
-  aid = p.get('id');
+  aid = parseInt(p.get('id'));
   var details = papers[aid];
   if (details == undefined) {
     window.location.href = "/404.html";
