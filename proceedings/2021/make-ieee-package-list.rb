@@ -35,13 +35,11 @@ File.readlines(File.join(dir, 'book.pages')).each do |t|
   fname = "research-paper-#{pid}.pdf"
   exec("qpdf --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
-  tex = File.readlines(File.join(dir, 'book.tex')).select { |t| t.start_with? ("\\paper{#{pid}}") }.first
-  m = tex.scan(/([A-Z]+)=([^,]+)/)
   items << {
     file: fname,
     type: 'orig-research',
     ecf: 'Y',
-    ecf_id: m.select { |p| p[0] == 'ECF' }.first[1].strip
+    ecf_id: pid
   }
 end
 
