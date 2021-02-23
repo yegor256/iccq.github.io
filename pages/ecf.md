@@ -63,9 +63,9 @@ $(function() {
     <input type="text" required readonly size="50" name="PubTitle" value="2021 International Conference on Code Quality (ICCQ)"/>
     <label>Article ID:</label>
     <input type="text" required readonly size="5" name="ArtId" value="12345"/>
-    <label>Article Title:<sup class='firebrick'>*</sup></label>
+    <label>Article Title:</label>
     <input type="text" required readonly size="60" name="ArtTitle" value="On Fluid Queuing Systems with Strict Priority"/>
-    <label>Author Names:<sup class='firebrick'>*</sup></label>
+    <label>Author Names:</label>
     <input type="text" required readonly size="55" name="AuthName" value="Yong Liu and Weibo Gong"/>
     <label>Author Emails:<sup class='firebrick'>*</sup></label>
     <input type="text" size="58" name="AuthEmail" placeholder="y.liu@ieee.org,a.smith@ieee.org"/>
