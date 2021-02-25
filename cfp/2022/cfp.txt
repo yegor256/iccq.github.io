@@ -1,59 +1,31 @@
 ----------------------------------------------------------------------
-ICCQ 2021
+ICCQ 2022
 IEEE International Conference on Code Quality
-March 27, 2021
+April 23, 2021
 Moscow, Russia
 https://www.iccq.ru
 ----------------------------------------------------------------------
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
 
-Due to the COVID-19 situation, the conference will be held in semi-online mode: speakers will be allowed to present their works remotely over Zoom.
-
 IMPORTANT DATES
 
-Paper/abstract submission: 18 Dec 2020 (anywhere on Earth)
-Author notification: 5 Feb 2021
-Camera-ready submissions: 19 Feb 2021
-Conference: 27 Mar 2021
+Paper/abstract submission: 18 Dec 2021 (anywhere on Earth)
+Author notification: 1 Mar 2022
+Camera-ready submissions: 25 Mar 2022
+Conference: 23 Mar 2022
 
 KEYNOTE SPEECH
 
-Anders Møller, Aarhus University, Denmark
+...
 
 STEERING COMMITTEE
 
-Zhang Yuxin, CTO of Huawei Cloud
-Yevgeny Kolbin, CEO of SberCloud
+...
 
 PROGRAM COMMITTEE
 
-Sergey Zykov, HSE University, Russia (Chair)
-Anastasios Antoniadis, University of Athens, Greece
-Julia Belyakova, Northeastern University, USA
-Magiel Bruntink, SIG, The Netherlands
-Laura M. Castro, Universidade da Coruña, Spain
-Yufei Ding, UCSB, USA
-Umar Farooq, UCR, USA
-Kiko Fernandez-Reyes, Uppsala University, Sweden
-Alexander Gerasimov, Huawei RRI, Russia
-Ben Hardekopf, UCSB, USA
-Christian Hammer, University of Potsdam, Germany
-Mats Heimdahl, University of Minnesota, USA
-Robert Hirschfeld, University of Potsdam, Germany
-Hugh Leather, University of Edinburgh, UK
-Brandon Lucia, Carnegie Mellon University, USA
-Petr Maj, FIT CTU, Czech Republic
-Jens Palsberg, UCLA, USA
-Alexander K. Petrenko, ISP RAS, Russia
-Vladimir Rubanov, Huawei RRI, Russia
-Malavika Samak, MIT, USA
-Johannes Späth, University of Paderborn, Germany
-Yulei Sui, University of Technology Sydney, Australia
-Jubi Taneja, University of Utah, USA
-Qianxiang Wang, Huawei, China
-Zheng Wang, University of Leeds, UK
-David West, US
+...
 
 PUBLICATIONS
 
@@ -65,11 +37,11 @@ We consider the following criteria when evaluating papers. Novelty: The paper pr
 
 Papers will be reviewed by three PC members using a double-blind review process.
 
-Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the ACM Small template (sigplan, two columns, 11pt font size). Submitted papers must be at least 4 and at most 12 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/ICCQ20
+Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the ACM Small template (sigplan, two columns, 11pt font size). Submitted papers must be at least 4 and at most 16 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/ICCQ22
 
 SPONSORS
 
-ICCQ is sponsored by IEEE Computer Society, HSE University, Ivannikov Institute for System Programming (ISP) of the RAS, Moscow State University (MSU), Moscow Institute of Physics and Technology (MIPT), RUSSOFT, SECR, Huawei, SberCloud, Yandex, Kaspersky, and others.
+ICCQ is sponsored by IEEE Computer Society, HSE University, ...
 
 QUESTIONS?
 
