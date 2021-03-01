@@ -25,3 +25,6 @@ ieee-package-list/package.txt: book.pdf cover.pdf make-ieee-package-list.rb
 	mkdir ieee-package-list
 	cd ieee-package-list && ruby ../make-ieee-package-list.rb ..
 	cat ieee-package-list/package.txt
+
+booklet: ieee
+	qpdf --empty --pages ieee-package-list/*.pdf -- booklet.pdf
