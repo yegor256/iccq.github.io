@@ -51,6 +51,7 @@
 \input{title}
 
 \clearpage
+\renewcommand\cftchapafterpnum{\vskip-5pt}
 \tableofcontents
 \thispagestyle{empty}
 
@@ -96,6 +97,11 @@
   \fi
   \write\pages{#1-\getpagerefnumber{start:#1}-\thepage}
 }
+
+\index{Raychev, Veselin}
+\paper{aa}
+  {\nospell{Learning to find bugs and code quality problems \\ --- what worked and what not?}}
+  {\nospell{Veselin Raychev}}
 
 \index{Mosolygó, Balázs}
 \index{Vándor, Norbert}
