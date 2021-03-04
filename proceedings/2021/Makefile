@@ -1,4 +1,4 @@
-all: book.pdf cover.pdf texsc texqc ieee
+all: book.pdf cover.pdf texsc texqc ieee iccq-2021-booklet.pdf
 
 install:
 	gem install texsc
@@ -26,5 +26,5 @@ ieee-package-list/package.txt: book.pdf cover.pdf make-ieee-package-list.rb
 	cd ieee-package-list && ruby ../make-ieee-package-list.rb ..
 	cat ieee-package-list/package.txt
 
-booklet: ieee
-	qpdf --empty --pages ieee-package-list/*.pdf -- booklet.pdf
+iccq-2021-booklet.pdf: ieee
+	qpdf --empty --pages ieee-package-list/*.pdf -- iccq-2021-booklet.pdf
