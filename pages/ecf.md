@@ -17,6 +17,10 @@ var papers = {
     'title': 'Foreword of Organizers',
     'authors': 'Yegor Bugayenko'
   },
+  2: {
+    'title': 'Learning to find bugs and code quality problems - what worked and what not?',
+    'authors': 'Veselin Raychev'
+  },
   14: {
     'title': 'Towards a Prototype Based Explainable JavaScript Vulnerability Prediction Model',
     'authors': 'Balázs Mosolygó, Norbert Vándor, Gábor Antal, Péter Hegedűs and Rudolf Ferenc'
