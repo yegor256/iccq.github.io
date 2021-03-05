@@ -2,7 +2,7 @@
 --ignore=nospell
 --ignore=setlist
 --ignore=includepdf:op
---ignore=partner
+--ignore=partner:ppp
 --ignore=indexsetup,index
 --ignore=fancypagestyle:pp
 --ignore=thispagestyle
