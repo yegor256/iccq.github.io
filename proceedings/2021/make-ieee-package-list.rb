@@ -35,7 +35,7 @@ File.readlines(File.join(dir, 'book.pages')).each do |t|
   last = last.to_i - 1
   exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
-  exec("qpdf --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
   unless exec("file #{fname}").include?('version 1.5')
     raise 'qpdf produced incorrect version'
   end
