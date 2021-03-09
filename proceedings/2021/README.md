@@ -3,6 +3,7 @@ This is the Proceedings in LaTeX.
 To build it, just run:
 
 ```bash
+$ bundle install
 $ make
 ```
 
@@ -12,9 +13,9 @@ You need to have
 [`qpdf`](http://qpdf.sourceforge.net/),
 [`aspell`](http://aspell.net/),
 LaTeX,
-[`texsc`](https://rubygems.org/gems/texsc),
+Ruby 2.6+,
 and
-[`texqc`](https://rubygems.org/gems/texqc)
+Bundler
 installed.
 
 You should have conference papers located in the `papers` directory.

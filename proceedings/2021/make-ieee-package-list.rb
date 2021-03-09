@@ -7,7 +7,9 @@ items = []
 
 def exec(cmd)
   puts "+ #{cmd}"
-  `#{cmd}`
+  out = `#{cmd}`
+  puts '> ' + out.strip.gsub("\n", "\n> ") unless out.empty?
+  out
 end
 
 exec("pdfcrop --margins '-790 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
@@ -34,6 +36,9 @@ File.readlines(File.join(dir, 'book.pages')).each do |t|
   exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
   exec("qpdf --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  unless exec("file #{fname}").include?('version 1.5')
+    raise 'qpdf produced incorrect version'
+  end
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   items << {
     file: fname,
