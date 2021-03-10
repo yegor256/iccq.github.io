@@ -7,10 +7,11 @@ $ bundle install
 $ make
 ```
 
-You need to have
+You need to have (they all are Homebrew installable)
 [`make`](https://www.gnu.org/software/make/),
 [`poppler`](https://poppler.freedesktop.org/),
 [`qpdf`](http://qpdf.sourceforge.net/),
+[`exiftool`](https://exiftool.org/install.html),
 [`aspell`](http://aspell.net/),
 LaTeX,
 Ruby 2.6+,

@@ -51,6 +51,7 @@ end
 items.each_with_index do |item, idx|
   fname = format('%02d-%s', idx + 1, item[:file])
   File.rename(item[:file], fname)
+  exec("exiftool -overwrite_original -Creator='Certified by IEEE PDFeXpress at #{Time.now.strftime("%B %-d, %Y %H:%M:%S")}' #{fname}")
   item[:file] = fname
   item[:index] = idx + 1
 end
