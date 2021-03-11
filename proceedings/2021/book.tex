@@ -1,13 +1,10 @@
 \documentclass[12pt,twoside]{book}
 \pdfsuppresswarningpagegroup=1
-\newif\ifbinding\bindingfalse
+\newif\ifbinding\bindingtrue
 \ifbinding
-  \usepackage[paperwidth=210mm, paperheight=297mm,
-    bindingoffset=5mm,
-    left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+  \usepackage[paperwidth=210mm, paperheight=297mm, bindingoffset=5mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
 \else
-  \usepackage[paperwidth=210mm, paperheight=297mm,
-    left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+  \usepackage[paperwidth=210mm, paperheight=297mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
 \fi
 \usepackage{refcount}
 \usepackage{charter} % new font
