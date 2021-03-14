@@ -13,10 +13,11 @@ You need to have (they all are Homebrew installable)
 [`qpdf`](http://qpdf.sourceforge.net/),
 [`exiftool`](https://exiftool.org/install.html),
 [`aspell`](http://aspell.net/),
+[`gs`](https://www.ghostscript.com/),
 LaTeX,
 Ruby 2.6+,
 and
-Bundler
+[Bundler](https://bundler.io/)
 installed.
 
 You should have conference papers located in the `papers` directory.

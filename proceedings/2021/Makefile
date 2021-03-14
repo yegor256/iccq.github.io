@@ -1,4 +1,4 @@
-all: book.pdf cover.pdf texsc texqc ieee iccq-2021-booklet.pdf
+all: book.pdf cover.pdf texsc texqc ieee iccq-2021-booklet.pdf book-cmyk.pdf cover-cmyk.pdf
 
 install:
 	gem install texsc
@@ -18,6 +18,11 @@ clean:
 
 %.pdf: %.tex *.tex papers/*.pdf
 	latexmk -pdf $<
+
+%-cmyk.pdf: %.pdf
+	gs -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite \
+		-sColorConversionStrategy=CMYK -dProcessColorModel=/DeviceCMYK \
+		-sOutputFile=$@ $<
 
 ieee: ieee-package-list/package.txt
 
