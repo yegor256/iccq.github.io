@@ -1,5 +1,8 @@
 \documentclass[12pt]{article}
-\usepackage[paperwidth=422mm, paperheight=303mm, left=3mm, right=3mm, top=3mm, bottom=3mm]{geometry}
+% This is for A4
+% \usepackage[paperwidth=422mm, paperheight=303mm, left=3mm, right=3mm, top=3mm, bottom=3mm]{geometry}
+% This is for B5
+\usepackage[paperwidth=342mm, paperheight=246mm, left=3mm, right=3mm, top=3mm, bottom=3mm]{geometry}
 \usepackage[absolute]{textpos}
 \usepackage{charter} % new font
 \usepackage{microtype}
@@ -36,7 +39,7 @@
 \begin{textblock}{1}[0.5,0](8,2)
   \begin{tikzpicture}
     \node [color=white, inner sep=0cm, outer sep=0cm, rotate=270, minimum height=\TPHorizModule] at (0,0) {
-      \textbf{\Large ICCQ'21}
+      \textbf{\large ICCQ'21}
     };
   \end{tikzpicture}
 \end{textblock}
@@ -44,7 +47,7 @@
 \begin{textblock}{1}[0.5,1](8,14)
   \begin{tikzpicture}
     \node [color=white, inner sep=0cm, outer sep=0cm, rotate=270, minimum height=\TPHorizModule] at (0,0) {
-      \textbf{\Large www.iccq.ru}
+      \textbf{\large www.iccq.ru}
     };
   \end{tikzpicture}
 \end{textblock}
@@ -54,15 +57,15 @@
 \end{textblock}
 
 \begin{textblock}{6}(10,7)
-  \fontsize{16}{16}\selectfont\textbf{%
+  \fontsize{14}{14}\selectfont\textbf{%
     Proceedings of The First \\
-    International Conference on Code Quality (ICCQ) \\
+    International Conference on Code Quality \\
     March 2021, Moscow, Russia
   }
 \end{textblock}
 
 \begin{textblock}{6}(10,9)
-  \fontsize{14}{14}\selectfont\textbf{%
+  \fontsize{12}{12}\selectfont\textbf{%
   Edited by Yegor Bugayenko and Sergey Zykov}
 \end{textblock}
 
