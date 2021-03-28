@@ -5,7 +5,7 @@ title: "Code of Conduct"
 permalink: /coc.html
 ---
 
-# Code of Conduct
+## Code of Conduct
 
 The open exchange of ideas and the freedom of thought and expression
 are central to the aims and goals of ICCQ; these require an environment

@@ -5,7 +5,7 @@ title: "Partnership"
 permalink: /partnership.html
 ---
 
-# How to Become a Partner
+## How to Become a Partner
 
 ICCQ is making an attempt to put together best scientists
 working in the area of code quality analysis. The event is organized

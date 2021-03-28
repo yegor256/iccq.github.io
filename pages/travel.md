@@ -5,7 +5,7 @@ title: "Travel Info"
 permalink: /travel.html
 ---
 
-# Travel Information
+## Travel Information
 
 **Visa**<br/>
 You will need to obtain a [tourist visa](https://en.wikipedia.org/wiki/Visa_policy_of_Russia)
