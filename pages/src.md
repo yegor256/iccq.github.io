@@ -31,7 +31,7 @@ You must be an undergraduate or a graduate student:
 
   5. We let [our judges](#judges) review it
 
-  6. We announce winners at the next ICCQ conference
+  6. We announce winners at the next [ICCQ conference](https://www.iccq.ru)
 
   7. The best paper gets **$10,000**
 
