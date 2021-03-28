@@ -56,7 +56,7 @@ try solving:
 
   * How the process of coding via IDE can be optimized to increase the quality of code?
 
-  * Can new programming techniques decrease the number of bugs humans make in code?
+  * Can new programming techniques decrease the number of bugs humans make in the code?
 
   * Can some coding practices be formally proved to be harmful?
 
