@@ -29,9 +29,9 @@ You must be an undergraduate or a graduate student:
 
   4. You submit your published paper to us, [by email](mailto:src@iccq.ru)
 
-  5. We let [our judges](#judges) review it
+  5. We let [our judges](#judges) appraise it
 
-  6. We announce winners at the next [ICCQ conference](https://www.iccq.ru)
+  6. We announce winners at the forthcoming [ICCQ conference](https://www.iccq.ru)
 
   7. The best paper gets **$10,000**
 
@@ -53,7 +53,9 @@ try solving:
 
   * How existing static analysis methods and tools can be improved?
 
-  * Ca new programming techniques decrease the number of bugs humans make in code?
+  * How the process of coding via IDE can be optimized to increase the quality of code?
+
+  * Can new programming techniques decrease the number of bugs humans make in code?
 
   * Can some coding practices be formally proved to be harmful?
 
