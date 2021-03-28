@@ -49,7 +49,7 @@ try solving:
 
   * Can computers write code better than humans?
 
-  * How source code can be refactored automatically using Machine Learning?
+  * How source code can be refactored automatically (maybe using Machine Learning)?
 
   * How existing static analysis methods and tools can be improved?
 
