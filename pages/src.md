@@ -27,7 +27,7 @@ You must be an undergraduate or a graduate student:
   2. You research it and publish your results in any 
   conference or a journal sponsored by [ACM](https://www.acm.org) or [IEEE](https://www.ieee.org)
 
-  4. You submit your published paper to us, [by email](mailto:src@iccq.ru)
+  4. You send us a link to your published paper, [by email](mailto:src@iccq.ru)
 
   5. We let [our judges](#judges) appraise it
 
