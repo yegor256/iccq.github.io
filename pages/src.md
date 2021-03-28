@@ -47,9 +47,13 @@ to help you better understand what is the next step of improvement.
 Here is a non-exhaustive list of problems we expect you to
 try solving:
 
+  * Can computers write code better than humans?
+
   * How source code can be refactored automatically using Machine Learning?
 
   * How existing static analysis methods and tools can be improved?
+
+  * Ca new programming techniques decrease the number of bugs humans make in code?
 
   * Can some coding practices be formally proved to be harmful?
 
