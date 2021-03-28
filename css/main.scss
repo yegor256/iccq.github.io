@@ -238,3 +238,10 @@ section {
     display: block;
   }
 }
+
+ol,
+ul {
+  li {
+    margin-left: 1em;
+  }
+}
