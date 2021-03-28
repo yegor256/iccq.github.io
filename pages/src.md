@@ -20,7 +20,8 @@ a leading tech company, motivating them to continue the study.
 
 ## How It Works?
 
-You must be an undergraduate or a graduate student:
+You must be an undergraduate or a graduate student
+in any university in Russia:
 
   1. You pick a problem from [the list](#problems) below
 
