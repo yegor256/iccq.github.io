@@ -8,6 +8,9 @@ markdown: kramdown
 author:
   name: "Yegor Bugayenko"
   email: yegor256@gmail.com
+breadcrumbs:
+  - /: 2021
+  - /2022.html: 2022
 encoding: utf-8
 timezone: Europe/Moscow
 permalink: :year-:month-:day-:title.html

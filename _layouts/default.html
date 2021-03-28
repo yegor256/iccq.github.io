@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
@@ -65,12 +65,23 @@ layout: compress
       <article>
         {% unless page.front %}
           <p>
-            <a href="/"><img src="/logo.svg" style="height: 4em;"/></a>
+            <a href="/" title="Go back to the home page"><img src="/logo.svg" style="height: 4em;" alt="logo"/></a>
           </p>
         {% endunless %}
         {{ content }}
       </article>
       <footer>
+        <nav>
+          <ul>
+            {% for hash in site.breadcrumbs %}
+              {% for b in hash %}
+                <li>
+                  <a href="{% if b[0] contains '/' %}{% else %}#{% endif %}{{ b[0] }}">{{ b[1] }}</a>
+                </li>
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        </nav>
         <nav>
           <ul>
             <li>
