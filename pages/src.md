@@ -45,7 +45,7 @@ to help you better understand what is the next step of improvement.
 ## Problems # {#problems}
 
 Here is a non-exhaustive list of problems we expect you to
-try to solve:
+try solving:
 
   * How source code can be refactored automatically using Machine Learning?
 
@@ -63,6 +63,9 @@ We are working on the list and more problems will be added later.
 
 We are building a committee of judges right now.
 {:.firebrick}
+
+--
+{:.break}
 
 If any questions, just [email us](mailto:src@iccq.ru).
 
