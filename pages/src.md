@@ -11,7 +11,7 @@ in the future without notice.
 
 ## SRC
 
-This year our Student Research Competition (SRC) 
+Currently our Student Research Competition (SRC) 
 is sponsored by [Huawei RRI](https://career.huawei.ru/rri/).
 The SRC provides visibility and exposes up-and-coming researchers 
 to the computer science community. On top of that, the competition
