@@ -64,10 +64,12 @@ We are working on the list and more problems will be added later.
 
 ## Judges # {#judges}
 
+These people are the appraisers:
+
   * [Giancarlo Succi](https://scholar.google.com/citations?user=PdMO57sAAAAJ&hl=en), Innopolis University
   * [Qianxiang Wang](https://ieeexplore.ieee.org/author/37278378900), Huawei
 
-We are building a committee of judges right now.
+We are still building the committee, the list will be extended soon.
 {:.firebrick}
 
 --
