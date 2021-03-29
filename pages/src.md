@@ -58,6 +58,8 @@ try solving:
 
   * Can new programming techniques decrease the number of bugs humans make in the code?
 
+  * Is it possible to objectively measure software quality?
+
   * Can some coding practices be formally proved to be harmful?
 
 We are working on the list and more problems will be added later.
