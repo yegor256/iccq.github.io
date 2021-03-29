@@ -25,7 +25,7 @@ a leading tech company, motivating them to continue the study.
 You must be an undergraduate or a graduate student
 in any university in Russia:
 
-  1. You pick a problem from [the list](#problems) below
+  1. You pick a research question from [the list](#questions) below
 
   2. You research it and publish your results in any 
   conference or a journal sponsored by [ACM](https://www.acm.org) or [IEEE](https://www.ieee.org)
@@ -45,10 +45,10 @@ We publish all papers on this website, including non-winners.
 We also publish our review results for each paper, in order
 to help you better understand what is the next step of improvement.
 
-## Problems # {#problems}
+## Research Questions # {#questions}
 
-Here is a non-exhaustive list of problems we expect you to
-try solving:
+Here is a non-exhaustive list of research questions we expect you to
+try finding answers for:
 
   * Can computers write code better than humans?
 
@@ -64,7 +64,7 @@ try solving:
 
   * Can some coding practices be formally proved to be harmful?
 
-We are working on the list and more problems will be added later.
+We are working on the list and more questions will be added later.
 {:.firebrick}
 
 ## Judges # {#judges}
