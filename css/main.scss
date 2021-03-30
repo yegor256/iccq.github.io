@@ -187,6 +187,10 @@ section {
     height: 1em;
     vertical-align: middle;
   }
+  img[src$='#youtube'] {
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
 .agenda-welcome {
