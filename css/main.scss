@@ -215,6 +215,10 @@ section {
   strong {
     display: block;
   }
+  img[src$='#youtube'] {
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
 .abstract {
