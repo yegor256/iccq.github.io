@@ -219,6 +219,10 @@ section {
     height: 1em;
     vertical-align: middle;
   }
+  img[src$='#pdf'] {
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
 .abstract {
