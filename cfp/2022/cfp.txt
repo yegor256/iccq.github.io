@@ -2,7 +2,7 @@
 ICCQ 2022
 IEEE International Conference on Code Quality
 April 23, 2022
-Moscow, Russia
+Innopolis, Kazan, Russia
 https://www.iccq.ru
 ----------------------------------------------------------------------
 
