@@ -3,7 +3,7 @@ ICCQ 2022
 IEEE International Conference on Code Quality
 April 23, 2022
 Innopolis, Kazan, Russia
-https://www.iccq.ru
+https://www.iccq.ru/2022.html
 ----------------------------------------------------------------------
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
