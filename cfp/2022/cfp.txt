@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 ICCQ 2022
 IEEE International Conference on Code Quality
-April 23, 2021
+April 23, 2022
 Moscow, Russia
 https://www.iccq.ru
 ----------------------------------------------------------------------
@@ -29,9 +29,7 @@ PROGRAM COMMITTEE
 
 PUBLICATIONS
 
-Papers will be published in the Proceedings of ICCQ, will appear in IEEE Xplore®, and will be indexed by Web of Science, Scopus, Google Scholar, DBLP, and others.
-
-Thanks to our partners, publishing will be free.
+Papers will be published in the Proceedings of ICCQ.
 
 We consider the following criteria when evaluating papers. Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research. Importance: The paper contributes to the advancement of knowledge in the field. We also welcome papers that diverge from the dominant trajectory of the field. Evidence: The paper presents sufficient evidence supporting its claims, such as proofs, implemented systems, experimental results, statistical analyses, case studies, and anecdotes. Clarity: The paper presents its contributions, methodology, and results clearly.
 
