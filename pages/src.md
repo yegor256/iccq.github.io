@@ -9,41 +9,36 @@ This page is still a draft. The information may change
 in the future without notice.
 {:.warning}
 
-## SRC
+## Student Research Competition
 
-Currently our Student Research Competition (SRC) 
-is sponsored by 
-<!--[Huawei RRI](https://career.huawei.ru/rri/).-->
-_TBD_.
 The SRC provides visibility and exposes up-and-coming researchers 
 to the computer science community. On top of that, the competition
 gives students an opportunity to receive a monetary support from
 a leading tech company, motivating them to continue the study.
+
+The competition is sponsored by 
+[Huawei RRI](https://career.huawei.ru/rri/).
 
 ## How It Works?
 
 You must be an undergraduate or a graduate student
 in any university in Russia:
 
-  1. You pick a research question from [the list](#questions) below
+  1. You pick a research question from [the list](#questions) below;
 
   2. You research it and publish your results in any 
-  conference or a journal sponsored by [ACM](https://www.acm.org) or [IEEE](https://www.ieee.org)
+  conference or a journal sponsored by [ACM](https://www.acm.org) or [IEEE](https://www.ieee.org);
 
-  4. You send us a link to your published paper, [by email](mailto:src@iccq.ru)
+  3. You send us a link to your published paper, [by email](mailto:src@iccq.ru);
 
-  5. We let [our judges](#judges) appraise it
+  4. We let [our judges](#judges) appraise it;
 
-  6. We announce winners at the forthcoming [ICCQ conference](https://www.iccq.ru)
+  5. We announce winners at the forthcoming [ICCQ conference](https://www.iccq.ru);
 
-  7. The best paper gets **$10,000**
-
-  8. A few second-to-the-best papers get **$5,000**
+  6. Best papers get rewards of up to **$10,000**.
 
 <span class="firebrick">NB!</span>
-We publish all papers on this website, including non-winners. 
-We also publish our review results for each paper, in order
-to help you better understand what is the next step of improvement.
+We publish all papers on this website, including non-winners.
 
 ## Research Questions # {#questions}
 
@@ -64,7 +59,7 @@ try finding answers for:
 
   * Can some coding practices be formally proved to be harmful?
 
-We are working on the list and more questions will be added later.
+We are working on the list and more questions may be added to it later.
 {:.firebrick}
 
 ## Judges # {#judges}
