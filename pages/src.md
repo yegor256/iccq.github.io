@@ -5,9 +5,11 @@ title: "ICCQ Student Research Competition (SRC)"
 permalink: /src.html
 ---
 
+<!--
 This page is still a draft. The information may change
 in the future without notice.
 {:.warning}
+-->
 
 ## Student Research Competition
 
