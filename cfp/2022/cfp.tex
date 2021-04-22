@@ -1,44 +1,9 @@
-\documentclass[12pt,oneside]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{microtype}
-\usepackage{wrapfig}
-\usepackage{xcolor}
-  \definecolor{xred}{HTML}{b02428}
-\usepackage{hyperref}
-  \hypersetup{colorlinks=true,allcolors=xred}
-\pagestyle{empty}
-\usepackage[left=1.5in, right=1in, top=1.2in, bottom=1.2in]{geometry}
-\usepackage{changepage}
-\usepackage{graphicx}
-\usepackage[absolute]{textpos}\TPGrid{16}{16}
-\usepackage{tikz}
-\usepackage{everypage}
-  \AddEverypageHook{
-    \begin{textblock}{0.5}[0,0](0,0)
-      \tikz \node[fill=xred,minimum width=0.5\TPHorizModule,minimum height=16\TPVertModule] {};
-    \end{textblock}%
-    \begin{textblock}{16}[1,1](16,16)
-      \raggedleft
-      \includegraphics[width=16\TPHorizModule]{../kazan}
-    \end{textblock}
-  }
+\documentclass{../cfp}
 \begin{document}
-\fontfamily{cmtt}\selectfont
-\raggedbottom
-\raggedright
-\setlength{\topskip}{6pt}
-\setlength{\parindent}{0pt} % indent first line
-\setlength{\parskip}{6pt} % before par
 
-\begin{wraptable}{r}{1.2in}%
-  \raggedleft%
-  \includegraphics[height=1.2in]{../../logo}
-\end{wraptable}
+\PrintLogo{}
 
-\textcolor{xred}{\bfseries
-{\large The Second} \\
-{\Large International Conference on\\[3pt]
-Code Quality (ICCQ)}}
+\PrintTitle{Second}
 
 % In
 % \href{https://conferences.ieee.org/conferences_events/conferences/conferencedetails/51190}{cooperation}
@@ -46,20 +11,13 @@ Code Quality (ICCQ)}}
 
 \vspace{6pt}
 
-Innopolis, Kazan, Russia \\
-23-Apr-2022 (one day) \\
-\href{https://www.iccq.ru}{www.iccq.ru} / \href{https://easychair.org/cfp/ICCQ22}{EasyChair CFP}\\
+\PrintAddress
+  {Innopolis, Kazan, Russia}
+  {23-Apr-2022 (one day)}
+  {https://easychair.org/cfp/ICCQ22}
+  {EasyChair CFP}
 
 \vspace{12pt}
-
-\newcommand\person[2]{
-  \begin{minipage}[t]{0.22\textwidth}\raggedright%
-  \includegraphics[height=0.6in]{../../images/#1} \\
-  {\small #2}%
-  \end{minipage}
-}
-
-\vspace{6pt}
 
 We believe that the quality of the source code that millions of programmers
 write every day could be much higher than it is now. We believe that the
@@ -82,10 +40,13 @@ Paper/abstract submission date: 18 Dec 2021 \\
 Author notification: 1 Mar 2022 \\
 Camera-ready submissions: 25 Mar 2022
 
-\vspace{6pt}
+% \vspace{6pt}
+% \begin{adjustwidth}{0pt}{1in}
+% ICCQ is also sponsored by: ...
+% \end{adjustwidth}
 
-\begin{adjustwidth}{0pt}{1in}
-ICCQ is also sponsored by: ...
-\end{adjustwidth}
+\newpage
+
+Test
 
 \end{document}

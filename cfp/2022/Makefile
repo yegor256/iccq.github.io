@@ -2,7 +2,7 @@ all: cfp
 
 cfp: cfp.pdf
 
-%.pdf: %.tex
+%.pdf: %.tex ../cfp.cls
 	latexmk -pdf $<
 
 clean:
