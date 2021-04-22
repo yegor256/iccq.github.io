@@ -40,10 +40,9 @@
 }
 
 \newcommand\PrintLogo{%
-  \begin{wraptable}{r}{1.2in}%
-    \raggedleft%
-    \includegraphics[height=1.2in]{../../logo}
-  \end{wraptable}
+  \begin{textblock}{2.5}[1,0](14,1.5)%
+    \includegraphics[width=\textwidth]{../../logo}
+  \end{textblock}
 }
 
 \newcommand\person[2]{%
