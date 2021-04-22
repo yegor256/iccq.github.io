@@ -39,8 +39,7 @@ in any university in Russia:
 
   6. Best papers get rewards of up to **$10,000**.
 
-<span class="firebrick">NB!</span>
-We publish all papers on this website, including non-winners.
+Winners will be published on this website.
 
 ## Research Questions # {#questions}
 
