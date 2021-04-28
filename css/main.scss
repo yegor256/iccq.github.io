@@ -2,6 +2,7 @@
 ---
 
 @charset 'utf-8';
+@import 'common';
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400&display=swap');
@@ -129,20 +130,6 @@ section {
   }
 }
 
-.partner {
-  display: inline-block;
-  width: 0.35 * $width;
-  vertical-align: top;
-  text-align: left;
-  margin-right: 1em;
-  img {
-    display: block;
-    margin: 0;
-    margin-bottom: .5em;
-    height: 40px;
-  }
-}
-
 .org {
   display: inline-block;
   width: .2 * $width;
@@ -265,4 +252,27 @@ ul {
   height: 0px;
   color: white;
   margin-top: 5em;
+}
+
+.partner {
+  display: inline-block;
+  width: 0.35 * $width;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 1em;
+  img {
+    display: block;
+    margin: 0;
+    width: 60px;
+  }
+  &.xl {
+    img {
+      width: 120px;
+    }
+  }
+  &.xxl {
+    img {
+      width: 180px;
+    }
+  }
 }
