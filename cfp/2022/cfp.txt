@@ -26,8 +26,25 @@ STEERING COMMITTEE
 PROGRAM COMMITTEE
 
 Giancarlo Succi, Innopolis University (Chair)
-Laura M. Castro, Universidade da Coruña, Spain
-Yulei Sui, University of Technology Sydney, Australia
+Karim Ali, University of Alberta
+Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universität Düsseldorf
+William J. Bowman, University of British Columbia
+Laura M. Castro, Universidade da Coruña
+Shigeru Chiba, University of Tokyo
+Tim Felgentreff, Oracle Labs
+Christian Hammer, University of Passau
+Mats Heimdahl, University of Minnesota
+Robert Hirschfeld, University of Potsdam
+Alexandra Jimborean, Uppsala University
+David H. Lorenz, Open University of Israel
+Hidehiko Masuhara, Tokyo Institute of Technology
+Yongjun Park, Hanyang University
+Gennady Pekhimenko, University of Toronto
+Veselin Raychev, ETH
+Tiark  Rompf, Purdue University
+Yulei Sui, University of Technology Sydney
+Jurgen Vinju, Eindhoven University of Technology
+Tuba Yavuz, University of Florida
 
 PUBLICATIONS
 
@@ -41,7 +58,7 @@ Submissions must be in PDF, printable in black and white on US Letter sized pape
 
 SPONSORS
 
-ICCQ is sponsored by Innopolis University, Yandex, ...
+ICCQ is sponsored by Innopolis University, Yandex, Huawei, Higher School of Economics, Bauman MSTU, BNP Paribas CIB.
 
 QUESTIONS?
 
