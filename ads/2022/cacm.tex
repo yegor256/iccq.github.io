@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{paperwidth=7in, paperheight=4.6875in, left=0.25in, right=0.25in, top=0.25in, bottom=0.25in}
+\usepackage[absolute]{textpos}\TPGrid{16}{16}
+\usepackage{graphicx}
+\usepackage{bold-extra}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+  \definecolor{xblack}{HTML}{1a1919}
+\begin{document}
+\fontfamily{cmtt}\selectfont
+\raggedbottom
+\raggedright
+\setlength{\topskip}{6pt}
+\setlength{\parindent}{0pt} % indent first line
+\setlength{\parskip}{6pt} % before par
+\color{xblack}
+
+\begin{textblock}{14}[1,1](15,15)
+  \raggedleft
+  \includegraphics[width=14\TPHorizModule]{../../cfp/kazan}
+\end{textblock}
+
+\begin{textblock}{7}[1,0](15,1)
+  \raggedleft\large
+  www.iccq.ru \\
+  CfP closes on 18 Dec
+\end{textblock}
+
+\begin{textblock}{14}[0,0](1,1)
+  {
+  \fontsize{42}{42}
+  \selectfont
+  \bfseries
+  ICCQ
+  }\\[12pt]
+
+  \Large
+  The Second International Conference \newline
+  on Code Quality (23 Apr, online)
+
+  Static/Dynamic Analysis, Program Verification, \newline
+  Bug Detection, and Software Maintenance
+\end{textblock}
+
+\end{document}
