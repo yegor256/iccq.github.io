@@ -95,6 +95,10 @@ section {
   margin-right: auto;
   article {
     border: 0;
+    p {
+      text-align: justify;
+      hyphens: auto;
+    }
   }
   footer {
     text-align: center;
