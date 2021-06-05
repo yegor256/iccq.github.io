@@ -148,9 +148,10 @@ section {
 
 .nonprofit {
   img {
-    display: block;
+    display: inline-block;
     margin: 0;
-    height: 92px;
+    margin-right: 1em;
+    height: 64px;
   }
 }
 
