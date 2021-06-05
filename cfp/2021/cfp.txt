@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------
 ICCQ 2021
-IEEE International Conference on Code Quality
+1st International Conference on Code Quality
 March 27, 2021
 Moscow, Russia
 https://www.iccq.ru/2021.txt
