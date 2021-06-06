@@ -20,12 +20,6 @@
     \begin{textblock}{0.5}[0,0](0,0)
       \tikz \node[fill=xred,minimum width=0.5\TPHorizModule,minimum height=16\TPVertModule] {};
     \end{textblock}%
-    \ifnum\value{page}=1
-      \begin{textblock}{16}[1,1](16,16)
-        \raggedleft
-        \includegraphics[width=16\TPHorizModule]{../kazan}
-      \end{textblock}
-    \else\fi
   }
 \RequirePackage[absolute]{textpos}\TPGrid{16}{16}
 \RequirePackage{tikz}
@@ -37,6 +31,13 @@
   \setlength{\topskip}{6pt}
   \setlength{\parindent}{0pt} % indent first line
   \setlength{\parskip}{6pt} % before par
+}
+
+\newcommand\PrintCity[2]{
+  \begin{textblock}{16}[1,1](16,16)
+    \raggedleft
+    \includegraphics[width=#1\TPHorizModule]{#2}
+  \end{textblock}
 }
 
 \newcommand\PrintLogo{%
