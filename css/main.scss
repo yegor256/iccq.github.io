@@ -96,8 +96,10 @@ section {
   article {
     border: 0;
     p {
-      text-align: justify;
-      hyphens: auto;
+      @media all and (min-width: 1024px) {
+        text-align: justify;
+        hyphens: auto;
+      }
     }
   }
   footer {
