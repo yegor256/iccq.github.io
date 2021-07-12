@@ -7,6 +7,7 @@ all: $(PDFS)
 	latexmk -pdf $<
 	mv $@ $@.bak
 	gs -dNoOutputFonts -sDEVICE=pdfwrite -o $@ $@.bak
+	convert $@.bak $@.jpeg
 
 clean:
 	for e in dvi aux toc ind fdb_latexmk log ilg fls idx out; do \
