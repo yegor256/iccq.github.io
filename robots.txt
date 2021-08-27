@@ -1,1 +1,3 @@
+Sitemap: https://www.iccq.ru/sitemap.xml
+
 User-agent: *
