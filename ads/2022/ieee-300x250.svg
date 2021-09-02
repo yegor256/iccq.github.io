@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="244px" viewBox="0 0 300 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#B22222" x="0" y="1.42108547e-14" width="300" height="243.111831"></rect>
+            <text id="ICCQ" fill="#FFFFFF" fill-rule="nonzero" font-family="Inconsolata-Black, Inconsolata" font-size="48" font-weight="800">
+                <tspan x="15.75" y="50.4570502">ICCQ</tspan>
+            </text>
+            <text id="The-Second-Internati" fill="#FFFFFF" fill-rule="nonzero" font-family="Inconsolata-Bold, Inconsolata" font-size="18" font-weight="bold">
+                <tspan x="15.375" y="95.0794165">The Second International </tspan>
+                <tspan x="15.375" y="113.079417">Conference on Code Quality</tspan>
+                <tspan x="15.375" y="131.079417"></tspan>
+                <tspan x="15.375" y="149.079417">ACM SIGPLAN/SIGSOFT</tspan>
+                <tspan x="15.375" y="167.079417">IEEE Computer Society</tspan>
+                <tspan x="15.375" y="185.079417"></tspan>
+                <tspan x="15.375" y="203.079417"></tspan>
+                <tspan x="15.375" y="221.079417">CFP Deadline: 28th Dec</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
