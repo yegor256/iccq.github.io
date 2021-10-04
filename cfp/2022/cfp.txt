@@ -2,7 +2,7 @@
 ICCQ 2022
 2nd International Conference on Code Quality
 April 23, 2022
-Innopolis, Kazan, Russia
+Innopolis, Kazan, Russia (mostly online)
 https://www.iccq.ru/2022.html
 ----------------------------------------------------------------------
 
@@ -10,7 +10,7 @@ In cooperation with ACM SIGPLAN, ACM SIGSOFT, and IEEE Computer Society.
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
 
-Due to the COVID-19 situation, the conference will be held in semi-online mode: speakers will be allowed to present their works remotely over Zoom.
+Due to the COVID-19 situation, the conference will be held in semi-online mode: speakers will be allowed to present their work remotely over Zoom.
 
 IMPORTANT DATES
 
@@ -57,7 +57,7 @@ Tuba Yavuz, University of Florida
 
 PUBLICATIONS
 
-Papers will be published in the Proceedings of ICCQ, will appear in ACM Digital Library, and will be indexed by Web of Science, Scopus, Google Scholar, DBLP, and others.
+Papers will be published in the Proceedings of ICCQ, will appear in IEEE Xplore, and will be indexed by Web of Science, Scopus, Google Scholar, DBLP, and others.
 
 We consider the following criteria when evaluating papers. Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research. Importance: The paper contributes to the advancement of knowledge in the field. We also welcome papers that diverge from the dominant trajectory of the field. Evidence: The paper presents sufficient evidence supporting its claims, such as proofs, implemented systems, experimental results, statistical analyses, case studies, and anecdotes. Clarity: The paper presents its contributions, methodology, and results clearly.
 
