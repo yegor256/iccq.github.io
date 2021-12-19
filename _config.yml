@@ -21,6 +21,9 @@ exclude:
   - Gemfile
   - LICENSE.txt
   - proceedings
+  - pages
+  - cfp
+  - ads
 
 plugins:
   - jekyll-feed
