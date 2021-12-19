@@ -2,4 +2,4 @@
 
 This is our official Call for Papers.
 
-The PDF is [here](https://www.iccq.ru/iccq-cfp-2022.pdf).
+The PDF is [here](https://www.iccq.ru/pdf/iccq-cfp-2022.pdf).
