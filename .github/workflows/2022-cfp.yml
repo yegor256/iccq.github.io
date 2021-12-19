@@ -17,6 +17,6 @@ jobs:
       - run: mv cfp/2022/cfp.pdf gh-pages/iccq-cfp-2022.pdf
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: gh-pages
+          branch: master
           folder: gh-pages
           clean: false
