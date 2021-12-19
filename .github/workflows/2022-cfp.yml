@@ -1,0 +1,22 @@
+name: 2022-cfp
+on:
+  push:
+    branches: master
+    paths: 'cfp/2022/**'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: yegor256/latexmk-action@0.2.2
+        with:
+          path: cfp/2022
+          opts: -pdf
+          packages: ffcode href-ul huawei fmtcount trimspaces catchfile catchfile transparent textpos fvextra xstring framed environ titlesec
+      - run: mkdir gh-pages
+      - run: mv cfp/2022/cfp.pdf gh-pages/iccq-cfp-2022.pdf
+      - uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: gh-pages
+          clean: false
