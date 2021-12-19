@@ -13,10 +13,10 @@ jobs:
           path: cfp/2022
           opts: -pdf
           packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
-      - run: mkdir -p gh-pages/pdf
-      - run: mv cfp/2022/cfp.pdf gh-pages/pdf/iccq-cfp-2022.pdf
+      - run: mkdir output
+      - run: mv cfp/2022/cfp.pdf output/iccq-cfp-2022.pdf
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: master
-          folder: gh-pages
+          branch: pdf
+          folder: output
           clean: false
