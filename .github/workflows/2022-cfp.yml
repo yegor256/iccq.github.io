@@ -2,7 +2,7 @@ name: 2022-cfp
 on:
   push:
     branches: master
-    paths: 'cfp/2022/**'
+    paths: ['cfp/2022/**', '.github/workflows/2022-cfp.yml']
 jobs:
   build:
     runs-on: ubuntu-latest
