@@ -1,10 +1,10 @@
-name: 2022-cfp
+name: cfp
 on:
   push:
     branches: master
     paths: ['cfp/2022/**', '.github/workflows/2022-cfp.yml']
 jobs:
-  build:
+  cfp:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
