@@ -12,7 +12,7 @@ jobs:
         with:
           path: cfp/2022
           opts: -pdf
-          packages: ffcode href-ul huawei fmtcount trimspaces catchfile catchfile transparent textpos fvextra xstring framed environ titlesec
+          packages: wrapfig xcolor hyperref changepage graphicx fancyhdr
       - run: mkdir gh-pages
       - run: mv cfp/2022/cfp.pdf gh-pages/iccq-cfp-2022.pdf
       - uses: JamesIves/github-pages-deploy-action@4.1.4

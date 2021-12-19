@@ -1,3 +1,5 @@
+[![2022-cfp](https://github.com/yegor256/iccq.github.io/actions/workflows/2022-cfp.yml/badge.svg)](https://github.com/yegor256/iccq.github.io/actions/workflows/2022-cfp.yml)
+
 This is our official Call for Papers.
 
-The PDF is [here](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fyegor256%2Ficcq.github.io&target=cfp%2Fcfp.tex&command=pdflatex&trackId=1590577068733).
+The PDF is [here](https://www.iccq.ru/iccq-cfp-2022.pdf).
