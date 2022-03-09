@@ -51,7 +51,6 @@ Veselin Raychev, ETH
 Tiark  Rompf, Purdue University
 Yulei Sui, University of Technology Sydney
 Will Tracz, IFIP
-Jurgen Vinju, Eindhoven University of Technology
 Laurie Williams, North Carolina State University
 Tuba Yavuz, University of Florida
 
