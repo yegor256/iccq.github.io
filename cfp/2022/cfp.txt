@@ -6,7 +6,7 @@ Innopolis, Kazan, Russia (mostly online)
 https://www.iccq.ru/2022.html
 ----------------------------------------------------------------------
 
-In cooperation with ACM SIGPLAN, ACM SIGSOFT, and IEEE Computer Society.
+In cooperation with IEEE Computer Society.
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
 
