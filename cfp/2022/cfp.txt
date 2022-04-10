@@ -37,7 +37,6 @@ Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universität Düsseldorf
 William J. Bowman, University of British Columbia
 Laura M. Castro, Universidade da Coruña
 Shigeru Chiba, University of Tokyo
-Tim Felgentreff, Oracle Labs
 Christian Hammer, University of Passau
 Mats Heimdahl, University of Minnesota
 Robert Hirschfeld, University of Potsdam

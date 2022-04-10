@@ -1,0 +1,134 @@
+\documentclass[12pt,twoside]{book}
+\pdfsuppresswarningpagegroup=1
+\newif\ifbinding\bindingtrue
+\ifbinding
+  \usepackage[paperwidth=210mm, paperheight=297mm, bindingoffset=5mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+\else
+  \usepackage[paperwidth=210mm, paperheight=297mm, left=30mm, right=30mm, top=35mm, bottom=35mm]{geometry}
+\fi
+\usepackage{refcount}
+\usepackage{charter} % new font
+\usepackage{pdfpages}
+\usepackage{textcomp}
+\usepackage{tocloft}
+  \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+  \renewcommand\indexname{Author Index}
+\hyphenpenalty=10000
+\headheight=18pt
+\usepackage{imakeidx}
+  \makeindex
+\usepackage{lastpage}
+\usepackage{svg}
+\usepackage{multicol}
+\usepackage[inline]{enumitem}
+  \setlist{noitemsep}
+  \setlist{nosep}
+\usepackage{xcolor}
+\usepackage{setspace}
+  \setstretch{1.1}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  \renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\setlength{\topskip}{0mm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{1}
+\newcommand{\nospell}[1]{#1}
+\raggedbottom
+\newcommand\sect[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+\newcommand\blankleaf{%
+  \cleardoublepage%
+  \newpage\null\thispagestyle{empty}\newpage%
+  \newpage\null\thispagestyle{empty}\newpage%
+}
+\begin{document}
+\newcommand\head[1]{\scriptsize\texttt{#1}}
+\newcommand\paging{[ \thepage{} of \pageref{LastPage} ]}
+\fancyfoot[C]{\head{\paging}}
+
+\blankleaf
+
+\input{title}
+
+\cleardoublepage
+\renewcommand\cftchapafterpnum{\vskip-5pt}
+\tableofcontents
+\thispagestyle{empty}
+
+\cftaddtitleline{toc}{section}{Table of Contents}{\thepage}
+
+\input{copyright}
+
+\input{preface-steering}
+
+\input{preface-program}
+
+\input{preface-org}
+
+\input{orgs}
+
+\input{partners}
+
+\cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
+
+\fancypagestyle{ieee}{\fancyfoot[C]{
+  \head{\paging} \\
+  \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
+}}
+
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
+\newcounter{start}
+
+\newcommand\paper[3]{
+  \cleardoublepage
+  \thispagestyle{ieee}
+  \addcontentsline{toc}{chapter}{#2\\{\normalfont\small #3}}
+  \label{start:#1}
+  \ifbinding
+    \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
+  \else
+    \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
+  \fi
+  \write\pages{#1-\getpagerefnumber{start:#1}-\thepage}
+}
+
+\blankleaf
+\index{Wu, Haitao}
+\index{Yin, Ruidi}
+\index{Gao, Jianhua}
+\index{Huang, Zijie}
+\index{Huagn, Huajun}
+\paper{3}
+  {\nospell{To What Extent Can Code Quality be Improved \\ by Eliminating Test Smells?}}
+  {\nospell{Haitao Wu, Ruidi Yin, Jianhua Gao, Zijie Huang, and Huajun Huang}}
+
+\blankleaf
+\index{Petukhov, Maxim}
+\index{Gudauskayte, Evelina}
+\index{Kaliyev, Arman}
+\index{Oskin, Mikhail}
+\index{Ivanov, Dmitry}
+\index{Wang, Qianxiang}
+\paper{6}
+  {\nospell{Method Name Prediction for Automatically Generated Unit Tests}}
+  {\nospell{Maxim Petukhov, Evelina Gudauskayte, Arman Kaliyev, Mikhail Oskin, Dmitry Ivanov, and Qianxiang Wang}}
+
+\blankleaf
+\index{Pitts, Rowland}
+\paper{11}
+  {\nospell{Quasi-Dominators and Random Selection in Mutation Testing}}
+  {\nospell{Rowland Pitts}}
+
+\blankleaf
+\label{ref:index}
+\printindex
+\thispagestyle{empty}
+
+\end{document}
