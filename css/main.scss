@@ -199,9 +199,9 @@ section {
   border-left-color: orange;
 }
 
-@for $i from 1 through 4 {
-  .agenda-#{$i * 15} {
-    height: 80px * $i;
+@for $i from 1 through 9 {
+  .agenda-#{$i * 5} {
+    height: 27px * $i;
   }
 }
 
