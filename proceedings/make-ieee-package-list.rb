@@ -1,7 +1,7 @@
 require 'time'
 require 'fileutils'
 
-dir = ARGV[0]
+dir = File.expand_path(ARGV[0])
 
 items = []
 
@@ -12,7 +12,8 @@ def exec(cmd)
   out
 end
 
-exec("pdfcrop --margins '-790 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
+width = exec("identify -verbose #{File.join(dir, 'cover.pdf')} | grep 'geometry' | sed -E 's/[^0-9]/ /g' | xargs | cut -f1 -d' '").strip.to_i
+exec("pdfcrop --margins '-#{width / 2 + 50} 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
 items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
 File.readlines(File.join(dir, 'book.toc')).each do |t|
@@ -61,7 +62,7 @@ lines = [
   'Yegor Bugayenko',
   'yegor256@gmail.com',
   '+79855806546',
-  'ICCQ 2021',
+  'ICCQ 2022',
   'Moscow, Russia',
   "2020-03-27 2020-03-27\r\n",
   'Final',
