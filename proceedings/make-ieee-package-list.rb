@@ -57,6 +57,8 @@ items.each_with_index do |item, idx|
   item[:index] = idx + 1
 end
 
+date = File.read(File.join(dir, 'date.txt')).strip
+
 lines = [
   "3\t1.7",
   'Yegor Bugayenko',
@@ -64,11 +66,11 @@ lines = [
   '+79855806546',
   'ICCQ 2022',
   'Moscow, Russia',
-  "2020-03-27 2020-03-27\r\n",
+  "#{date} #{date}\r\n",
   'Final',
-  File.read(File.join(dir, 'ieee-record.txt')),
-  "#{File.read(File.join(dir, 'issn.txt'))} Electronic",
-  "#{File.read(File.join(dir, 'isbn.txt'))} Electronic\r\n\r\n"
+  File.read(File.join(dir, 'ieee-record.txt')).strip,
+  "#{File.read(File.join(dir, 'issn.txt')).strip} Electronic",
+  "#{File.read(File.join(dir, 'isbn.txt')).strip} Electronic\r\n\r\n"
 ]
 
 lines += items.map do |i|
