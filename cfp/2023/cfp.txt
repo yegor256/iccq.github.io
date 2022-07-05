@@ -35,11 +35,11 @@ We consider the following criteria when evaluating papers. Novelty: The paper pr
 
 Papers will be reviewed by three PC members using a double-blind review process.
 
-Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the ACM Small template (sigplan, two columns, 11pt font size). Submitted papers must be at least 4 and at most 16 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/ICCQ22
+Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the ACM Small template (sigplan, two columns, 11pt font size). Submitted papers must be at least 4 and at most 16 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/iccq23
 
 SPONSORS
 
-ICCQ is sponsored by Innopolis University, HSE, MIPT, MSU, Yandex, Kaspersky, SberCloud, Huawei and others.
+ICCQ is sponsored by St. Petersburg University, Innopolis University, HSE, MIPT, MSU, Yandex, Kaspersky, SberCloud, Huawei and others.
 
 QUESTIONS?
 
