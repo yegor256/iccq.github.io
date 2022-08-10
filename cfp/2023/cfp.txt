@@ -17,17 +17,35 @@ Author notification: 1 Mar 2023
 Camera-ready submissions: 25 Mar 2023
 Conference: 22 Apr 2023
 
-KEYNOTE SPEECH
-
-... to be defined later
-
-STEERING COMMITTEE
-
-... to be defined later
-
 PROGRAM COMMITTEE
 
-... to be defined later
+Andrey Terekhov (Chair), SPbU
+Alexandre Bergel, University of Chile
+Laura M. Castro, Universidade da Coruña
+Stephen Chang, UMass Boston
+Daniele Cono D'Elia, Sapienza University of Rome
+Pierre Donat-Bouillud, Czech Technical University
+Bernhard Egger, Seoul National University
+Sebastian Erdweg, Johannes Gutenberg University Mainz
+Samir Genaim, Universidad Complutense de Madrid
+Shachar Itzhaky, Technion
+Yusuke Izawa, Tokyo Institute of Technology
+Ranjit Jhala, University of California, San Diego
+Tetsuo Kamina, Oita University
+Christoph Kirsch, University of Salzburg
+Yu David Liu, Binghamton University
+Wolfgang de Meuter, Vrije Universiteit Brussel
+Antoine Miné, Sorbonne Université
+Guillermo Polito, CRIStAL
+Xuehai Qian, University of Southern California
+Junqiao Qiu, Michigan Technological University
+Yann Régis-Gianas, Nomadic Labs
+Yudai Tanabe, Tokyo Institute of Technology
+Tachio Terauchi, Waseda University
+Didier Verna, EPITA
+David West, New Mexico Highlands University
+Guannan Wei, Purdue University
+Vadim Zaytsev, University of Twente
 
 PUBLICATIONS
 
