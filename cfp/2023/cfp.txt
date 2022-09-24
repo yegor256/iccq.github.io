@@ -39,7 +39,6 @@ Antoine Miné, Sorbonne Université
 Guillermo Polito, CRIStAL
 Xuehai Qian, University of Southern California
 Junqiao Qiu, Michigan Technological University
-Yann Régis-Gianas, Nomadic Labs
 Yudai Tanabe, Tokyo Institute of Technology
 Tachio Terauchi, Waseda University
 Didier Verna, EPITA
