@@ -1,0 +1,49 @@
+\documentclass[12pt,twoside]{book}
+\usepackage{../iccq}
+
+\begin{document}
+
+\blankleaf
+
+\input{title}
+
+\iccqTOC
+
+\input{copyright}
+
+\input{preface-steering}
+
+\input{preface-program}
+
+\input{preface-org}
+
+\input{orgs}
+
+\input{partners}
+
+\cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
+
+\fancypagestyle{ieee}{\fancyfoot[C]{
+  \head{\paging} \\
+  \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
+}}
+
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
+\newcounter{start}
+
+% \blankleaf
+% \index{Wu, Haitao}
+% \index{Yin, Ruidi}
+% \index{Gao, Jianhua}
+% \index{Huang, Zijie}
+% \index{Huagn, Huajun}
+% \paper{3}
+%   {\nospell{To What Extent Can Code Quality be Improved \\ by Eliminating Test Smells?}}
+%   {\nospell{Haitao Wu, Ruidi Yin, Jianhua Gao, Zijie Huang, and Huajun Huang}}
+
+\blankleaf
+\iccqIndex
+
+\end{document}
