@@ -26,7 +26,6 @@ Stephen Chang, UMass Boston
 Daniele Cono D'Elia, Sapienza University of Rome
 Pierre Donat-Bouillud, Czech Technical University
 Bernhard Egger, Seoul National University
-Sebastian Erdweg, Johannes Gutenberg University Mainz
 Samir Genaim, Universidad Complutense de Madrid
 Shachar Itzhaky, Technion
 Yusuke Izawa, Tokyo Institute of Technology
