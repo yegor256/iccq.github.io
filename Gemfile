@@ -7,7 +7,7 @@ gem 'jekyll-redirect-from', '0.16.0'
 gem 'jekyll-bits', '0.15'
 gem 'jekyll-feed', '0.5.1'
 gem 'jekyll-paginate', '1.1.0'
-gem 'jekyll-sitemap', '0.10.0'
+gem 'jekyll-sitemap', '0.13.0'
 
 gem "tzinfo", "~> 2.0"
 gem "tzinfo-data", platforms: [:x64_mingw, :mingw, :mswin]
