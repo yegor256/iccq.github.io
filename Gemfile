@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.6.3'
+gem 'jekyll', '3.9.3'
 gem 'jekyll-redirect-from', '0.16.0'
 gem 'jekyll-bits', '0.15'
 gem 'jekyll-feed', '0.5.1'
