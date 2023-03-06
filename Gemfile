@@ -7,7 +7,6 @@ gem 'jekyll-redirect-from', '0.16.0'
 gem 'jekyll-bits', '0.15'
 gem 'jekyll-feed', '0.5.1'
 gem 'jekyll-paginate', '1.1.0'
-# gem 'jekyll-sitemap'
 gem 'webrick', '1.8.1'
 
 gem "tzinfo", "2.0.6"
