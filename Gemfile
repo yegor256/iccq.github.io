@@ -2,14 +2,15 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.6.3'
+gem 'jekyll', '4.3.2'
 gem 'jekyll-redirect-from', '0.16.0'
 gem 'jekyll-bits', '0.15'
 gem 'jekyll-feed', '0.5.1'
 gem 'jekyll-paginate', '1.1.0'
-gem 'jekyll-sitemap', '0.10.0'
+# gem 'jekyll-sitemap'
+gem 'webrick', '1.8.1'
 
-gem "tzinfo", "~> 2.0"
+gem "tzinfo", "2.0.6"
 gem "tzinfo-data", platforms: [:x64_mingw, :mingw, :mswin]
 
 # It is possible that you'll bump into some problems while setting up Ruby and Bundler,
@@ -23,3 +24,4 @@ gem "tzinfo-data", platforms: [:x64_mingw, :mingw, :mswin]
 # A solution was proposed by [Adly](https://stackoverflow.com/users/1205392/adly),
 # and we added it to the Gemfile. Kindly NOT delete those two 'tzinfo' and 'tzinfo-data'
 # strings to avoid this issue.
+
