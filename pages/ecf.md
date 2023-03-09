@@ -14,39 +14,73 @@ The data will be sent to
 
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script>
-var conf_record = 53703;
-var conf_title = '2022 International Conference on Code Quality (ICCQ)';
-var papers = {
-  1: {
-    'title': 'Foreword of Organizers',
-    'authors': 'Yegor Bugayenko'
+var data = {
+  2022: {
+    record: 53703,
+    title: '2022 International Conference on Code Quality (ICCQ)',
+    papers: {
+      1: {
+        'title': 'Foreword of Organizers',
+        'authors': 'Yegor Bugayenko'
+      },
+      3: {
+        'title': 'To What Extent Can Code Quality be Improved by Eliminating Test Smells?',
+        'authors': 'Haitao Wu, Ruidi Yin, Jianhua Gao, Zijie Huang and Huajun Huang'
+      },
+      6: {
+        'title': 'Method Name Prediction for Automatically Generated Unit Tests',
+        'authors': 'Maxim Petukhov, Evelina Gudauskayte, Arman Kaliyev, Mikhail Oskin, Dmitry Ivanov and Qianxiang Wang'
+      },
+      11: {
+        'title': 'Quasi-Dominators and Random Selection in Mutation Testing',
+        'authors': 'Rowland Pitts'
+      },
+    }
   },
-  3: {
-    'title': 'To What Extent Can Code Quality be Improved by Eliminating Test Smells?',
-    'authors': 'Haitao Wu, Ruidi Yin, Jianhua Gao, Zijie Huang and Huajun Huang'
-  },
-  6: {
-    'title': 'Method Name Prediction for Automatically Generated Unit Tests',
-    'authors': 'Maxim Petukhov, Evelina Gudauskayte, Arman Kaliyev, Mikhail Oskin, Dmitry Ivanov and Qianxiang Wang'
-  },
-  11: {
-    'title': 'Quasi-Dominators and Random Selection in Mutation Testing',
-    'authors': 'Rowland Pitts'
-  },
+  2023: {
+    record: 57276,
+    title: '2023 International Conference on Code Quality (ICCQ)',
+    papers: {
+      1: {
+        'title': 'Foreword of Organizers',
+        'authors': 'Yegor Bugayenko'
+      },
+      7753: {
+        'title': 'Mutant Selection Strategies in Mutation Testing',
+        'authors': 'Rowland Pitts'
+      },
+      3092: {
+        'title': 'Understanding Software Performance Challenges - An Empirical Study on Stack Overflow',
+        'authors': 'Deema Alshoaibi, Mohamed Wiem Mkaouer'
+      },
+      2342: {
+        'title': 'Machine Learning Analysis for Software Quality Test',
+        'authors': 'Al Khan, Remudin Reshid Mekuria, Ruslan Isaev'
+      },
+      7615: {
+        'title': 'Test-based and metric-based evaluation of code generation models for practical question answering',
+        'authors': 'Sergey Kovalchuk, Dmitriy Fedrushkov, Vadim Lomshakov, Artem Aliev'
+      },
+    }
+  }
 };
 $(function() {
   let p = new URLSearchParams(window.location.search);
+  let d = data[new Date().getFullYear()];
+  if (d == undefined) {
+    window.location.href = "/ecf-help.html";
+  }
   let id = p.get('id');
   if (id == undefined) {
     window.location.href = "/ecf-help.html";
   }
   aid = parseInt(id);
-  var details = papers[aid];
+  var details = d.papers[aid];
   if (details == undefined) {
     window.location.href = "/ecf-help.html";
   }
-  $('input[name="ArtSource"]').val(conf_record);
-  $('input[name="PubTitle"]').val(conf_title);
+  $('input[name="ArtSource"]').val(d.record);
+  $('input[name="PubTitle"]').val(d.title);
   $('input[name="ArtId"]').val(aid);
   $('input[name="ArtTitle"]').val(details.title);
   $('input[name="AuthName"]').val(details.authors);
@@ -60,7 +94,7 @@ $(function() {
     <label>Conference Title:</label>
     <input type="text" required readonly size="50" name="PubTitle" value=""/>
     <label>Article ID:</label>
-    <input type="text" required readonly size="5" name="ArtId" value=""/>
+    <input type="text" required readonly size="7" name="ArtId" value=""/>
     <label>Article Title:</label>
     <input type="text" required readonly size="60" name="ArtTitle" value=""/>
     <label>Author Names:</label>
