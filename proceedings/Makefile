@@ -1,4 +1,4 @@
-all: book.pdf cover.pdf texsc texqc ieee iccq-2021-booklet.pdf book-cmyk.pdf cover-cmyk.pdf
+all: book.pdf cover.pdf texsc texqc ieee booklet.pdf book-cmyk.pdf cover-cmyk.pdf
 
 install:
 	gem install texsc
@@ -39,5 +39,5 @@ ieee-package-list/package.txt: book.pdf cover.pdf Makefile
 	zip -r "$${zip}.zip" "$${zip}" ;\
 	rm -rf "$${zip}"
 
-iccq-2021-booklet.pdf: ieee
+booklet.pdf: ieee
 	qpdf --empty --pages ieee-package-list/*.pdf -- iccq-2021-booklet.pdf

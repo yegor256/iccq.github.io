@@ -77,11 +77,11 @@
   \renewcommand\cftchapafterpnum{\vskip-5pt}
   \tableofcontents
   \thispagestyle{empty}
-  \cftaddtitleline{toc}{section}{Table of Contents}{\thepage}
+  \addcontentsline{toc}{section}{Table of Contents}
 }
 
 \newcommand\iccqIndex{
-  \label{ref:index}
+  % \addcontentsline{toc}{section}{\indexname}
   \printindex
   \thispagestyle{empty}
 }

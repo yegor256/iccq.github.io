@@ -11,8 +11,6 @@
 
 \input{copyright}
 
-\input{preface-steering}
-
 \input{preface-program}
 
 \input{preface-org}
@@ -20,8 +18,6 @@
 \input{orgs}
 
 \input{partners}
-
-\cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
 
 \fancypagestyle{ieee}{\fancyfoot[C]{
   \head{\paging} \\
@@ -33,17 +29,39 @@
 
 \newcounter{start}
 
-% \blankleaf
-% \index{Wu, Haitao}
-% \index{Yin, Ruidi}
-% \index{Gao, Jianhua}
-% \index{Huang, Zijie}
-% \index{Huagn, Huajun}
-% \paper{3}
-%   {\nospell{To What Extent Can Code Quality be Improved \\ by Eliminating Test Smells?}}
-%   {\nospell{Haitao Wu, Ruidi Yin, Jianhua Gao, Zijie Huang, and Huajun Huang}}
+\blankleaf
+\index{Pitts, Rowland}
+\paper{7753}
+  {\nospell{Mutant Selection Strategies in Mutation Testing}}
+  {\nospell{Rowland Pitts}}
+
+\blankleaf
+\index{Alshoaibi, Deema}
+\index{Wiem Mkaouer, Mohamed}
+\paper{3092}
+  {\nospell{Understanding Software Performance Challenges --- An Empirical Study on Stack Overflow}}
+  {\nospell{Deema Alshoaibi, Mohamed Wiem Mkaouer}}
+
+\blankleaf
+\index{Kan, Al}
+\index{Reshid Mekuria, Remudin}
+\index{Isaev, Ruslan}
+\paper{2342}
+  {\nospell{Applying Machine Learning Analysis for Software Quality Test}}
+  {\nospell{Al Khan, Remudin Reshid Mekuria, Ruslan Isaev}}
+
+\blankleaf
+\index{Kovalchuk, Sergey}
+\index{Fedrushkov, Dmitriy}
+\index{Lomshakov, Vadim}
+\index{Aliev Artem}
+\paper{7615}
+  {\nospell{Test-based and metric-based evaluation of code generation models for practical question answering}}
+  {\nospell{Sergey Kovalchuk, Dmitriy Fedrushkov, Vadim Lomshakov, Artem Aliev}}
 
 \blankleaf
 \iccqIndex
+
+% \cftaddtitleline{toc}{section}{\indexname}{\pageref{ref:index}}
 
 \end{document}

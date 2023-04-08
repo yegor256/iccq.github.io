@@ -3,6 +3,8 @@ require 'fileutils'
 
 dir = File.expand_path(ARGV[0])
 
+year = ARGV[1].nil? ? Time.new.year : ARGV[1].to_i
+
 items = []
 
 def exec(cmd)
@@ -64,7 +66,7 @@ lines = [
   'Yegor Bugayenko',
   'yegor256@gmail.com',
   '+79855806546',
-  'ICCQ 2022',
+  "ICCQ #{year}",
   'Moscow, Russia',
   "#{date} #{date}\r\n",
   'Final',
