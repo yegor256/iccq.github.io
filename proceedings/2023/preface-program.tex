@@ -1,13 +1,24 @@
 \cleardoublepage
 \sect{Message from Program Committee}
 
-Dear Conference Attendees:
+Dear all,
 
-...
+In 1992, I had the opportunity to visit the United States, where despite a limited level of scientific communication, I possessed a basic understanding of American programming. At the time, I was convinced that Russian programming excelled in this field, as our compilers were superior, our operating systems were more efficient, and other system-level software followed suit. However, in a brief period, I quickly realized that I had much to learn.
+
+One significant difference between our approaches to development was the economics and logistics of the process. Russian programming was driven by academic interest, and the development of a compiler or another substantial program would typically take between five and six years. We produced articles and monographs and took pride in our steady and methodical approach. In contrast, the driving force behind American programming was time-to-market, and if a programmer failed to complete a compiler in a year, they would be fired. Our slow and methodical approach was ridiculed, and considered a joke.
+
+Another aspect that was missing in Russian programming was standardization. Each enterprise had its own code-style, which was enforced strictly. Initially, I considered it to be another bureaucratic hindrance designed to stifle programmer creativity. However, my American colleagues soon explained to me that it was a necessary requirement for the long-term maintainability of software products. A strict code-style allowed new personnel to be more productive faster, making the original author of the code almost irrelevant in matters of its support.
+
+There were also elements of socialistic competition, such as honor boards and crunch culture, which surprised me considering the capitalist nature of the USA at the time. Despite these collectivist ethics, workers were rapidly fired if they were not productive enough for any significant period. Another exciting part of the development cycle was bug-fests, which occurred approximately a month before the final deadline. Employees of all levels tested the product for bugs and were thrilled to exceed their coworkers in the number of bugs found, even though they were paid only a tiny fraction of an average programmer's salary.
+
+Despite these practices, little attention was paid to the code's quality. Once, we were tasked with reengineering a COBOL codebase into a modern language, which was around six million lines long, with each module containing 40 to 50 thousand lines. We obtained this job in a humorous way. Some American managers realized that supporting a thirty-year-old COBOL codebase was not economically feasible, so it was decided to make a COBOL-to-Modern-Programming-Language translation tool. The development team consisted of mathematicians from Duke University in North Carolina, who, after half a year, declared that such a program could not be made. The reengineering required analyzing the entire graph of possible execution paths, which grew exponentially, resulting in a program with an asymptotic complexity too high for real-world use. One of the executives then suggested involving Russian mathematicians in the project. They wrote a letter to the ``Russia, Academy of Science, Institute of Mathematics'' (sic!), but the letter came to our university, and our deputy director forwarded it to me. After reading it and contemplating it for some time, I wrote back, providing, among other things, the correct address of our university. In a month, I was visited by three Americans, and in a year, we had the first prototype of the reengineering system.
+
+During the creation of this system, we encountered several problems related to code quality. One iteration of the system translated COBOL into Java, and although it performed well, the Americans refused to pay for the work done, stating that the code was ``the same-old COBOL, just with Java syntax.'' This was because the generated programs did not feel human-made. We struggled with this issue for a long time until we came across an article by Russian scientist Igor Pottosin titled ``On Goodness of Programs.''\footnote{\raggedright\fontfamily{erewhon-TLF}\foreignlanguage{russian}{И. Поттосин, Добротность программ и информационных потоков, \textit{Открытые системы. СУБД}, 1998, № 06}} We remade our project in accordance with that article's ideas, leaving Americans quite satisfied.
+
+Through this example, I endeavor to demonstrate that code quality encompasses numerous distinct aspects that necessitate a wide array of approaches and present a vast number of solutions. I believe that conferences such as ICCQ can help build the bridge between the software made by scientists and the software made by business people, and between Russians and Americans.
 
 \vspace{18pt}
 Sincerely,\\
 Dr. Andrey Terekhov\\
 Chairman of the Program Committee \\
-Professor\\
-St. Petersburg State University, Russia
+Professor in St.~Petersburg State University

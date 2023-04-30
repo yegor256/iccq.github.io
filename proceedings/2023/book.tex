@@ -1,6 +1,9 @@
 \documentclass[12pt,twoside]{book}
 \usepackage{../iccq}
 
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
 \begin{document}
 
 \blankleaf
@@ -11,9 +14,9 @@
 
 \input{copyright}
 
-\input{preface-program}
+\intro{preface-program}
 
-\input{preface-org}
+\intro{preface-org}
 
 \input{orgs}
 
@@ -23,9 +26,6 @@
   \head{\paging} \\
   \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
 }}
-
-\newwrite\pages
-\immediate\openout\pages=\jobname.pages
 
 \newcounter{start}
 

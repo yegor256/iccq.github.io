@@ -1,5 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{ffcode}[00.00.0000 0.0.0 Fixed Font Code]
+\ProvidesPackage{iccq}[00.00.0000 0.0.0 International Conference on Code Quality]
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[russian,english]{babel}
 
 \pdfsuppresswarningpagegroup=1
 \newif\ifbinding\bindingtrue
@@ -59,7 +63,14 @@
   \else
     \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
   \fi
-  \write\pages{#1-\getpagerefnumber{start:#1}-\thepage}
+  \write\pages{#1:\getpagerefnumber{start:#1}-\thepage}
+}
+
+\newcommand\intro[1]{
+  \cleardoublepage
+  \label{start:#1}
+  \input{#1}
+  \write\pages{#1:\getpagerefnumber{start:#1}-\thepage}
 }
 
 \newcommand\head[1]{\scriptsize\texttt{#1}}

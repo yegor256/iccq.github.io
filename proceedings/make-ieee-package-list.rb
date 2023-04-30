@@ -18,24 +18,37 @@ width = exec("identify -verbose #{File.join(dir, 'cover.pdf')} | grep 'geometry'
 exec("pdfcrop --margins '-#{width / 2 + 50} 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
 items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
+pages = {}
+File.readlines(File.join(dir, 'book.pages')).each do |t|
+  pid, pg = t.strip.split(':')
+  first, last = pg.split('-')
+  first = first.to_i
+  last = last.to_i
+  pages[pid] = { first: first, last: last }
+end
+
 File.readlines(File.join(dir, 'book.toc')).each do |t|
   next unless t.start_with?('\contentsline {section}')
   m = t.scan(/\{([^\}]+)\}*/)
   title = m[1][0].strip
-  page = m[2][0].strip.to_i
-  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{page} -l #{page} %d.pdf")
+  first = m[2][0].strip.to_i
+  tail = pages.values.find { |p| p[:first] == first }
+  last = tail.nil? ? first : tail[:last]
+  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
-  File.rename("#{page}.pdf", fname)
+  exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   type = 'commentary'
   type = 'toc' if fname.include?('contents')
   type = 'index-author' if fname.include?('author-index')
   items << { file: fname, type: type, ecf: 'NA', ecf_id: '' }
 end
 
-File.readlines(File.join(dir, 'book.pages')).each do |t|
-  pid, first, last = t.strip.split('-')
-  first = first.to_i
-  last = last.to_i - 1
+pages.each do |pg|
+  pid = pg[0]
+  next unless pid =~ /^[0-9]+$/
+  first = pg[1][:first]
+  last = pg[1][:last]
   exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
   exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
