@@ -1,0 +1,38 @@
+\cleardoublepage
+\sect{What \emph{IS} Code Quality: Keynote}
+
+It is a great honor to be asked to speak at the Third ICCQ conference. I want to take this
+opportunity to pose some questions about what, exactly, is meant by ``code quality'' and why does it matter?
+``Quality'' code is code that expresses certain characteristics. The labels used to define
+and describe discrete characteristics often, in English, ended with the suffice ``ility.''
+For example: testability, readability, portability. Collectively these characteristics were
+deemed ``the ilities.'' Consideration of these ‘ilities’ is the starting point for our exploration.
+
+But first a bit of history. In 1968, when I began my programming career—writing banking programs in COBOL and machine programs in assembler—the most important determinant of code quality was ``legibility.''
+Programs were written by hand on sheets of formatted paper. A ``keypuncher'' translated this code to Hollerith cards, to be fed into the computer. It was critical that the keypuncher  could read your writing to prevent errors. A corollary to this was the ability to differentiate between the uppercase letter ``Z'' and the numeral 7; with the convention that ``Z'' would contain a cross-bar in the German style.
+A secondary, but still critical code characteristic was the assignment of a sequence number to each and every
+line of code in your program. If you accidentally dropped your deck of program cards, and
+they lacked sequence numbers, you basically had deck of random code.
+
+A lot of attention was paid to writing quality code. Coding professionals, like everyone presenting at this conference, quickly identified additional characteristics, additional ``ilities'' that were used to judge code quality. A quick trip to Wikipedia reveals 86 ilities that define code quality. Some of these gained prominence in different contexts and others waned in importance over time.
+No one would seriously attempt to apply all 86 ilities to every bit of code produced. Instead, different subsets became common. One subset concerned characteristics deemed intrinsic to the code itself. This subset might be labeled as relating to ``static analysis'' of the code. This subset will be familiar to everyone contributing to this conference.
+
+Many of these characteristics derive from measures of code complexity, starting with the infamous ``GOTO considered harmful'' analysis of the structure of code and its effect on performance and understandability. Many of these qualities derive from the ongoing issue of structuring code to maximize ``Cohesion'' and minimize ``Coupling.''
+The modern development environment mandates code development by teams and teams of teams. This shifts emphasis on code quality that supports group development. Readability; understandability; modularity; conformance to idiom, style, and standards; testability; and other qualities that enable and support human beings establishing and communicating a shared understanding of the code and what it does.
+It might be argued that most of the ``technical'' and even ``social'' qualities of code have been substantially resolved and best practices developed. From this perspective, attention has shifted, at least a bit, to considering ``meta'' characteristics of the code as a whole.
+
+A movement began in the early 2000's focusing on software ``craftsmanship.'' Code not only had to work and have good internal structure; it should possess qualities of beauty or elegance---it should appear as if it had been lovingly crafted by a skilled artisan and be immediately differentiated from workaday code. Programming Pearls and examples of Beautiful Code were shared and admired.
+An architect, Christopher Alexander, asserted that buildings could and should exhibit ``The Quality Without a Name,'' an ineffable, but readily discernible, quality. Alexander has significant influence in the software community, primarily in the Patterns Movement. Numerous researchers and practitioners considered whether or not code might have QWAN. The notion of ``habitability''---a felt sense of comfort and pleasure working with a body of code---was asserted as a necessity for code quality.
+
+Earlier we noted that the evolution and the variable importance of ilities in different contexts and over time. That evolution reflected new programming challenges and the quality characteristics of code being written to address those challenges.
+If we look to the future, we can see new challenges and foreshadow at least some ilities that will define the quality of tomorrows code. Ultra-Large-Scale Systems will place even greater burdens on code modularity and evolvability.
+We will need to shift from code that is understandable, to code that ``understands itself'' as is capable of self-modification and self-correction. Whether we can design and write such code is an open question. One interesting challenge, how do we write and test code that at some point calls a human being as a computational element in a complex system.
+
+I want to conclude this presentation with a very philosophical question.
+If we consider a well-defined set of inputs to a ``black box,'' one that produces consistent and correct outputs, what difference does the quality of the code inside the black box matter. If we put this question in the context of Turing's model with an infinite tape as a critical component---we must confront the fact that the tape will contain an infinite number of programs. An infinite number of those programs will be ``wrong'' and an infinite number will be correct. An infinite number will have infinite variability as to degree of quality.
+
+I would challenge the attendees at this conference to consider turning attention from the quality of the code inside the black box to the impact of the executing code has on the world around us. Does our quality code generate quality software and does that software make the world a better place. Is our software humane and affirming of human abilities---to realizing the vision of Douglas Englebart, ``augmenting human intelligence'' or Steve Jobs, creating ``bicycles for the mind.''
+
+\vspace{18pt}
+Sincerely,\\
+Prof. David West\\

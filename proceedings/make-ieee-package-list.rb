@@ -37,7 +37,7 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   tail = pages.values.find { |p| p[:first] == first }
   last = tail.nil? ? first : tail[:last]
   exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
-  fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-'))
+  fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-').gsub(/--/, '-'))
   exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   type = 'commentary'
