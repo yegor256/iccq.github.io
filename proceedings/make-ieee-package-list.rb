@@ -1,3 +1,5 @@
+# Once ready, send it here: https://mft.ieee.org/conferences_events/ConfPubFileUploadUI/
+
 require 'time'
 require 'fileutils'
 
