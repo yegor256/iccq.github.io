@@ -63,7 +63,7 @@
   \else
     \includepdf[pages=-, noautoscale=true, pagecommand={}]{papers/#1.pdf}
   \fi
-  \write\pages{#1:\getpagerefnumber{start:#1}-\thepage}
+  \write\pages{#1:\getpagerefnumber{start:#1}-\the\numexpr\value{page}-1\relax}
 }
 
 \newcommand\intro[1]{
