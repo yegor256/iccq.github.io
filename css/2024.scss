@@ -1,0 +1,25 @@
+---
+---
+
+@charset 'utf-8';
+@import 'common';
+
+$body: firebrick;
+$border: pink;
+
+header {
+  .front {
+    background-image: url('/images/2024/st-petersburg.jpg');
+    p {
+      color: $body;
+      text-shadow: -1px 0 $border, 0 1px $border, 1px 0 $border, 0 -1px $border;
+      @media all and (max-width: 1024px) {
+          text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      }
+      span {
+        background-color: rgba(255,255,255,0.4);
+      }
+    }
+  }
+}
+
