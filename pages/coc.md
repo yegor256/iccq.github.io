@@ -13,7 +13,9 @@ that recognizes the inherent worth of every person and group, that
 fosters dignity, understanding, and mutual respect, and that embraces
 diversity. For these reasons, ICCQ is dedicated to providing
 a harassment-free conference experience, and abides by the
-[ACM Policy Against Discrimination and Harassment at ACM Activities](https://www.acm.org/special-interest-groups/volunteer-resources/officers-manual/policy-against-discrimination-and-harassment).
+[ACM Policy Against Discrimination and Harassment at ACM Activities](https://www.acm.org/special-interest-groups/volunteer-resources/officers-manual/policy-against-discrimination-and-harassment)
+and
+[IEEE Policy Against Discrimination and Harassment ](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/whatis/nondiscrimination.pdf).
 
 Conference participants violating these standards may be sanctioned
 or expelled from the conference, at the discretion of
