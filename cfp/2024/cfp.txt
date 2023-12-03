@@ -1,0 +1,36 @@
+Name: 4th International Conference on Code Quality (ICCQ)
+Date: June 22, 2023
+Venue: Innopolis University, Russia
+Website: https://www.iccq.ru/2024.html
+Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
+
+We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
+
+It’s a hybrid event, all speakers are welcome to either attend it in person or present their work remotely over Zoom.
+
+IMPORTANT DATES
+
+Paper/abstract submission: 18 Feb 2024 (anywhere on Earth)
+Author notification: 1 May 2024
+Camera-ready submissions: 25 May 2024
+Conference: 22 Jun 2024
+
+PROGRAM COMMITTEE
+
+Anatoly Shalyto (Chair), ITMO University
+
+PUBLICATIONS
+
+We consider the following criteria when evaluating papers. Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research. Importance: The paper contributes to the advancement of knowledge in the field. We also welcome papers that diverge from the dominant trajectory of the field. Evidence: The paper presents sufficient evidence supporting its claims, such as proofs, implemented systems, experimental results, statistical analyses, case studies, and anecdotes. Clarity: The paper presents its contributions, methodology, and results clearly.
+
+Papers will be reviewed by three PC members using a double-blind review process.
+
+Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the ACM Small template (sigplan, two columns, 11pt font size). Submitted papers must be at least 4 and at most 16 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/iccq24
+
+SPONSORS
+
+ICCQ is sponsored by St. Petersburg University, Innopolis University, HSE, and MSU.
+
+QUESTIONS?
+
+If any questions, please email to team@iccq.ru
