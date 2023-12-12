@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{geometry}
+
+\geometry{paperwidth=300pt, paperheight=600pt, left=10pt, right=10pt, top=10pt, bottom=10pt}
+
+\usepackage[absolute]{textpos}\TPGrid{16}{32}
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhf{}
+\usepackage{graphicx}
+\usepackage{bold-extra}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+  \definecolor{xblack}{HTML}{1a1919}
+  \definecolor{xred}{HTML}{b22222}
+\begin{document}
+\fontfamily{cmtt}\selectfont
+\raggedbottom
+\raggedright
+\setlength{\topskip}{6pt}
+\setlength{\parindent}{0pt} % indent first line
+\setlength{\parskip}{6pt} % before par
+\color{xblack}
+
+\newcommand\invert[1]{\colorbox{xred}{\textcolor{white}{#1}}}
+
+\begin{textblock}{14}[1,1](15,31)
+  \raggedleft
+  \includegraphics[width=14\TPHorizModule]{../../cfp/kazan}
+\end{textblock}
+
+\begin{textblock}{8}[1,0](15,1)
+  \raggedleft
+  \invert{\fontsize{64}{64}\selectfont\bfseries ICCQ}\\[24pt]
+\end{textblock}
+
+\fontsize{24}{24}\selectfont\bfseries
+
+\vspace*{48pt}
+The 4th \\
+International \\
+Conference \\
+on \invert{Code Quality}\\[24pt]
+
+\underline{www.iccq.ru}\\[24pt]
+
+\textcolor{xred}{CfP closes on \invert{18 Feb}}\\[24pt]
+
+In cooperation with \\
+IEEE Computer Society\\[24pt]
+
+Bug Detection \\
+Program Analysis \\
+Software Maintenance
+
+\end{document}

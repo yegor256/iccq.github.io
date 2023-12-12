@@ -1,2 +1,2 @@
-$latex = 'latex  %O  --shell-escape %S';
-$pdflatex = 'pdflatex  %O  --shell-escape %S';
+$latex = 'latex %O -shell-escape -interaction=batchmode -halt-on-error %S';
+$pdflatex = 'pdflatex %O -shell-escape -interaction=batchmode -halt-on-error %S';
