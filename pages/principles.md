@@ -12,22 +12,23 @@ set by [IEEE](https://ieeemce.org/planning-basics/) and
 [ACM](https://www.acm.org/conferences). 
 Our primary objective is to achieve the highest possible quality while 
 making the most effective use of resources, including financial, marketing, and human labor. 
+
 Over the last few years, we have developed a few fundamental principles 
 that guide the organization of ICCQ going forward each year:
 
-1. We conduct the conference once a year.
+1. We conduct the conference **once a year**.
 
-1. We host ICCQ at Russian universities, trying each year to choose a new host.
+1. We host ICCQ at Russian universities, trying each year to choose a **new host**.
 
 1. We invite a representative from the hosting university to be the Chair of the Program Committee (PC).
 
 1. We invite two people --- one from industry and one from academia --- to join the Steering Committee (SC).
 
-1. We promise our authors at least three reviews for each paper.
+1. We promise our authors at least **three reviews** for each paper.
 
-1. We expect scientists to hold their positions on the PC for no more than two consecutive years.
+1. We expect scientists to hold their positions on the PC for no more than **two consecutive years**.
 
-1. We expect PC members to review at most two papers.
+1. We expect PC members to review at most **two papers**.
 
 1. We accept only those papers that have no "reject" or "strong reject" reviews.
 
