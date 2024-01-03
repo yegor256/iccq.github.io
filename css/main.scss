@@ -140,6 +140,19 @@ section {
   }
 }
 
+.keynote {
+  clear: both;
+  min-height: 64px;
+  img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 92px;
+    width: 92px;
+    border: 1px solid gray;
+  }
+}
+
 .org {
   display: inline-block;
   width: .2 * $width;
