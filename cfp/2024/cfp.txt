@@ -19,6 +19,39 @@ PROGRAM COMMITTEE
 
 Anatoly Shalyto (Chair), ITMO University
 
+KEYNOTE SPEECH
+
+Xin Xia, Huawei
+
+PROGRAM COMMITTEE
+
+Vahid Alizadeh, DePaul University
+Vijay Anant Athavale, Walchand Institute of Technology
+Elisa Baniassad, University of British Columbia
+Pietro Braione, University of Milano-Bicocca
+Rafael Capilla, Rey Juan Carlos University
+Stephen Chang, UMass Boston
+Bernhard Egger, Seoul National University
+Eduardo Fernandes, University of Southern Denmark
+Yusuke Izawa, Tokyo Institute of Technology
+Javier Luis Cánovas Izquierdo, Universitat Oberta de Catalunya
+Ranjit JhalaUniversity of California, San Diego
+Tetsuo Kamina, Oita University
+Narges Khakpour, Newcastle University
+Kais Klai, University Sorbonne Paris Nord
+Antoine Miné, Sorbonne Université
+Mohamed Wiem Mkaouer, Rochester Institute of Technology
+Magnus Myreen, Chalmers University of Technology
+Francis Palma, University of New Brunswick
+Henrique Rebêlo, Universidade Federal de Pernambuco
+Ilya Sergey, National University of Singapore
+Yudai Tanabe, Tokyo Institute of Technology
+Didier Verna, EPITA
+Guannan Wei, Purdue University
+Philip Wadler, University of Edinburgh
+Vadim Zaytsev, University of Twente
+Steve Zdancewic, University of Pennsylvania
+
 PUBLICATIONS
 
 We consider the following criteria when evaluating papers. Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research. Importance: The paper contributes to the advancement of knowledge in the field. We also welcome papers that diverge from the dominant trajectory of the field. Evidence: The paper presents sufficient evidence supporting its claims, such as proofs, implemented systems, experimental results, statistical analyses, case studies, and anecdotes. Clarity: The paper presents its contributions, methodology, and results clearly.
@@ -29,7 +62,7 @@ Submissions must be in PDF, printable in black and white on US Letter sized pape
 
 SPONSORS
 
-ICCQ is sponsored by St. Petersburg University, Innopolis University, HSE, and MSU.
+ICCQ is sponsored by Innopolis University, HSE, and St. Petersburg University.
 
 QUESTIONS?
 
