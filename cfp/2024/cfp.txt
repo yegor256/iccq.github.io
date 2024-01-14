@@ -35,7 +35,7 @@ Bernhard Egger, Seoul National University
 Eduardo Fernandes, University of Southern Denmark
 Yusuke Izawa, Tokyo Institute of Technology
 Javier Luis Cánovas Izquierdo, Universitat Oberta de Catalunya
-Ranjit JhalaUniversity of California, San Diego
+Ranjit Jhala, University of California, San Diego
 Tetsuo Kamina, Oita University
 Narges Khakpour, Newcastle University
 Kais Klai, University Sorbonne Paris Nord
