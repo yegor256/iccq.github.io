@@ -36,5 +36,9 @@ that guide the organization of ICCQ going forward each year:
 
 1. We allow the Chair of the PC to veto any paper accepted by the PC, but no more than 20% of all papers.
 
+1. We distribute our CFP through the following mailing lists and websites:
+  [SEWORLD](https://sigsoft.org/resources/seworld.html),
+  [call4paper.com](https://www.call4paper.com/).
+
 If you have suggestions or complaints about our organizational principles, 
 please don't hesitate to email: [principles@iccq.ru](mailto:principles@iccq.ru).
