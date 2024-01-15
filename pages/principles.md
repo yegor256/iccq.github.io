@@ -38,6 +38,7 @@ that guide the organization of ICCQ going forward each year:
 
 1. We distribute our CFP through the following mailing lists and websites:
   [SEWORLD](https://sigsoft.org/resources/seworld.html),
+  [TYPES/announce](https://lists.seas.upenn.edu/mailman/listinfo/types-announce),
   [call4paper.com](https://www.call4paper.com/).
 
 If you have suggestions or complaints about our organizational principles, 
