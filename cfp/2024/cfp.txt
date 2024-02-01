@@ -1,5 +1,5 @@
 Name: 4th International Conference on Code Quality (ICCQ)
-Date: June 22, 2023
+Date: June 22, 2024
 Venue: Innopolis University, Russia
 Website: https://www.iccq.ru/2024.html
 Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
