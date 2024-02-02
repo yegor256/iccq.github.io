@@ -29,7 +29,6 @@ Vahid Alizadeh, DePaul University
 Vijay Anant Athavale, Walchand Institute of Technology
 Elisa Baniassad, University of British Columbia
 Pietro Braione, University of Milano-Bicocca
-Rafael Capilla, Rey Juan Carlos University
 Stephen Chang, UMass Boston
 Bernhard Egger, Seoul National University
 Eduardo Fernandes, University of Southern Denmark
