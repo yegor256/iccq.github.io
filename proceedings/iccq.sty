@@ -53,10 +53,6 @@
   \cleardoublepage
   \thispagestyle{ieee}
   \addcontentsline{toc}{chapter}{#2\\{\normalfont\small #3}}
-  % \fancyhead[RO]{\head{ICCQ'21, March 2021, Moscow, Russia}}
-  % \fancyhead[LO]{\head{#2}}
-  % \fancyhead[RE]{\head{#3}}
-  % \fancyhead[LE]{\head{ICCQ'21}}
   \label{start:#1}
   \ifbinding
     \includepdf[pages=-, offset=5mm 0, noautoscale=true, scale=1, pagecommand={}]{papers/#1.pdf}
@@ -89,10 +85,11 @@
   \tableofcontents
   \thispagestyle{empty}
   \addcontentsline{toc}{section}{Table of Contents}
+  \contentsline{chapter}{\indexname}{\pageref{ref:index}}{}
 }
 
 \newcommand\iccqIndex{
-  % \addcontentsline{toc}{section}{\indexname}
+\label{ref:index}
   \printindex
   \thispagestyle{empty}
 }

@@ -1,0 +1,67 @@
+\documentclass[12pt,twoside]{book}
+\usepackage{../iccq}
+
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
+\begin{document}
+
+\blankleaf
+
+\input{parts/title}
+
+\iccqTOC
+
+\input{parts/copyright}
+
+\intro{parts/preface-program}
+
+\intro{parts/preface-org}
+
+\input{parts/orgs}
+
+\input{parts/partners}
+
+\fancypagestyle{ieee}{\fancyfoot[C]{
+  \head{\paging} \\
+  \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
+}}
+
+\newcounter{start}
+
+\blankleaf
+\index{Kudasov, Nikolai}
+\index{Shakirova, Renata}
+\index{Shalagin, Egor}
+\index{Tyulebaeva, Karina}
+\paper{5}
+  {\nospell{Free Foil: Generating Efficient and Scope-Safe Abstract Syntax}}
+  {\nospell{Nikolai Kudasov, Renata Shakirova, Egor Shalagin, and Karina Tyulebaeva}}
+
+\blankleaf
+\index{Sampaio, Isabel}
+\index{Sampaio, Alberto}
+\paper{20}
+  {\nospell{Replication of a Study about the Impact of Method Chaining and Comments on Readability and Comprehension}}
+  {\nospell{Isabel Sampaio and Alberto Sampaio}}
+
+\blankleaf
+\index{Neum\"{u}ller, Denis}
+\index{Sihler, Florian}
+\index{Straub, Raphael}
+\index{Tichy, Matthias}
+\paper{18}
+  {\nospell{Exploring the Effectiveness of Abstract Syntax Tree Patterns for Algorithm Recognition}}
+  {\nospell{Denis Neum\"{u}ller, Florian Sihler, Raphael Straub, and Matthias Tichy}}
+
+\blankleaf
+\index{Zhang, Zixian}
+\index{Saber, Takfarinas}
+\paper{8}
+  {\nospell{Assessing the Code Clone Detection Capability of Large Language Models}}
+  {\nospell{Zixian Zhang and Takfarinas Saber}}
+
+\blankleaf
+\iccqIndex
+
+\end{document}
