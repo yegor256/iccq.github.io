@@ -34,7 +34,7 @@ var data = {
       11: {
         'title': 'Quasi-Dominators and Random Selection in Mutation Testing',
         'authors': 'Rowland Pitts'
-      },
+      }
     }
   },
   2023: {
@@ -60,7 +60,33 @@ var data = {
       7615: {
         'title': 'Test-based and metric-based evaluation of code generation models for practical question answering',
         'authors': 'Sergey Kovalchuk, Dmitriy Fedrushkov, Vadim Lomshakov, Artem Aliev'
+      }
+    }
+  },
+  2024: {
+    record: 60895,
+    title: '2024 International Conference on Code Quality (ICCQ)',
+    papers: {
+      1: {
+        'title': 'Foreword of Organizers',
+        'authors': 'Yegor Bugayenko'
       },
+      5: {
+        'title': 'Free Foil: Generating Efficient and Scope-Safe Abstract Syntax',
+        'authors': 'Nikolai Kudasov, Renata Shakirova, Egor Shalagin, Karina Tyulebaeva'
+      },
+      8: {
+        'title': 'Assessing the Code Clone Detection Capability of Large Language Models',
+        'authors': 'Zixian Zhang, Takfarinas Saber'
+      },
+      18: {
+        'title': 'Exploring the Effectiveness of Abstract Syntax Tree Patterns for Algorithm Recognition',
+        'authors': 'Denis Neumüller, Florian Sihler, Raphael Straub, Matthias Tichy'
+      },
+      20: {
+        'title': 'Replication of a Study about the Impact of Method Chaining and Comments on Readability and Comprehension',
+        'authors': 'Isabel Sampaio, Alberto Sampaio'
+      }
     }
   }
 };
