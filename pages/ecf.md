@@ -7,9 +7,9 @@ permalink: /ecf.html
 
 ## IEEE eCF Form
 
-Review the information in this form and click "Submit" in order to transfer
+Review the information in this form and click "Submit" to transfer
 your ownership rights of the intellectual property to IEEE.
-The data will be sent to
+The data will be sent to the
 [IEEE eCF system](https://www.ieee.org/publications/rights/copyright-main.html).
 
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
