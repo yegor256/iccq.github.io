@@ -65,7 +65,7 @@ var data = {
   },
   2024: {
     record: 60895,
-    title: '2024 International Conference on Code Quality (ICCQ)',
+    title: '2024 4th International Conference on Code Quality (ICCQ)',
     papers: {
       1: {
         'title': 'Foreword of Organizers',
