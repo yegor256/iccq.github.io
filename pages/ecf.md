@@ -133,7 +133,7 @@ $(function() {
 </form>
 
 The data you provide **won't** be stored in our website, but
-will be sent directly to 
+will be sent directly to the
 [IEEE eCF system](https://www.ieee.org/publications/rights/copyright-main.html).
 
-If any questions, email us [team@iccq.ru](mailto:team@iccq.ru).
+If any questions, [email us](mailto:team@iccq.ru).
