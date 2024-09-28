@@ -37,7 +37,7 @@ jobs:
           packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
       - run: mkdir output
       - run: mv cfp/2022/cfp.pdf output/iccq-cfp-2022.pdf
-      - uses: JamesIves/github-pages-deploy-action@v4.6.6
+      - uses: JamesIves/github-pages-deploy-action@v4.6.7
         with:
           branch: pdf
           folder: output
