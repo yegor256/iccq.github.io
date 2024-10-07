@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: yegor256/latexmk-action@0.13.0
+      - uses: yegor256/latexmk-action@0.14.0
         with:
           path: cfp/2022
           opts: -pdf
