@@ -1,7 +1,7 @@
-Name: 4th International Conference on Code Quality (ICCQ)
-Date: June 22, 2024
-Venue: Innopolis University, Russia
-Website: https://www.iccq.ru/2024.html
+Name: 5th International Conference on Code Quality (ICCQ)
+Date: June 28, 2025
+Venue: Ural Federal University, Russia
+Website: https://www.iccq.ru/2025.html
 Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
@@ -10,43 +10,40 @@ It’s a hybrid event, all speakers are welcome to either attend it in person or
 
 IMPORTANT DATES
 
-Paper/abstract submission: 3 Mar 2024 (anywhere on Earth)
-Author notification: 1 May 2024
-Camera-ready submissions: 25 May 2024
-Conference: 22 Jun 2024
-
-KEYNOTE SPEECH
-
-Xin Xia, Huawei
+Paper/abstract submission: 18 Feb 2025 (anywhere on Earth)
+Author notification: 1 May 2025
+Camera-ready submissions: 25 May 2025
+Conference: 28 Jun 2025
 
 PROGRAM COMMITTEE
 
-Anatoly Shalyto (Chair), ITMO University
-Vahid Alizadeh, DePaul University
-Vijay Anant Athavale, Walchand Institute of Technology
-Elisa Baniassad, University of British Columbia
-Pietro Braione, University of Milano-Bicocca
-Stephen Chang, UMass Boston
+Alexander K. Petrenko (Chair), ISP RAS
+Sara Abbaspour, Mälardalen University
+Rabe Abdalkareem, Omar al-Mukhtar University
+Mohammad Alshayeb, King Fahd University of Petroleum and Minerals
+Thomas Ball, Microsoft Research
+William J. Bowman, University of British Columbia
+Jacques Carette, McMaster University
 Bernhard Egger, Seoul National University
+Umar Farooq, Louisiana State University
 Eduardo Fernandes, University of Southern Denmark
-Yusuke Izawa, Tokyo Institute of Technology
 Javier Luis Cánovas Izquierdo, Universitat Oberta de Catalunya
 Ranjit Jhala, University of California, San Diego
-Tetsuo Kamina, Oita University
-Narges Khakpour, Newcastle University
-Kais Klai, University Sorbonne Paris Nord
 Antoine Miné, Sorbonne Université
-Mohamed Wiem Mkaouer, Rochester Institute of Technology
-Magnus Myreen, Chalmers University of Technology
+Murali Krishna Ramanathan, Amazon Web Services
 Francis Palma, University of New Brunswick
-Henrique Rebêlo, Universidade Federal de Pernambuco
-Ilya Sergey, National University of Singapore
-Yudai Tanabe, Tokyo Institute of Technology
+Tiark Rompf, Purdue University
+Amr Sabry, Indiana University
+Bjorn De Sutter, Ghent University
+G. Gary Tan, Pennsylvania State University
 Didier Verna, EPITA
-Guannan Wei, Purdue University
-Philip Wadler, University of Edinburgh
+Guowei Yang, University of Queensland
 Vadim Zaytsev, University of Twente
-Steve Zdancewic, University of Pennsylvania
+Jian Zhang, Nanyang Technological University
+
+KEYNOTE SPEECH
+
+...
 
 PUBLICATIONS
 
@@ -54,11 +51,11 @@ We consider the following criteria when evaluating papers. Novelty: The paper pr
 
 Papers will be reviewed by three PC members using a double-blind review process.
 
-Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the acmart template (sigplan, 11pt, anonymous). Submitted papers must be at least 6 and at most 20 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/iccq24
+Submissions must be in PDF, printable in black and white on US Letter sized paper. All submissions must adhere to the acmart template (sigplan, 11pt, anonymous). Submitted papers must be at least 6 and at most 20 pages long, including bibliographical references and appendices. Please, submit via EasyChair: https://easychair.org/cfp/iccq25
 
 SPONSORS
 
-ICCQ is sponsored by Innopolis University, HSE, and St. Petersburg University.
+ICCQ is sponsored by Ural Federal University, HSE, and Innopolis University.
 
 QUESTIONS?
 
