@@ -21,7 +21,7 @@
 # SOFTWARE.
 ---
 name: cfp
-on:
+'on':
   push:
     branches: master
     paths: ['cfp/2022/**', '.github/workflows/2022-cfp.yml']
