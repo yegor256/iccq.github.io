@@ -7,13 +7,13 @@ permalink: /principles.html
 
 ## Principles of Organization
 
-While organizing ICCQ, we aim to adhere to the principles of conference organization 
-set by [IEEE](https://ieeemce.org/planning-basics/) and 
-[ACM](https://www.acm.org/conferences). 
-Our primary objective is to achieve the highest possible quality while 
-making the most effective use of resources, including financial, marketing, and human labor. 
+While organizing ICCQ, we aim to adhere to the principles of conference organization
+set by [IEEE](https://ieeemce.org/planning-basics/) and
+[ACM](https://www.acm.org/conferences).
+Our primary objective is to achieve the highest possible quality while
+making the most effective use of resources, including financial, marketing, and human labor.
 
-Over the last few years, we have developed a few fundamental principles 
+Over the last few years, we have developed a few fundamental principles
 that guide the organization of ICCQ going forward each year:
 
 1. We conduct the conference **once a year**.
@@ -41,5 +41,5 @@ that guide the organization of ICCQ going forward each year:
   [TYPES/announce](https://lists.seas.upenn.edu/mailman/listinfo/types-announce),
   [call4paper.com](https://www.call4paper.com/).
 
-If you have suggestions or complaints about our organizational principles, 
+If you have suggestions or complaints about our organizational principles,
 please don't hesitate to email: [principles@iccq.ru](mailto:principles@iccq.ru).

@@ -97,4 +97,3 @@ around the most famous sights in Moscow. You don't want to miss these places:
 ([8.8km](https://goo.gl/maps/BLMyZxsu1BUfJ8mi9))
 [&copy; photo](https://zen.yandex.ru/media/sysoevfm/gde-est-na-vdnh-5d2e444ac49f2900aef436a2)
 ![vdnh](/images/city/vdnh.jpg)
-

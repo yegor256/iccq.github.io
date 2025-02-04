@@ -23,4 +23,3 @@ gem "tzinfo-data", platforms: [:x64_mingw, :mingw, :mswin]
 # A solution was proposed by [Adly](https://stackoverflow.com/users/1205392/adly),
 # and we added it to the Gemfile. Kindly NOT delete those two 'tzinfo' and 'tzinfo-data'
 # strings to avoid this issue.
-
