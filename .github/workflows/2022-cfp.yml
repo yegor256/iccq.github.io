@@ -28,7 +28,7 @@ name: cfp
 jobs:
   cfp:
     timeout-minutes: 15
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: yegor256/latexmk-action@0.15.0
