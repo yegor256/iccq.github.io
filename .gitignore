@@ -1,6 +1,12 @@
 .DS_Store
+.bundle/
+.idea/
+.sass-cache
+.yardoc/
 Gemfile.lock
 _site/
-.sass-cache
-.bundle/
+coverage/
+doc/
+node_modules/
+rdoc/
 vendor/
