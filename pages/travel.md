@@ -33,7 +33,7 @@ and
 Uber from any one of them to your hotel will take about an hour
 and will cost about $30.
 
-**Accomodation**<br/>
+**Accommodation**<br/>
 We suggest you to stay in one of these hotels:
 [Boutique Hotel Chemodanov](https://chemodanov-hotel.ru/en)
   ([0.7km](https://goo.gl/maps/2bU1BDmGiYgqS3GHA) from the venue),

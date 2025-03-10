@@ -23,7 +23,7 @@ how exactly you can help us make the event even better.
 
 This is what we expect from our partners (pick a few):
 
-  * Cover our expenses for promotion, accomodation, print,
+  * Cover our expenses for promotion, accommodation, print,
     design, and video editing;
 
   * Distribute information about ICCQ among those who
