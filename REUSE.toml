@@ -20,6 +20,7 @@ path = [
     "**/*.svg",
     "**/*.txt",
     "**/*.vm",
+    "**/.DS_Store",
     "**/.gitignore",
     "**/.latexmkrc",
     "**/.texqc",
