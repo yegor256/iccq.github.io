@@ -1,4 +1,6 @@
 ---
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
 layout: default
 date: 2020-05-13
 title: "Partnership"

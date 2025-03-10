@@ -1,8 +1,10 @@
 ---
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
 ---
 
 @charset 'utf-8';
-@import 'common';
+@use 'common';
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400&display=swap');

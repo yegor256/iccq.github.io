@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+
 source 'https://rubygems.org'
 
 gem 'jekyll', '4.4.1'

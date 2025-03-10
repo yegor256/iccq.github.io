@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+
 # Once ready, send it here: https://mft.ieee.org/conferences_events/ConfPubFileUploadUI/
 
 require 'time'

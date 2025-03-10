@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+
 all: book.pdf cover.pdf texsc texqc ieee booklet.pdf book-cmyk.pdf cover-cmyk.pdf
 
 install:

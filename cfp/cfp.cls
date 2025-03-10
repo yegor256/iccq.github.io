@@ -1,3 +1,6 @@
+% SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+% SPDX-License-Identifier: MIT
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cfp}[17/4/2021 0.1.0 Template for CFPs]
 \LoadClass[12pt,oneside]{article}

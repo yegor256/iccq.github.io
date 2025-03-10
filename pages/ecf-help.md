@@ -1,4 +1,6 @@
 ---
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
 layout: default
 date: 2022-03-29
 title: "IEEE Electronic Copyright Form (HowTo)"
