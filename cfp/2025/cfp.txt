@@ -17,7 +17,7 @@ Conference: 28 Jun 2025
 
 PROGRAM COMMITTEE
 
-Alexander K. Petrenko (Chair), ISP RAS
+Alexander Legalov (Chair), HSE University
 Sara Abbaspour, Mälardalen University
 Rabe Abdalkareem, Omar al-Mukhtar University
 Mohammad Alshayeb, King Fahd University of Petroleum and Minerals
