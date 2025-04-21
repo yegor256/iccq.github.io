@@ -3,7 +3,6 @@
 .idea/
 .sass-cache
 .yardoc/
-Gemfile.lock
 _site/
 coverage/
 doc/
