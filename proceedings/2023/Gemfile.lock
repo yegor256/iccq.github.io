@@ -2,19 +2,20 @@ GEM
   remote: https://rubygems.org/
   specs:
     backtrace (0.4.0)
-    loog (0.3.1)
+    loog (0.6.0)
     slop (4.8.2)
     texqc (0.8.0)
       backtrace (~> 0.3)
       loog (~> 0.2)
       slop (~> 4.8.2)
-    texsc (0.7.0)
+    texsc (0.8.0)
       backtrace (~> 0.3)
       loog (~> 0.2)
       slop (~> 4.8)
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   texqc
