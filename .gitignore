@@ -1,9 +1,9 @@
-.DS_Store
+_site/
 .bundle/
+.DS_Store
 .idea/
 .sass-cache
 .yardoc/
-_site/
 coverage/
 doc/
 node_modules/
