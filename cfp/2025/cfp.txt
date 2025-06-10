@@ -1,5 +1,5 @@
 Name: 5th International Conference on Code Quality (ICCQ)
-Date: Oct 27, 2025
+Date: Nov 27, 2025
 Venue: Ural Federal University, Russia
 Website: https://www.iccq.ru/2025.html
 Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
@@ -10,10 +10,10 @@ It’s a hybrid event, all speakers are welcome to either attend it in person or
 
 IMPORTANT DATES
 
-Paper/abstract submission: 10 Jun 2025 (anywhere on Earth)
-Author notification: 1 May 2025
-Camera-ready submissions: 25 Sep 2025
-Conference: 27 Oct 2025
+Paper/abstract submission: 10 Jul 2025 (anywhere on Earth)
+Author notification: 1 Oct 2025
+Camera-ready submissions: 25 Oct 2025
+Conference: 27 Nov 2025
 
 PROGRAM COMMITTEE
 
