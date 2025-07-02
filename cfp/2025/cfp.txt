@@ -32,7 +32,6 @@ Ranjit Jhala, University of California, San Diego
 Antoine Miné, Sorbonne Université
 Murali Krishna Ramanathan, Amazon Web Services
 Francis Palma, University of New Brunswick
-Tiark Rompf, Purdue University
 Amr Sabry, Indiana University
 Bjorn De Sutter, Ghent University
 G. Gary Tan, Pennsylvania State University
