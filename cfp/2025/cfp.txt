@@ -6,7 +6,7 @@ Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
 
 We believe that the quality of the source code that millions of programmers write every day could be much higher than it is now. We believe that the contribution computer science can make to improve this situation is greatly undervalued. We aim to solve this problem by gathering together cutting-edge researchers and letting them share their most recent ideas on static analysis, program verification, bug detection, and software maintenance.
 
-It’s a hybrid event, all speakers are welcome to either attend it in person or present their work remotely over Zoom.
+It's a hybrid event, all speakers are welcome to either attend it in person or present their work remotely over Zoom.
 
 IMPORTANT DATES
 
@@ -40,10 +40,6 @@ Guowei Yang, University of Queensland
 Vadim Zaytsev, University of Twente
 Jian Zhang, Nanyang Technological University
 
-KEYNOTE SPEECH
-
-...
-
 PUBLICATIONS
 
 We consider the following criteria when evaluating papers. Novelty: The paper presents new ideas and results and places them appropriately within the context established by previous research. Importance: The paper contributes to the advancement of knowledge in the field. We also welcome papers that diverge from the dominant trajectory of the field. Evidence: The paper presents sufficient evidence supporting its claims, such as proofs, implemented systems, experimental results, statistical analyses, case studies, and anecdotes. Clarity: The paper presents its contributions, methodology, and results clearly.
@@ -54,7 +50,7 @@ Submissions must be in PDF, printable in black and white on US Letter sized pape
 
 SPONSORS
 
-ICCQ is sponsored by Ural Federal University, HSE, and Innopolis University.
+ICCQ is sponsored by IEEE, Ural Federal University, HSE, and Innopolis University.
 
 QUESTIONS?
 
