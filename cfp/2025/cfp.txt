@@ -22,6 +22,7 @@ Sara Abbaspour, Mälardalen University
 Rabe Abdalkareem, Omar al-Mukhtar University
 Mohammad Alshayeb, King Fahd University of Petroleum and Minerals
 Thomas Ball, Microsoft Research
+Pietro Braione, University of Milano-Bicocca
 William J. Bowman, University of British Columbia
 Jacques Carette, McMaster University
 Bernhard Egger, Seoul National University
