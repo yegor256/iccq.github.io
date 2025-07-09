@@ -1,0 +1,8 @@
+hard changepage
+hard fancyhdr
+hard graphics
+hard hyperref
+hard microtype
+hard textpos
+hard wrapfig
+hard xcolor

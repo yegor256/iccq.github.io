@@ -17,7 +17,7 @@ jobs:
         with:
           path: cfp/2022
           opts: -pdf
-          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+          depends: cfp/DEPENDS.txt
       - run: mkdir output
       - run: mv cfp/2022/cfp.pdf output/iccq-cfp-2022.pdf
       - uses: JamesIves/github-pages-deploy-action@v4.7.3
@@ -34,7 +34,7 @@ jobs:
         with:
           path: cfp/2023
           opts: -pdf
-          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+          depends: cfp/DEPENDS.txt
       - run: mkdir output
       - run: mv cfp/2023/cfp.pdf output/iccq-cfp-2023.pdf
       - uses: JamesIves/github-pages-deploy-action@v4.7.3
@@ -51,7 +51,7 @@ jobs:
         with:
           path: cfp/2024
           opts: -pdf
-          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+          depends: cfp/DEPENDS.txt
       - run: mkdir output
       - run: mv cfp/2024/cfp.pdf output/iccq-cfp-2024.pdf
       - uses: JamesIves/github-pages-deploy-action@v4.7.3
@@ -68,7 +68,7 @@ jobs:
         with:
           path: cfp/2025
           opts: -pdf
-          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+          depends: cfp/DEPENDS.txt
       - run: mkdir output
       - run: mv cfp/2025/cfp.pdf output/iccq-cfp-2025.pdf
       - uses: JamesIves/github-pages-deploy-action@v4.7.3
