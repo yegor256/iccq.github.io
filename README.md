@@ -1,4 +1,4 @@
-# International Conference on Code Quality (ICCQ).
+# International Conference on Code Quality (ICCQ)
 
 [![pages-build-deployment](https://github.com/yegor256/iccq.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yegor256/iccq.github.io/actions/workflows/pages/pages-build-deployment)
 
