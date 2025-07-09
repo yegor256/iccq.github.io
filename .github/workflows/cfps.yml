@@ -1,0 +1,78 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+---
+# yamllint disable rule:line-length
+name: cfps
+'on':
+  push:
+    branches: master
+    paths: ['cfp/**', '.github/workflows/cfps.yml']
+jobs:
+  cfp-2022:
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yegor256/latexmk-action@0.16.1
+        with:
+          path: cfp/2022
+          opts: -pdf
+          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+      - run: mkdir output
+      - run: mv cfp/2022/cfp.pdf output/iccq-cfp-2022.pdf
+      - uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: pdf
+          folder: output
+          clean: false
+  cfp-2023:
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yegor256/latexmk-action@0.16.1
+        with:
+          path: cfp/2023
+          opts: -pdf
+          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+      - run: mkdir output
+      - run: mv cfp/2023/cfp.pdf output/iccq-cfp-2023.pdf
+      - uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: pdf
+          folder: output
+          clean: false
+  cfp-2024:
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yegor256/latexmk-action@0.16.1
+        with:
+          path: cfp/2024
+          opts: -pdf
+          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+      - run: mkdir output
+      - run: mv cfp/2024/cfp.pdf output/iccq-cfp-2024.pdf
+      - uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: pdf
+          folder: output
+          clean: false
+  cfp-2025:
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yegor256/latexmk-action@0.16.1
+        with:
+          path: cfp/2025
+          opts: -pdf
+          packages: wrapfig xcolor hyperref changepage graphics fancyhdr textpos
+      - run: mkdir output
+      - run: mv cfp/2025/cfp.pdf output/iccq-cfp-2025.pdf
+      - uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: pdf
+          folder: output
+          clean: false
