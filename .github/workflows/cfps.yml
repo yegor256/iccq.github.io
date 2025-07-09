@@ -8,6 +8,23 @@ name: cfps
     branches: master
     paths: ['cfp/**', '.github/workflows/cfps.yml']
 jobs:
+  cfp-2021:
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yegor256/latexmk-action@0.16.1
+        with:
+          path: cfp/2021
+          opts: -pdf
+          depends: cfp/DEPENDS.txt
+      - run: mkdir output
+      - run: mv cfp/2021/cfp.pdf output/iccq-cfp-2021.pdf
+      - uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: pdf
+          folder: output
+          clean: false
   cfp-2022:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
