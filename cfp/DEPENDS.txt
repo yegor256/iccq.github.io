@@ -4,6 +4,6 @@ hard graphics
 hard hyperref
 hard microtype
 hard textpos
-hard tikz
+hard pgf
 hard wrapfig
 hard xcolor
