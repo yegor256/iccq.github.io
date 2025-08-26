@@ -39,7 +39,6 @@ G. Gary Tan, Pennsylvania State University
 Didier Verna, EPITA
 Guowei Yang, University of Queensland
 Vadim Zaytsev, University of Twente
-Jian Zhang, Nanyang Technological University
 
 PUBLICATIONS
 
