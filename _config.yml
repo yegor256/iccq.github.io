@@ -17,7 +17,7 @@ breadcrumbs:
   - /2023.html: 2023
   - /2024.html: 2024
   - /2025.html: 2025
-  - /2025.html: 2026
+  - /2026.html: 2026
 encoding: utf-8
 timezone: Europe/Moscow
 permalink: :year-:month-:day-:title.html
