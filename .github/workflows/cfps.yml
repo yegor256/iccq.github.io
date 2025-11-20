@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: yegor256/latexmk-action@0.17.0
         with:
           path: cfp/2021
@@ -29,7 +29,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: yegor256/latexmk-action@0.17.0
         with:
           path: cfp/2022
@@ -46,7 +46,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: yegor256/latexmk-action@0.17.0
         with:
           path: cfp/2023
@@ -63,7 +63,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: yegor256/latexmk-action@0.17.0
         with:
           path: cfp/2024
@@ -80,7 +80,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: yegor256/latexmk-action@0.17.0
         with:
           path: cfp/2025
