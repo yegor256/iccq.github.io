@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backtrace (0.4.1)
+    logger (1.7.0)
+    loog (0.6.1)
+      logger (~> 1.0)
+    slop (4.8.2)
+    texqc (0.8.0)
+      backtrace (~> 0.3)
+      loog (~> 0.2)
+      slop (~> 4.8.2)
+    texsc (0.8.0)
+      backtrace (~> 0.3)
+      loog (~> 0.2)
+      slop (~> 4.8)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  texqc
+  texsc
+
+BUNDLED WITH
+   2.6.8

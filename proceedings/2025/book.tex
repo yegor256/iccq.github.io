@@ -1,0 +1,69 @@
+% SPDX-FileCopyrightText: Copyright (c) 2020-2025 Yegor Bugayenko
+% SPDX-License-Identifier: MIT
+
+\documentclass[12pt,twoside]{book}
+\usepackage{../iccq}
+
+\newwrite\pages
+\immediate\openout\pages=\jobname.pages
+
+\begin{document}
+
+\blankleaf
+
+\input{parts/title}
+
+\iccqTOC
+
+\input{parts/copyright}
+
+\intro{parts/preface-program}
+
+\intro{parts/preface-org}
+
+\input{parts/orgs}
+
+\input{parts/partners}
+
+\fancypagestyle{ieee}{\fancyfoot[C]{
+  \head{\paging} \\
+  \head{\input{isbn.txt}\unskip/21/\$31.00 \textcopyright{} \the\year{} IEEE}
+}}
+
+\newcounter{start}
+
+\blankleaf
+\index{Wang, Quanyu}
+\index{Liutova, Daria}
+\index{Malykh, Valentin}
+\paper{29}
+  {\nospell{Multilingual Code Comment Translation: A Case Study on Chinese, English, and Russian}}
+  {\nospell{Quanyu Wang, Daria Liutova, and Valentin Malykh}}
+
+\blankleaf
+\index{Menshutin, Aleksei}
+\paper{34}
+  {\nospell{Path-Minimal Objects in ArkTS Symbolic Execution}}
+  {\nospell{Aleksei Menshutin}}
+
+\blankleaf
+\index{Baranov, Alexander}
+\index{Eroschenko, Artem}
+\index{Vesyoly, Denis}
+\index{Voronchuk, Ilya}
+\paper{36}
+  {\nospell{Modeling and Software Development the Virtual Lab \enquote{Tonomura's single-electron double slit experiment}}}
+  {\nospell{Alexander V. Baranov, Artem A. Eroschenko, Denis A. Vesyoly, and Ilya I. Voronchuk}}
+
+\blankleaf
+\index{Dikov, Alexander}
+\index{Zvorygin, Vladimir}
+\index{Malykh, Valentin}
+\paper{39}
+  {\nospell{Diffusion vs Autoregression: An Empirical Study on Code Comment Translation}}
+  {\nospell{Alexander Dikov, Vladimir Zvorygin, and Valentin Malykh}}
+
+\blankleaf
+\iccqIndex
+
+\end{document}
