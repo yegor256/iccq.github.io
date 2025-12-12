@@ -90,6 +90,32 @@ var data = {
         'authors': 'Isabel Sampaio, Alberto Sampaio'
       }
     }
+  },
+  2025: {
+    record: 65694,
+    title: '2025 5th International Conference on Code Quality (ICCQ)',
+    papers: {
+      1: {
+        'title': 'Foreword of Organizers',
+        'authors': 'Yegor Bugayenko'
+      },
+      29: {
+        'title': 'Multilingual Code Comment Translation: A Case Study on Chinese, English, and Russian',
+        'authors': 'Quanyu Wang, Daria Liutova, Valentin Malykh'
+      },
+      34: {
+        'title': 'Path-Minimal Objects in ArkTS Symbolic Execution',
+        'authors': 'Aleksei Menshutin'
+      },
+      36: {
+        'title': 'Modeling and Software Development the Virtual Lab “Tonomura’s single-electron double slit experiment”',
+        'authors': 'Alexander Baranov, Artem Eroschenko, Ilya Voronchuk, Denis Vesyoly'
+      },
+      39: {
+        'title': 'Diffusion vs Autoregression: An Empirical Study on Code Comment Translation',
+        'authors': 'Vladimir Zvorygin, Alexander Dikov, Valentin Malykh'
+      }
+    }
   }
 };
 $(function() {
