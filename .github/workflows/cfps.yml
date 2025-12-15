@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - uses: yegor256/latexmk-action@0.17.0
+      - uses: yegor256/latexmk-action@0.18.2
         with:
           path: cfp/2021
           opts: -pdf
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - uses: yegor256/latexmk-action@0.17.0
+      - uses: yegor256/latexmk-action@0.18.2
         with:
           path: cfp/2022
           opts: -pdf
@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - uses: yegor256/latexmk-action@0.17.0
+      - uses: yegor256/latexmk-action@0.18.2
         with:
           path: cfp/2023
           opts: -pdf
@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - uses: yegor256/latexmk-action@0.17.0
+      - uses: yegor256/latexmk-action@0.18.2
         with:
           path: cfp/2024
           opts: -pdf
@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - uses: yegor256/latexmk-action@0.17.0
+      - uses: yegor256/latexmk-action@0.18.2
         with:
           path: cfp/2025
           opts: -pdf
