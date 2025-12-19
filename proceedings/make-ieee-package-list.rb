@@ -51,9 +51,8 @@ pages.each do |pg|
   qbash("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
   qbash("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
-  unless qbash("file #{fname}").include?('version 1.5')
-    raise 'qpdf produced incorrect version'
-  end
+  v = qbash("file #{fname}")
+  raise "qpdf produced incorrect version: #{v}" unless v.include?('version 1.7')
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   items << {
     file: fname,
