@@ -3,8 +3,9 @@
 
 # Once ready, send it here: https://mft.ieee.org/conferences_events/ConfPubFileUploadUI/
 
-require 'time'
 require 'fileutils'
+require 'qbash'
+require 'time'
 
 dir = File.expand_path(ARGV[0])
 
@@ -12,15 +13,8 @@ year = ARGV[1].nil? ? Time.new.year : ARGV[1].to_i
 
 items = []
 
-def exec(cmd)
-  puts "+ #{cmd}"
-  out = `#{cmd}`
-  puts '> ' + out.strip.gsub("\n", "\n> ") unless out.empty?
-  out
-end
-
-width = exec("identify -verbose #{File.join(dir, 'cover.pdf')} | grep 'geometry' | sed -E 's/[^0-9]/ /g' | xargs | cut -f1 -d' '").strip.to_i
-exec("pdfcrop --margins '-#{width / 2 + 50} 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
+width = qbash("identify -verbose #{File.join(dir, 'cover.pdf')} | grep 'geometry' | sed -E 's/[^0-9]/ /g' | xargs | cut -f1 -d' '").strip.to_i
+qbash("pdfcrop --margins '-#{width / 2 + 50} 0 0 0' #{File.join(dir, 'cover.pdf')} cover.pdf")
 items << { file: 'cover.pdf', type: 'front-cover', ecf: 'NA', ecf_id: '' }
 
 pages = {}
@@ -39,9 +33,9 @@ File.readlines(File.join(dir, 'book.toc')).each do |t|
   first = m[2][0].strip.to_i
   tail = pages.values.find { |p| p[:first] == first }
   last = tail.nil? ? first : tail[:last]
-  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
+  qbash("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = format('%s.pdf', title.downcase.gsub(/[^a-z]/, '-').gsub(/--/, '-'))
-  exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  qbash("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
   type = 'commentary'
   type = 'toc' if fname.include?('contents')
@@ -54,10 +48,10 @@ pages.each do |pg|
   next unless pid =~ /^[0-9]+$/
   first = pg[1][:first]
   last = pg[1][:last]
-  exec("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
+  qbash("pdfseparate #{File.join(dir, 'book.pdf')} -f #{first} -l #{last} %d.pdf")
   fname = "research-paper-#{pid}.pdf"
-  exec("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
-  unless exec("file #{fname}").include?('version 1.5')
+  qbash("qpdf --min-version=1.5 --empty --pages #{(first..last).map { |p| "#{p}.pdf" }.join(' ')} -- #{fname}")
+  unless qbash("file #{fname}").include?('version 1.5')
     raise 'qpdf produced incorrect version'
   end
   (first..last).each { |p| FileUtils.rm("#{p}.pdf") }
@@ -72,7 +66,7 @@ end
 items.each_with_index do |item, idx|
   fname = format('%02d-%s', idx + 1, item[:file])
   File.rename(item[:file], fname)
-  exec("exiftool -overwrite_original -Creator='Certified by IEEE PDFeXpress at #{Time.now.strftime("%B %-d, %Y %H:%M:%S")}' #{fname}")
+  qbash("exiftool -overwrite_original -Creator='Certified by IEEE PDFeXpress at #{Time.now.strftime("%B %-d, %Y %H:%M:%S")}' #{fname}")
   item[:file] = fname
   item[:index] = idx + 1
 end
