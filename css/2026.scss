@@ -6,8 +6,8 @@
 @charset 'utf-8';
 @use 'common';
 
-$body: white;
-$border: black;
+$body: firebrick;
+$border: white;
 
 header {
   .front {
@@ -18,7 +18,7 @@ header {
           text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
       }
       span {
-        /*background-color: rgba(255,255,255,0.4);*/
+        background-color: rgba(255,255,255,0.4);
       }
     }
   }
