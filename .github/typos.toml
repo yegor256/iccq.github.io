@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+
+[default.extend-words]
+cristal = "cristal"
+Neum = "Neum"
