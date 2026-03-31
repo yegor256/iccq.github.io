@@ -1,32 +1,10 @@
 % SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
 % SPDX-License-Identifier: MIT
 
-\documentclass{article}
-\usepackage{geometry}
-
-\geometry{paperwidth=7in, paperheight=4.75in, left=0.25in, right=0.25in, top=0.25in, bottom=0.25in}
-
-\usepackage[absolute]{textpos}\TPGrid{16}{16}
-\usepackage{fancyhdr}
-  \pagestyle{fancy}
-  \renewcommand{\headrulewidth}{0pt}
-  \fancyhf{}
-\usepackage{graphicx}
-\usepackage{bold-extra}
-\usepackage{anyfontsize}
-\usepackage{xcolor}
-  \definecolor{xblack}{HTML}{1a1919}
-  \definecolor{xred}{HTML}{b22222}
+\documentclass{ad}
+\adsetup{paperwidth=7in, paperheight=4.75in, left=0.25in, right=0.25in, top=0.25in, bottom=0.25in}
+\adgrid{16}{16}
 \begin{document}
-\fontfamily{cmtt}\selectfont
-\raggedbottom
-\raggedright
-\setlength{\topskip}{6pt}
-\setlength{\parindent}{0pt} % indent first line
-\setlength{\parskip}{6pt} % before par
-\color{xblack}
-
-\newcommand\invert[1]{\colorbox{xred}{\textcolor{white}{#1}}}
 
 \begin{textblock}{14}[1,1](15,15)
   \raggedleft
@@ -37,7 +15,7 @@
   \raggedleft\large
   \underline{www.iccq.ru}
 
-  \textcolor{xred}{CfP closes on \invert{18 Feb}}
+  \textcolor{red}{CfP closes on \invert{18 Feb}}
 
   In cooperation with \\
   IEEE Computer Society
