@@ -4,30 +4,46 @@
 ---
 
 @charset 'utf-8';
-@use 'common';
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400&display=swap');
+@use 'common' as *;
 
-$em: 22px;
-$width: 32 * $em;
+@font-face {
+  font-family: Consolas;
+  src: url('https://www.yegor256.com/fonts/consolas/regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Candara;
+  src: url('https://www.yegor256.com/fonts/candara/regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Cambria;
+  src: url('https://www.yegor256.com/fonts/cambria/regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-family: 'Inconsolata', monospace;
+  color: $black;
+  font-family: 'Consolas', monospace;
   font-size: $em;
   line-height: 1.3em;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Candara', sans-serif;
   margin-bottom: 1em;
   margin-top: 4em;
   clear: both;
 }
 
 h2 {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Candara', sans-serif;
   margin-bottom: 1em;
   font-size: 1.6em;
   margin-top: 4em;
@@ -45,9 +61,9 @@ header {
       padding: 4em;
       width: 1.4 * $width;
       margin: auto;
-      font-family: 'Fira Code', monospace;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      color: firebrick;
+      font-family: 'Consolas', monospace;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px $black;
+      color: $red;
       font-size: 2.5em;
       line-height: 1em;
       @media all and (max-width: 1024px) {
@@ -55,7 +71,7 @@ header {
       }
       @media all and (max-width: 768px) {
         font-size: 1em;
-        color: white;
+        color: $white;
         padding-left: 2em;
         padding-right: 2em;
       }
@@ -107,7 +123,7 @@ section {
   footer {
     text-align: center;
     font-size: 0.8em;
-    color: gray;
+    color: $gray;
   }
 }
 
@@ -125,7 +141,7 @@ section {
     float: left;
     margin-right: 1em;
     height: 120px;
-    border: 1px solid lightgray;
+    border: 1px solid $silver;
   }
 }
 
@@ -138,7 +154,7 @@ section {
     margin-bottom: 1em;
     height: 92px;
     width: 92px;
-    border: 1px solid gray;
+    border: 1px solid $gray;
   }
 }
 
@@ -151,7 +167,7 @@ section {
     margin-bottom: 1em;
     height: 92px;
     width: 92px;
-    border: 1px solid gray;
+    border: 1px solid $gray;
   }
 }
 
@@ -177,11 +193,11 @@ section {
 }
 
 .warning {
-  border-left: 4px solid firebrick;
+  border-left: 4px solid $red;
   padding-left: 1em;
-  color: firebrick;
+  color: $red;
   a {
-    color: firebrick;
+    color: $red;
     text-decoration: underline;
   }
 }
@@ -189,7 +205,7 @@ section {
 .agenda {
   border-left-width: 8px;
   border-left-style: solid;
-  border-left-color: lightgray;
+  border-left-color: $silver;
   padding-left: 8px;
   margin-bottom: 2px;
   font-size: 0.8em;
@@ -239,9 +255,9 @@ section {
 }
 
 .abstract {
-  font-family: 'PT Serif', serif;
+  font-family: 'Cambria', serif;
   font-size: 0.8em;
-  color: gray;
+  color: $gray;
   line-height: 1.1em;
   margin-left: 2em;
   margin-top: -1em;
@@ -275,17 +291,17 @@ ul {
 }
 
 em {
-  font-style: italic;
+  font-style: bold;
 }
 
 strong {
   font-style: bold;
-  color: firebrick;
+  color: $red;
 }
 
 .break {
   height: 0px;
-  color: white;
+  color: $white;
   margin-top: 5em;
 }
 

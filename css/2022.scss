@@ -4,10 +4,10 @@
 ---
 
 @charset 'utf-8';
-@use 'common';
+@use 'common' as *;
 
-$body: firebrick;
-$border: black;
+$body: $red;
+$border: $black;
 
 header {
   .front {
@@ -15,7 +15,7 @@ header {
       color: $body;
       text-shadow: -1px 0 $border, 0 1px $border, 1px 0 $border, 0 -1px $border;
       @media all and (max-width: 1024px) {
-          text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+          text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
       }
     }
   }
