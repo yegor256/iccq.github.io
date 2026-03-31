@@ -45,7 +45,7 @@
 
 \newcommand\PrintLogo{%
   \begin{textblock}{2.5}[1,0](14,1.5)%
-    \includegraphics[width=\textwidth]{../../logo}
+    \includegraphics[width=\textwidth]{../../images/logo/logo.pdf}
   \end{textblock}
 }
 

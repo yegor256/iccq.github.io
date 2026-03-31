@@ -9,10 +9,8 @@ PDFS=$(TEXS:.tex=.pdf)
 
 all: $(PDFS)
 
-colors.tex: ../../_sass/_colors.scss
-	echo '% Auto-generated from _colors.scss' > $@
-	grep '^\$$' $< | sed 's/\$$\([a-z]*\): #\([0-9a-fA-F]\{6\}\);/\\definecolor{\1}{HTML}{\U\2}/' | \
-		sed 's/\$$\([a-z]*\): #\([0-9a-fA-F]\)\([0-9a-fA-F]\)\([0-9a-fA-F]\);/\\definecolor{\1}{HTML}{\U\2\2\3\3\4\4}/' >> $@
+colors.tex: ../../_sass/_colors.scss ../scripts/make-colors.sh
+	../scripts/make-colors.sh $< $@
 
 %.pdf: %.tex colors.tex ../ad.cls
 	TEXINPUTS=.:..: latexmk -pdf $<
