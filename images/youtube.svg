@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1023px" height="719px" viewBox="0 0 1023 719" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="50%" y1="-6.33530188e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E52D27" offset="0%"></stop>
+            <stop stop-color="#BF171D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.800000, 0.300000)" fill-rule="nonzero">
+            <polygon id="Triangle" fill="#FFFFFF" points="405.2 491.7 681.2 348.7 405.2 204.7"></polygon>
+            <polygon id="The_Sharpness" fill="#420000" opacity="0.12" points="405.2 204.7 647.2 366.3 681.2 348.7"></polygon>
+            <path d="M1011.2,155 C1011.2,155 1001.2,84.6 970.6,53.6 C931.8,12.9 888.2,12.7 868.3,10.3 C725.3,0 510.9,0 510.9,0 L510.5,0 C510.5,0 296.1,0 153.1,10.3 C133.2,12.7 89.6,12.9 50.8,53.6 C20.2,84.6 10.2,155 10.2,155 C10.2,155 0,237.6 0,320.3 L0,397.8 C0,480.5 10.2,563.1 10.2,563.1 C10.2,563.1 20.2,633.5 50.8,664.5 C89.7,705.2 140.7,703.9 163.4,708.2 C245.1,716 510.7,718.5 510.7,718.5 C510.7,718.5 725.3,718.2 868.3,707.8 C888.3,705.4 931.8,705.2 970.6,664.5 C1001.2,633.5 1011.2,563.1 1011.2,563.1 C1011.2,563.1 1021.4,480.4 1021.4,397.8 L1021.4,320.3 C1021.4,237.6 1011.2,155 1011.2,155 Z M405.2,491.7 L405.2,204.7 L681.2,348.7 L405.2,491.7 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
