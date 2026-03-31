@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
 # SPDX-License-Identifier: MIT
 
-TEXS=$(wildcard *.tex)
+TEXS=$(filter-out colors.tex,$(wildcard *.tex))
 PDFS=$(TEXS:.tex=.pdf)
 
 .NOTINTERMEDIATE:
