@@ -24,6 +24,12 @@
 \RequirePackage{anyfontsize}
 \RequirePackage{xcolor}
   \input{colors.tex}
+\RequirePackage{fontspec}
+  \setmainfont{Consolas}[
+    Path=..,
+    Extension=.ttf,
+    UprightFont=consolas
+  ]
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
@@ -34,7 +40,6 @@
 \newcommand{\invert}[1]{\colorbox{red}{\textcolor{white}{#1}}}
 
 \AtBeginDocument{%
-  \fontfamily{cmtt}\selectfont
   \raggedbottom
   \raggedright
   \setlength{\topskip}{6pt}

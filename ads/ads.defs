@@ -9,10 +9,13 @@ PDFS=$(TEXS:.tex=.pdf)
 
 all: $(PDFS)
 
+../consolas.ttf:
+	wget -o ../consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
+
 colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
 	../../scripts/make-colors.sh $< $@
 
-%.pdf: %.tex colors.tex ../ad.cls
+%.pdf: %.tex colors.tex ../ad.cls ../consolas.ttf
 	TEXINPUTS=.:..: latexmk -pdf $<
 	if [[ $@ =~ [0-9]+x[0-9]+.pdf ]]; then
 		dim=$$(echo $@ | sed s/.pdf// | sed 's/^.\+-//')
@@ -24,7 +27,7 @@ colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
 	fi
 
 clean:
-	for e in dvi aux toc ind fdb_latexmk log ilg fls idx out jpg pdf bak jpeg png pre; do \
+	for e in dvi aux toc ind fdb_latexmk log ilg fls idx out jpg pdf bak jpeg png pre ttf; do \
 	  rm -rf *.$${e}; \
 	done
 	rm -rf ${PDFS} colors.tex
