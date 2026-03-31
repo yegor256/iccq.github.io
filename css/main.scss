@@ -22,6 +22,13 @@
 }
 
 @font-face {
+  font-family: Candara;
+  src: url('https://www.yegor256.com/fonts/candara/bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: Cambria;
   src: url('https://www.yegor256.com/fonts/cambria/regular.ttf') format('truetype');
   font-weight: normal;
@@ -38,6 +45,7 @@ body {
 
 h1 {
   font-family: 'Candara', sans-serif;
+  font-weight: bold;
   margin-bottom: 1em;
   margin-top: 4em;
   clear: both;
@@ -45,6 +53,7 @@ h1 {
 
 h2 {
   font-family: 'Candara', sans-serif;
+  font-weight: bold;
   margin-bottom: 1em;
   font-size: 1.6em;
   margin-top: 4em;
