@@ -1,6 +1,6 @@
 # International Conference on Code Quality (ICCQ)
 
-[![pages-build-deployment](https://github.com/yegor256/iccq.github.io/actions/workflows/pages/jekyll/badge.svg)](https://github.com/yegor256/iccq.github.io/actions/workflows/pages/jekyll)
+[![jekyll](https://github.com/yegor256/iccq.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/yegor256/iccq.github.io/actions/workflows/jekyll.yml)
 
 You are welcome to submit corrections to this web site.
 In order to do that, you will need [Ruby] 2.3+ and [Bundler] installed.
