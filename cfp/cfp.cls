@@ -3,14 +3,22 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cfp}[17/4/2021 0.1.0 Template for CFPs]
+
 \LoadClass[12pt,oneside]{article}
+
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{microtype}
 \RequirePackage{wrapfig}
+\RequirePackage{fontspec}
+  \setmainfont{Consolas}[
+    Path=../,
+    Extension=.ttf,
+    UprightFont=consolas
+  ]
 \RequirePackage{xcolor}
-  \definecolor{xred}{HTML}{b02428}
+  \input{colors.tex}
 \RequirePackage{hyperref}
-  \hypersetup{colorlinks=true,allcolors=xred}
+  \hypersetup{colorlinks=true,allcolors=red}
 \RequirePackage[left=1.5in, right=1in, top=1.2in, bottom=1.2in]{geometry}
 \RequirePackage{changepage}
 \RequirePackage{graphicx}
@@ -21,11 +29,12 @@
   \fancyhf{}
   \fancyfoot[C]{
     \begin{textblock}{0.5}[0,0](0,0)
-      \tikz \node[fill=xred,minimum width=0.5\TPHorizModule,minimum height=16\TPVertModule] {};
+      \tikz \node[fill=red,minimum width=0.5\TPHorizModule,minimum height=16\TPVertModule] {};
     \end{textblock}%
   }
 \RequirePackage[absolute]{textpos}\TPGrid{16}{16}
 \RequirePackage{tikz}
+
 
 \AtBeginDocument{%
   \fontfamily{cmtt}\selectfont
@@ -57,7 +66,7 @@
 }
 
 \newcommand\PrintTitle[1]{%
-  {\color{xred}\bfseries
+  {\color{red}\bfseries
     {\large The #1} \newline
     {\Large International Conference on \\[3pt] Code Quality (ICCQ)}
   }

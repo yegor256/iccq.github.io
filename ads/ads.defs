@@ -9,8 +9,8 @@ PDFS=$(TEXS:.tex=.pdf)
 
 all: $(PDFS)
 
-colors.tex: ../../_sass/_colors.scss ../scripts/make-colors.sh
-	../scripts/make-colors.sh $< $@
+colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
+	../../scripts/make-colors.sh $< $@
 
 %.pdf: %.tex colors.tex ../ad.cls
 	TEXINPUTS=.:..: latexmk -pdf $<

@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
+# SPDX-License-Identifier: MIT
+
+TEXS=$(filter-out colors.tex,$(wildcard *.tex))
+PDFS=$(TEXS:.tex=.pdf)
+
+.ONESHELL:
+
+all: $(PDFS)
+
+../consolas.ttf:
+	wget -o ../consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
+
+colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
+	../../scripts/make-colors.sh $< $@
+
+%.pdf: %.tex colors.tex ../cfp.cls ../consolas.ttf
+	latexmk -pdf $<
+
+clean:
+	for e in dvi aux toc ind fdb_latexmk log ilg fls idx out bbl blg pdf; do \
+	  rm -rf *.$${e}; \
+	done
+	rm -rf colors.tex

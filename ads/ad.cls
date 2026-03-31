@@ -23,8 +23,7 @@
 \RequirePackage{bold-extra}
 \RequirePackage{anyfontsize}
 \RequirePackage{xcolor}
-
-\input{colors.tex}
+  \input{colors.tex}
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}

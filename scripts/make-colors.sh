@@ -10,3 +10,5 @@ output="$2"
 echo '% Auto-generated from _colors.scss' > "$output"
 grep '^\$' "$input" | sed 's/\$\([a-z]*\): #\([0-9a-fA-F]\{6\}\);/\\definecolor{\1}{HTML}{\U\2}/' | \
     sed 's/\$\([a-z]*\): #\([0-9a-fA-F]\)\([0-9a-fA-F]\)\([0-9a-fA-F]\);/\\definecolor{\1}{HTML}{\U\2\2\3\3\4\4}/' >> "$output"
+
+printf '\\endinput' >> "$output"
