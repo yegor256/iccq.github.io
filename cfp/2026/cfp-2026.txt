@@ -13,11 +13,18 @@ IMPORTANT DATES
 Paper/abstract submission: 1 Aug 2026 (anywhere on Earth)
 Author notification: 1 Nov 2026
 Camera-ready submissions: 25 Nov 2026
-Conference: 13 Dec 2026
+Conference: 12 Dec 2026
 
 PROGRAM COMMITTEE
 
-...
+Anastasios Antoniadis, University of Athens
+Alexandre Bergel, University of Chile
+Jérôme Feret, Inria
+Rajiv Gupta, University of California, Riverside
+David H. Lorenz, Open University of Israel
+Benjamin C. Pierce, University of Pennsylvania
+Yudai Tanabe, Tokyo Institute of Technology
+Didier Verna, EPITA
 
 PUBLICATIONS
 
