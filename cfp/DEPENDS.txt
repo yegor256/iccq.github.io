@@ -1,9 +1,10 @@
 hard changepage
 hard fancyhdr
+hard fontspec
 hard graphics
 hard hyperref
 hard microtype
-hard textpos
 hard pgf
+hard textpos
 hard wrapfig
 hard xcolor
