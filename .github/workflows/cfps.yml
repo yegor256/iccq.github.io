@@ -18,7 +18,7 @@ jobs:
           sudo apt-get install --yes ghostscript texlive-extra-utils
       - uses: zauguin/install-texlive@v4.2.0
         with:
-          packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype pgf textpos wrapfig latexmk xelatex
+          packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype pgf textpos wrapfig latexmk xetex
           texlive_version: 2026
       - run: make -C cfp
       - run: make -C cfp collect
