@@ -1,4 +1,5 @@
 *.aux
+*.bak
 *.bbl
 *.blg
 *.fdb_latexmk
@@ -6,5 +7,5 @@
 *.log
 *.out
 *.pdf
-*.bak
 colors.tex
+consolas.ttf

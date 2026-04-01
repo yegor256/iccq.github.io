@@ -9,7 +9,7 @@ PDFS=$(TEXS:.tex=.pdf)
 all: $(PDFS)
 
 ../consolas.ttf:
-	wget -o ../consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
+	wget -O ../consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
 
 colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
 	../../scripts/make-colors.sh $< $@

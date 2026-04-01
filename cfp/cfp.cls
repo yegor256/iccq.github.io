@@ -37,7 +37,6 @@
 
 
 \AtBeginDocument{%
-  \fontfamily{cmtt}\selectfont
   \raggedbottom
   \raggedright
   \setlength{\topskip}{6pt}

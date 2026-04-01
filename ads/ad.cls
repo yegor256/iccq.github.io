@@ -26,7 +26,7 @@
   \input{colors.tex}
 \RequirePackage{fontspec}
   \setmainfont{Consolas}[
-    Path=..,
+    Path=../,
     Extension=.ttf,
     UprightFont=consolas
   ]
