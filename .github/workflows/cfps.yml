@@ -19,7 +19,7 @@ jobs:
       - uses: yegor256/latexmk-action@0.19.0
         with:
           path: cfp/${{ matrix.year }}
-          opts: -pdf
+          opts: -pdfxe
           depends: cfp/DEPENDS.txt
       - run: mkdir output
       - run: mv "cfp/${{ matrix.year }}/cfp-${{ matrix.year }}.pdf" "output/iccq-cfp-${{ matrix.year }}.pdf"
