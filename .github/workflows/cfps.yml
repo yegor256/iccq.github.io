@@ -16,12 +16,14 @@ jobs:
         year: [2021, 2022, 2023, 2024, 2025, 2026]
     steps:
       - uses: actions/checkout@v6
-      - run: wget -O cfp/consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
-      - uses: yegor256/latexmk-action@0.19.0
+      - run: |
+          sudo apt-get update --yes --fix-missing
+          sudo apt-get install --yes ghostscript texlive-extra-utils
+      - uses: zauguin/install-texlive@v4.2.0
         with:
-          path: cfp/${{ matrix.year }}
-          opts: -pdfxe
-          depends: cfp/DEPENDS.txt
+          packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype pgf textpos wrapfig
+          texlive_version: 2026
+      - run: make -C cfp
       - run: mkdir output
       - run: mv "cfp/${{ matrix.year }}/cfp-${{ matrix.year }}.pdf" "output/iccq-cfp-${{ matrix.year }}.pdf"
       - uses: JamesIves/github-pages-deploy-action@v4.8.0
