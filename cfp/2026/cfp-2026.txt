@@ -1,5 +1,5 @@
 Name: 6th International Conference on Code Quality (ICCQ)
-Date: Dec 13, 2026
+Date: Dec 12, 2026
 Venue: A.P. Ershov Institute of Informatics Systems, Russia
 Website: https://www.iccq.ru/2026.html
 Published by: IEEE Xplore (in cooperation with IEEE Computer Society)
