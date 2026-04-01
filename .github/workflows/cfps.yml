@@ -11,9 +11,6 @@ jobs:
   cfp:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        year: [2021, 2022, 2023, 2024, 2025, 2026]
     steps:
       - uses: actions/checkout@v6
       - run: |
@@ -21,11 +18,11 @@ jobs:
           sudo apt-get install --yes ghostscript texlive-extra-utils
       - uses: zauguin/install-texlive@v4.2.0
         with:
-          packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype pgf textpos wrapfig
+          packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype pgf textpos wrapfig latexmk
           texlive_version: 2026
       - run: make -C cfp
-      - run: mkdir output
-      - run: mv "cfp/${{ matrix.year }}/cfp-${{ matrix.year }}.pdf" "output/iccq-cfp-${{ matrix.year }}.pdf"
+      - run: make -C cfp collect
+      - run: mv cfp/output .
       - uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           branch: pdf
