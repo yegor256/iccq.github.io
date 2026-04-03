@@ -92,10 +92,11 @@ header {
     max-width: 40em;
     margin: auto;
     @media all and (max-width: 1024px) {
-      text-align: left;
+      text-align: justify;
     }
     li {
       margin: 0;
+      text-align: justify;
       @media all and (max-width: 1024px) {
         display: block;
       }
@@ -125,7 +126,8 @@ section {
     border: 0;
     p {
       @media all and (min-width: 1024px) {
-        text-align: left;
+        text-align: justify;
+        text-justify: auto;
         hyphens: auto;
       }
     }
