@@ -22,10 +22,6 @@ that guide the organization of ICCQ going forward each year:
 
 1. We host ICCQ at Russian universities, trying each year to choose a **new host**.
 
-<!-- 1. We invite a representative from the hosting university to be the Chair of the Program Committee (PC). -->
-
-<!-- 1. We invite two people --- one from industry and one from academia --- to join the Steering Committee (SC). -->
-
 1. We promise our authors at least **three reviews** for each paper.
 
 1. We expect scientists to hold their positions on the PC for no more than **two consecutive years**.
