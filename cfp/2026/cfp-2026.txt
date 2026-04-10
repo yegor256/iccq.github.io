@@ -20,11 +20,14 @@ PROGRAM COMMITTEE
 Anastasios Antoniadis, University of Athens
 Alexandre Bergel, University of Chile
 Jérôme Feret, Inria
+Eduardo Fernandes, University of Southern Denmark
 Rajiv Gupta, University of California, Riverside
 David H. Lorenz, Open University of Israel
 Benjamin C. Pierce, University of Pennsylvania
 Yudai Tanabe, Tokyo Institute of Technology
+Philip Wadler, University of Edinburgh
 Didier Verna, EPITA
+Enea Zaffanella, University of Parma
 
 PUBLICATIONS
 
