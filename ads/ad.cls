@@ -24,12 +24,8 @@
 \RequirePackage{anyfontsize}
 \RequirePackage{xcolor}
   \input{colors.tex}
-\RequirePackage{fontspec}
-  \setmainfont{Consolas}[
-    Path=../,
-    Extension=.ttf,
-    UprightFont=consolas
-  ]
+\RequirePackage{paratype}
+\renewcommand{\familydefault}{\ttdefault}
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}

@@ -9,13 +9,10 @@ PDFS=$(TEXS:.tex=.pdf)
 
 all: $(PDFS)
 
-../consolas.ttf:
-	wget -O ../consolas.ttf https://www.yegor256.com/fonts/consolas/regular.ttf
-
 colors.tex: ../../_sass/_colors.scss ../../scripts/make-colors.sh
 	../../scripts/make-colors.sh $< $@
 
-%.pdf: %.tex colors.tex ../ad.cls ../consolas.ttf
+%.pdf: %.tex colors.tex ../ad.cls
 	TEXINPUTS=.:..: latexmk -pdf $<
 	if [[ $@ =~ [0-9]+x[0-9]+.pdf ]]; then
 		dim=$$(echo $@ | sed s/.pdf// | sed 's/^.\+-//')

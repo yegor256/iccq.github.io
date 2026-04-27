@@ -4,6 +4,7 @@ hard fontspec
 hard graphics
 hard hyperref
 hard microtype
+hard paratype
 hard pgf
 hard textpos
 hard wrapfig
