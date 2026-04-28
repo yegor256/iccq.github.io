@@ -24,7 +24,6 @@
 \RequirePackage{anyfontsize}
 \RequirePackage{xcolor}
   \input{colors.tex}
-\RequirePackage{paratype}
 \renewcommand{\familydefault}{\ttdefault}
 
 \pagestyle{fancy}

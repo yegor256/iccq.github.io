@@ -7,18 +7,44 @@
 @use 'colors' as *;
 @use 'common' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/cmuntt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/cmuntb.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('/fonts/cmunrm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('/fonts/cmunbx.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 body {
   color: $black;
-  font-family: 'PT Mono', monospace;
+  font-family: 'CMU Typewriter', monospace;
   font-size: $em;
   line-height: 1.3em;
   padding: 0;
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'CMU Typewriter', monospace;
   font-weight: bold;
   margin-bottom: 1em;
   margin-top: 4em;
@@ -26,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'CMU Typewriter', monospace;
   font-weight: bold;
   margin-bottom: 1em;
   font-size: 1.6em;
@@ -45,7 +71,7 @@ header {
       padding: 4em;
       width: 1.4 * $width;
       margin: auto;
-      font-family: 'PT Mono', monospace;
+      font-family: 'CMU Typewriter', monospace;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px $black;
       color: $red;
       font-size: 2.5em;
@@ -241,7 +267,7 @@ section {
 }
 
 .abstract {
-  font-family: 'PT Serif', serif;
+  font-family: 'CMU Serif', serif;
   font-size: 0.8em;
   color: $gray;
   line-height: 1.1em;

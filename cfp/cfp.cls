@@ -9,7 +9,6 @@
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{microtype}
 \RequirePackage{wrapfig}
-\RequirePackage{paratype}
 \renewcommand{\familydefault}{\ttdefault}
 \RequirePackage{xcolor}
   \input{colors.tex}
