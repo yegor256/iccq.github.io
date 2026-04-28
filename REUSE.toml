@@ -43,3 +43,9 @@ path = [
 precedence = "override"
 SPDX-FileCopyrightText = "Copyright (c) 2025 Yegor Bugayenko"
 SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["fonts/*.ttf"]
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright (c) 1997-2009 Andrey V. Panov; Copyright (c) 2009-2012 Daniel Benjamin Miller"
+SPDX-License-Identifier = "OFL-1.1"
