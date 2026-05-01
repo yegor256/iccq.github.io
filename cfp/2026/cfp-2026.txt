@@ -28,6 +28,7 @@ Dongjie He, Chongqing University
 David H. Lorenz, Open University of Israel
 Hila Peleg, Technion
 Benjamin C. Pierce, University of Pennsylvania
+Abhishek Kr Singh, IIIT Hyderabad
 Yudai Tanabe, Tokyo Institute of Technology
 Didier Verna, EPITA
 Philip Wadler, University of Edinburgh
