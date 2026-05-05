@@ -11,6 +11,7 @@ path = [
     ".texqc",
     ".texsc",
     "**.jpg",
+    "**.woff2",
     "**.json",
     "**.md",
     "**.pdf",

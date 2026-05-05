@@ -9,28 +9,32 @@
 
 @font-face {
   font-family: 'CMU Typewriter';
-  src: url('/fonts/cmuntt.ttf') format('truetype');
+  src: url('/fonts/cmuntt.woff2') format('woff2'),
+       url('/fonts/cmuntt.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CMU Typewriter';
-  src: url('/fonts/cmuntb.ttf') format('truetype');
+  src: url('/fonts/cmuntb.woff2') format('woff2'),
+       url('/fonts/cmuntb.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CMU Serif';
-  src: url('/fonts/cmunrm.ttf') format('truetype');
+  src: url('/fonts/cmunrm.woff2') format('woff2'),
+       url('/fonts/cmunrm.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CMU Serif';
-  src: url('/fonts/cmunbx.ttf') format('truetype');
+  src: url('/fonts/cmunbx.woff2') format('woff2'),
+       url('/fonts/cmunbx.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
