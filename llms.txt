@@ -1,0 +1,40 @@
+# ICCQ — International Conference on Code Quality
+
+> ICCQ is a peer-reviewed, one-day academic computer science conference focused on static and dynamic analysis, program verification, programming language design, software bug detection, and software maintenance. It has been held annually since 2021. Chair: Yegor Bugayenko (yegor256@gmail.com). Homepage: https://www.iccq.ru
+
+## Editions
+
+- [ICCQ-2026 — 6th edition, 12 December 2026, Novosibirsk, Russia (hybrid)](https://www.iccq.ru/2026.html)
+- [ICCQ-2025 — 5th edition, 13 December 2025, Ekaterinburg, Russia](https://www.iccq.ru/2025.html)
+- [ICCQ-2024 — 4th edition, 22 June 2024, Innopolis University, Russia](https://www.iccq.ru/2024.html)
+- [ICCQ-2023 — 3rd edition, 22 April 2023, St. Petersburg, Russia](https://www.iccq.ru/2023.html)
+- [ICCQ-2022 — 2nd edition, 23 April 2022, Innopolis, Kazan, Russia](https://www.iccq.ru/2022.html)
+- [ICCQ-2021 — 1st edition, 27 March 2021, online](https://www.iccq.ru/2021.html)
+
+## Topics
+
+- Static and dynamic program analysis
+- Program verification and formal methods
+- Programming language design
+- Software bug detection
+- Software maintenance and evolution
+
+## Publication
+
+Proceedings are submitted to IEEE Xplore and indexed by DBLP, Scopus, and Web of Science.
+
+## Resources
+
+- [Call for papers (CFP) — current edition](https://www.iccq.ru/2026.html#cfp)
+- [Important dates — current edition](https://www.iccq.ru/2026.html#dates)
+- [Principles](https://www.iccq.ru/principles.html)
+- [Partnership](https://www.iccq.ru/partnership.html)
+- [Code of conduct](https://www.iccq.ru/coc.html)
+- [GitHub repository](https://github.com/yegor256/iccq.github.io)
+- [YouTube channel](https://www.youtube.com/channel/UC_W-pjp6HWJGjK2sayFrnag)
+
+## Contact
+
+- General: team@iccq.ru
+- Program committee: pc@iccq.ru
+- Submissions: cfp@iccq.ru

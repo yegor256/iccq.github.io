@@ -33,6 +33,7 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 feed:
   title: www.iccq.ru

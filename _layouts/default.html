@@ -8,9 +8,10 @@ layout: compress
   <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
-    <meta name="description" content="In cooperation with IEEE Computer Society the event is focused on static analysis, program verification, bug detection, and software maintenance."/>
+    <meta name="description" content="{{ page.description | default: site.description | strip_newlines | xml_escape }}"/>
     <meta name="keywords" content="computer science, code quality, static analysis"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="shortcut icon" href="/images/logo/logo-64.png"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yegor256/drops@gh-pages/drops.min.css"/>
@@ -29,6 +30,38 @@ layout: compress
     <meta property="og:title" content="{{ page.title | xml_escape }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:description" content="{{ page.description | xml_escape }}" />
+    {% if page.year and page.start_date and page.location_name %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": {{ page.title | jsonify }},
+      "url": "{{ site.url }}{{ page.url }}",
+      "startDate": "{{ page.start_date }}",
+      "endDate": "{{ page.end_date | default: page.start_date }}",
+      "eventStatus": "https://schema.org/{{ page.event_status | default: 'EventScheduled' }}",
+      "eventAttendanceMode": "https://schema.org/{{ page.event_attendance_mode | default: 'MixedEventAttendanceMode' }}",
+      "description": {{ page.description | default: site.description | strip_newlines | jsonify }},
+      "location": {
+        "@type": "Place",
+        "name": {{ page.location_name | jsonify }},
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": {{ page.location_name | jsonify }},
+          "addressCountry": {{ page.location_country | default: 'RU' | jsonify }}
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "International Conference on Code Quality (ICCQ)",
+        "url": "{{ site.url }}"
+      },
+      "image": "{{ site.url }}/images/twitter-card.jpg",
+      "inLanguage": "en",
+      "isAccessibleForFree": true
+    }
+    </script>
+    {% endif %}
   </head>
   <body>
     {% if page.front %}
