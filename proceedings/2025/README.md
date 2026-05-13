@@ -1,10 +1,12 @@
+# ICCQ 2025 Proceedings
+
 This is the Proceedings in LaTeX.
 
 To build it, just run:
 
 ```bash
-$ bundle install
-$ make
+bundle install
+make
 ```
 
 You need to have (they all are Homebrew installable)
