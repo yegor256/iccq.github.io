@@ -22,12 +22,15 @@ PAGES_DIR="$(cd "$(dirname "$0")/../pages" && pwd)"
 YEARS=$(ls "$PAGES_DIR" | grep -E '^[0-9]{4}\.md$' | sort)
 
 python3 - <<'PYEOF'
+import os
 import re
 import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 import ssl
+import glob
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -40,8 +43,17 @@ HEADERS = {
     'Accept-Language': 'en-US,en;q=0.5',
 }
 
-import os
-import glob
+proxy = (os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
+         or os.environ.get('HTTP_PROXY') or os.environ.get('http_proxy'))
+if proxy:
+    print(f'Using proxy: {proxy}', file=sys.stderr)
+    handlers = [
+        urllib.request.ProxyHandler({'http': proxy, 'https': proxy}),
+        urllib.request.HTTPSHandler(context=ctx),
+    ]
+    urllib.request.install_opener(urllib.request.build_opener(*handlers))
+else:
+    print('No proxy set; set HTTPS_PROXY to route through one', file=sys.stderr)
 
 pages_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'pages')
 year_files = sorted(glob.glob(os.path.join(pages_dir, '[0-9][0-9][0-9][0-9].md')))
@@ -52,12 +64,20 @@ def fetch_scholar(url, retries=2):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             resp = urllib.request.urlopen(req, timeout=15, context=ctx)
-            return resp.read().decode('utf-8', errors='ignore')
-        except Exception as e:
-            if attempt < retries - 1:
-                time.sleep(2)
-            else:
+            html = resp.read().decode('utf-8', errors='ignore')
+            if 'unusual traffic' in html.lower() or 'sorry/index' in html.lower():
+                print(f'    blocked by Scholar (captcha/anti-bot) on {url}', file=sys.stderr)
                 return None
+            return html
+        except urllib.error.HTTPError as e:
+            print(f'    HTTP {e.code} {e.reason} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
+        except urllib.error.URLError as e:
+            print(f'    URLError {e.reason} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
+        except Exception as e:
+            print(f'    {type(e).__name__}: {e} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
+        if attempt < retries - 1:
+            time.sleep(2)
+    return None
 
 def get_citation_count_by_cites(cluster_id):
     """Get citation count from a ?cites=CLUSTERID Scholar URL."""
