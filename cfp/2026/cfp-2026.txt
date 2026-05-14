@@ -27,6 +27,7 @@ Rajiv Gupta, University of California, Riverside
 Dongjie He, Chongqing University
 Doug Lea, State Univ. of New York at Oswego
 David H. Lorenz, Open University of Israel
+Umang Mathur, National University of Singapore
 Hila Peleg, Technion
 Benjamin C. Pierce, University of Pennsylvania
 Taro Sekiyama, National Institute of Informatics
