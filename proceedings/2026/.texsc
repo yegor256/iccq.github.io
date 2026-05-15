@@ -1,0 +1,8 @@
+--pws=aspell.en.pws
+--ignore=nospell
+--ignore=setlist
+--ignore=includepdf:op
+--ignore=partner:ppp
+--ignore=indexsetup,index
+--ignore=fancypagestyle:pp
+--ignore=thispagestyle

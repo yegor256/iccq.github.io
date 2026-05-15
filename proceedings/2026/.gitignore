@@ -1,0 +1,10 @@
+papers/
+*.pdf
+svg-inkscape/
+*.idx
+*.ilg
+*.ind
+pdf/
+ieee-package-list/
+*.zip
+*.pages
