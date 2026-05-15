@@ -2,173 +2,183 @@
 # SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
 # SPDX-License-Identifier: MIT
 #
-# Update "Cited by NNN" counts in year .md files by querying Google Scholar.
-# Run this script locally (not in CI) since Google Scholar blocks cloud IPs.
+# Update "Cited by NNN" counts in year .md files using the
+# Semantic Scholar Academic Graph API.
 #
 # Usage:
 #   bash scripts/update-citations.sh
 #
-# Requirements:
-#   pip install requests beautifulsoup4
+# Optional environment:
+#   SEMANTIC_SCHOLAR_API_KEY  raise the per-IP rate limit
+#   CITE_DELAY                seconds between API calls (default 1.2)
 #
-# Each paper's "Cited by NNN" link is updated with the current count from Scholar.
-# Links must be in the format: https://scholar.google.com/scholar?cites=CLUSTERID
-# For papers using the ?q=doi: format, the script will search by DOI to find
-# the cluster ID and citation count.
+# The script reads each pages/YYYY.md file, finds every
+#   [Cited by N](https://scholar.google.com/scholar?...)
+# link, and refreshes N from Semantic Scholar.
+#
+# Resolution order for each paper:
+#   1. DOI in the scholar?q=doi:... URL
+#   2. DOI inferred from a sibling https://ieeexplore.ieee.org/document/NNNN link
+#   3. Title from the preceding **Bold** markdown line, searched on
+#      Semantic Scholar (citation URLs in the markdown may be wrong,
+#      so the title is the most reliable identifier we have).
+#
+# The Scholar URL is left untouched; only the count is updated.
 
 set -e
 
 PAGES_DIR="$(cd "$(dirname "$0")/../pages" && pwd)"
-YEARS=$(ls "$PAGES_DIR" | grep -E '^[0-9]{4}\.md$' | sort)
+export PAGES_DIR
 
-python3 - <<'PYEOF'
+python3 -u - <<'PYEOF'
 import os
 import re
 import sys
 import time
-import urllib.request
-import urllib.parse
-import urllib.error
-import ssl
 import glob
+import json
+import urllib.parse
 
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
+try:
+    import requests
+except ImportError:
+    sys.exit('requests is required: pip install requests')
 
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
-                  '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-}
+API = 'https://api.semanticscholar.org/graph/v1'
+HEADERS = {'User-Agent': 'iccq-citation-updater/1.0 (+https://www.iccq.ru)'}
+API_KEY = os.environ.get('SEMANTIC_SCHOLAR_API_KEY')
+if API_KEY:
+    HEADERS['x-api-key'] = API_KEY
 
-proxy = (os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
-         or os.environ.get('HTTP_PROXY') or os.environ.get('http_proxy'))
-if proxy:
-    print(f'Using proxy: {proxy}', file=sys.stderr)
-    handlers = [
-        urllib.request.ProxyHandler({'http': proxy, 'https': proxy}),
-        urllib.request.HTTPSHandler(context=ctx),
-    ]
-    urllib.request.install_opener(urllib.request.build_opener(*handlers))
-else:
-    print('No proxy set; set HTTPS_PROXY to route through one', file=sys.stderr)
+session = requests.Session()
+session.headers.update(HEADERS)
 
-pages_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'pages')
+DELAY = float(os.environ.get('CITE_DELAY', '1.2'))
+RETRY_AFTER = 20.0
+
+pages_dir = os.environ['PAGES_DIR']
 year_files = sorted(glob.glob(os.path.join(pages_dir, '[0-9][0-9][0-9][0-9].md')))
+if not year_files:
+    sys.exit(f'No year .md files found in {pages_dir}')
 
-def fetch_scholar(url, retries=2):
-    """Fetch a Google Scholar page and return the HTML."""
+def get(url, params=None, retries=3):
     for attempt in range(retries):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            resp = urllib.request.urlopen(req, timeout=15, context=ctx)
-            html = resp.read().decode('utf-8', errors='ignore')
-            if 'unusual traffic' in html.lower() or 'sorry/index' in html.lower():
-                print(f'    blocked by Scholar (captcha/anti-bot) on {url}', file=sys.stderr)
-                return None
-            return html
-        except urllib.error.HTTPError as e:
-            print(f'    HTTP {e.code} {e.reason} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
-        except urllib.error.URLError as e:
-            print(f'    URLError {e.reason} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
-        except Exception as e:
-            print(f'    {type(e).__name__}: {e} on {url} (attempt {attempt + 1}/{retries})', file=sys.stderr)
-        if attempt < retries - 1:
-            time.sleep(2)
+            r = session.get(url, params=params, timeout=20)
+        except requests.exceptions.RequestException as e:
+            print(f'    {type(e).__name__}: {e}', file=sys.stderr)
+            time.sleep(RETRY_AFTER)
+            continue
+        if r.status_code == 429:
+            wait = float(r.headers.get('Retry-After') or RETRY_AFTER)
+            print(f'    rate-limited, sleeping {wait}s', file=sys.stderr)
+            time.sleep(wait)
+            continue
+        if r.status_code == 404:
+            return None
+        if r.status_code != 200:
+            print(f'    HTTP {r.status_code} on {url} {params or ""}', file=sys.stderr)
+            time.sleep(RETRY_AFTER)
+            continue
+        try:
+            return r.json()
+        except ValueError:
+            return None
     return None
 
-def get_citation_count_by_cites(cluster_id):
-    """Get citation count from a ?cites=CLUSTERID Scholar URL."""
-    url = f'https://scholar.google.com/scholar?cites={cluster_id}'
-    html = fetch_scholar(url)
-    if html is None:
+def count_by_doi(doi):
+    data = get(f'{API}/paper/DOI:{urllib.parse.quote(doi, safe="")}',
+               params={'fields': 'citationCount,title'})
+    if not data:
         return None
-    # Scholar shows "About N results" for cites pages
-    match = re.search(r'About ([\d,]+) results', html)
-    if match:
-        return int(match.group(1).replace(',', ''))
-    # Or directly cited by count
-    match = re.search(r'Cited by (\d+)', html)
-    if match:
-        return int(match.group(1))
+    return data.get('citationCount')
+
+def count_by_title(title):
+    data = get(f'{API}/paper/search/match',
+               params={'query': title, 'fields': 'citationCount,title'})
+    if data and data.get('data'):
+        return data['data'][0].get('citationCount')
+    data = get(f'{API}/paper/search',
+               params={'query': title, 'limit': 1, 'fields': 'citationCount,title'})
+    if data and data.get('data'):
+        return data['data'][0].get('citationCount')
     return None
 
-def get_citation_count_by_doi(doi):
-    """Search Scholar by DOI and return (citation_count, cluster_id)."""
-    url = f'https://scholar.google.com/scholar?q=doi:{urllib.parse.quote(doi)}'
-    html = fetch_scholar(url)
-    if html is None:
-        return None, None
-    # Find cited by link and count
-    match = re.search(r'cites=(\d+)[^"]*"[^>]*>Cited by (\d+)', html)
-    if match:
-        return int(match.group(2)), match.group(1)
-    # Try alternate format
-    match = re.search(r'Cited by (\d+)', html)
-    cites_match = re.search(r'cites=(\d+)', html)
-    count = int(match.group(1)) if match else None
-    cluster_id = cites_match.group(1) if cites_match else None
-    return count, cluster_id
+CITE_RE = re.compile(
+    r'\[Cited by (\d+)\]\((https://scholar\.google\.com/scholar\?[^)]+)\)'
+)
+TITLE_RE = re.compile(r'^\*\*([^*][^\n]+?)\*\*\s*$', re.MULTILINE)
+IEEE_DOC_RE = re.compile(r'ieeexplore\.ieee\.org/document/(\d+)')
+
+def paper_context(content, idx):
+    """Return (title, ieee_doc_id) inferred from the markdown block above idx."""
+    block_start = content.rfind('\n\n', 0, idx)
+    block = content[block_start:idx] if block_start >= 0 else content[:idx]
+    titles = TITLE_RE.findall(block)
+    title = titles[-1].strip() if titles else None
+    ieee = IEEE_DOC_RE.search(block)
+    return title, (ieee.group(1) if ieee else None)
+
+def doi_from_url(scholar_url):
+    m = re.search(r'q=doi:([^&]+)', scholar_url)
+    return urllib.parse.unquote(m.group(1)) if m else None
+
+def resolve_count(year, scholar_url, title, ieee_doc):
+    sources = []
+    doi = doi_from_url(scholar_url)
+    if doi:
+        sources.append(('doi-from-url', doi))
+    if ieee_doc and (not doi or not doi.endswith(ieee_doc)):
+        sources.append(('doi-from-ieee', f'10.1109/{ieee_doc}'))
+    for label, value in sources:
+        n = count_by_doi(value)
+        time.sleep(DELAY)
+        if n is not None:
+            return n, label, value
+    if title:
+        n = count_by_title(title)
+        time.sleep(DELAY)
+        if n is not None:
+            return n, 'title', title
+    return None, None, None
 
 total_updated = 0
+total_seen = 0
+total_unresolved = 0
 
 for filepath in year_files:
     year = os.path.basename(filepath).replace('.md', '')
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
-
     original = content
-
-    # Find all "Cited by N" links
-    pattern = r'\[Cited by (\d+)\]\((https://scholar\.google\.com/scholar\?[^)]+)\)'
-
-    def update_citation(m):
-        global total_updated
-        current_count = int(m.group(1))
-        scholar_url = m.group(2)
-
-        new_count = None
-        new_cluster_id = None
-
-        if 'cites=' in scholar_url:
-            cluster_id = re.search(r'cites=(\d+)', scholar_url).group(1)
-            new_count = get_citation_count_by_cites(cluster_id)
-            new_cluster_id = cluster_id
-        elif 'q=doi:' in scholar_url:
-            doi = urllib.parse.unquote(re.search(r'q=doi:([^&]+)', scholar_url).group(1))
-            new_count, new_cluster_id = get_citation_count_by_doi(doi)
-
-        if new_count is None:
-            print(f'  [{year}] Could not fetch count for: {scholar_url[:60]}...')
-            return m.group(0)
-
-        # Build the link - prefer cites= format, fall back to q=doi:
-        if new_cluster_id and 'cites=' not in scholar_url:
-            new_url = f'https://scholar.google.com/scholar?cites={new_cluster_id}'
-        else:
-            new_url = scholar_url
-
-        result = f'[Cited by {new_count}]({new_url})'
-
-        if new_count != current_count or new_url != scholar_url:
-            print(f'  [{year}] Updated: {current_count} -> {new_count}')
-            if new_url != scholar_url:
-                print(f'         URL: {scholar_url[:60]} -> {new_url}')
-            total_updated += 1
-
-        time.sleep(1)  # Be polite to Scholar
-        return result
-
-    # Process the file
     print(f'Processing {year}.md...')
-    content = re.sub(pattern, update_citation, content)
+
+    edits = []
+    for m in CITE_RE.finditer(content):
+        total_seen += 1
+        current = int(m.group(1))
+        url = m.group(2)
+        title, ieee = paper_context(content, m.start())
+        new_count, via, value = resolve_count(year, url, title, ieee)
+        label = title or url[:60]
+        if new_count is None:
+            total_unresolved += 1
+            print(f'  [{year}] unresolved: {label}')
+            continue
+        if new_count != current:
+            print(f'  [{year}] {current} -> {new_count} ({via}: {value}) {label}')
+            edits.append((m.start(), m.end(), f'[Cited by {new_count}]({url})'))
+
+    if edits:
+        edits.sort(reverse=True)
+        for start, end, repl in edits:
+            content = content[:start] + repl + content[end:]
+        total_updated += len(edits)
 
     if content != original:
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
-        print(f'  [{year}] File updated.')
+        print(f'  [{year}] file updated ({len(edits)} change(s))')
 
-print(f'\nDone. {total_updated} citation(s) updated.')
+print(f'\nDone. Saw {total_seen}; updated {total_updated}; unresolved {total_unresolved}.')
 PYEOF
