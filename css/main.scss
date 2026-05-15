@@ -128,7 +128,8 @@ section {
   margin-right: auto;
   article {
     border: 0;
-    p {
+    p,
+    ul {
       @media all and (min-width: 1024px) {
         text-align: justify;
         text-justify: auto;

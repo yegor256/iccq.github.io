@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
 # SPDX-License-Identifier: MIT
 #
-# Update "Cited by NNN" counts in year .md files using the
+# Update citation counts in year .md files using the
 # Semantic Scholar Academic Graph API.
 #
 # Usage:
@@ -13,7 +13,7 @@
 #   CITE_DELAY                seconds between API calls (default 1.2)
 #
 # The script reads each pages/YYYY.md file, finds every
-#   [Cited by N](https://scholar.google.com/scholar?...)
+#   [![semanticscholar logo](/images/semanticscholar.svg)N](https://scholar.google.com/scholar?...){:.semanticscholar}
 # link, and refreshes N from Semantic Scholar.
 #
 # Resolution order for each paper:
@@ -105,7 +105,8 @@ def count_by_title(title):
     return None
 
 CITE_RE = re.compile(
-    r'\[Cited by (\d+)\]\((https://scholar\.google\.com/scholar\?[^)]+)\)'
+    r'\[!\[semanticscholar logo\]\(/images/semanticscholar\.svg\)(\d+)\]'
+    r'\((https://scholar\.google\.com/scholar\?[^)]+)\)\{:\.semanticscholar\}'
 )
 TITLE_RE = re.compile(r'^\*\*([^*][^\n]+?)\*\*\s*$', re.MULTILINE)
 IEEE_DOC_RE = re.compile(r'ieeexplore\.ieee\.org/document/(\d+)')
@@ -167,7 +168,8 @@ for filepath in year_files:
             continue
         if new_count != current:
             print(f'  [{year}] {current} -> {new_count} ({via}: {value}) {label}')
-            edits.append((m.start(), m.end(), f'[Cited by {new_count}]({url})'))
+            edits.append((m.start(), m.end(),
+                f'[![semanticscholar logo](/images/semanticscholar.svg){new_count}]({url}){{:.semanticscholar}}'))
 
     if edits:
         edits.sort(reverse=True)
