@@ -131,8 +131,7 @@ section {
     p,
     ul {
       @media all and (min-width: 1024px) {
-        text-align: justify;
-        text-justify: auto;
+        text-align: left;
         hyphens: auto;
       }
     }
@@ -279,6 +278,7 @@ section {
   line-height: 1.1em;
   margin-left: 2em;
   margin-top: -1em;
+  text-align: justify;
   &:before {
     content: '“';
   }
