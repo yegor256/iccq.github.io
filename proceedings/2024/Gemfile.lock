@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    backtrace (0.4.0)
-    loog (0.6.0)
-    slop (4.8.2)
-    texqc (0.8.0)
-      backtrace (~> 0.3)
-      loog (~> 0.2)
-      slop (~> 4.8.2)
+    backtrace (0.4.1)
+    ellipsized (0.3.0)
+    logger (1.7.0)
+    loog (0.8.0)
+      ellipsized
+      logger (~> 1.0)
+    slop (4.10.1)
+    texqc (0.9.1)
+      backtrace (~> 0.4)
+      loog (~> 0.8)
+      slop (~> 4.10)
     texsc (0.8.0)
       backtrace (~> 0.3)
       loog (~> 0.2)
