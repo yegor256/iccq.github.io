@@ -16,7 +16,7 @@ jobs:
       - run: |
           sudo apt-get update --yes --fix-missing
           sudo apt-get install --yes ghostscript texlive-extra-utils
-      - uses: zauguin/install-texlive@v4.2.0
+      - uses: zauguin/install-texlive@v4.4.0
         with:
           packages: scheme-basic geometry xcolor microtype etoolbox fontspec changepage fancyhdr graphics hyperref microtype paratype pgf textpos wrapfig latexmk xetex
           texlive_version: 2026
