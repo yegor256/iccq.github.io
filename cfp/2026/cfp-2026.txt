@@ -17,6 +17,7 @@ Conference: 12 Dec 2026
 
 PROGRAM COMMITTEE
 
+Vladimir Ivanov (Chair), Innopolis University
 Anastasios Antoniadis, University of Athens
 Alexandre Bergel, University of Chile
 Umar Farooq, UCR
