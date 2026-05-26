@@ -15,6 +15,10 @@ Author notification: 1 Nov 2026
 Camera-ready submissions: 25 Nov 2026
 Conference: 12 Dec 2026
 
+KEYNOTE
+
+Patrick Cousot, New York University
+
 PROGRAM COMMITTEE
 
 Vladimir Ivanov (Chair), Innopolis University
