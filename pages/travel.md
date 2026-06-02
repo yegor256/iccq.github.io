@@ -35,9 +35,9 @@ and will cost about $30.
 
 **Accommodation**<br/>
 We suggest you to stay in one of these hotels:
-[Boutique Hotel Chemodanov](https://chemodanov-hotel.ru/en)
+[Boutique Hotel Chemodanov](https://chemodanov-hotel.ru/)
   ([0.7km](https://goo.gl/maps/2bU1BDmGiYgqS3GHA) from the venue),
-[Custos Hotel Lubyansky](https://custoshotels.com/custos-hotel-lubyansky/?lang=en)
+Custos Hotel Lubyansky
   ([0.9km](https://g.page/Custos-Lubyansky?share)),
 or
 [PR Myasnitsky Boutique Hotel](https://prhotelgroup.ru/en/)
