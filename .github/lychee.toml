@@ -43,5 +43,7 @@ exclude = [
   "pldi-conferences\\.org",
   "popl\\.sigplan\\.org",
   "354group\\.com",
-  "www\\.dme\\.ru"
+  "www\\.dme\\.ru",
+  "drzhivago\\.ru",
+  "prhotelgroup\\.ru"
 ]
