@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: Copyright (c) 2020-2026 Yegor Bugayenko
 # SPDX-License-Identifier: MIT
 ---
+# yamllint disable rule:line-length
 name: lychee
 'on':
   push:
@@ -15,9 +16,31 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
-      - uses: lycheeverse/lychee-action@v2
+      - uses: actions/cache/restore@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.run_id }}
+          restore-keys: cache-lychee-
+      # The v2 tag (v2.8.0) predates the fix for lychee's new tarball layout,
+      # where the binary lives in a subfolder; pin to the merged fix until a
+      # release ships it: https://github.com/lycheeverse/lychee-action/pull/330
+      - uses: lycheeverse/lychee-action@6da1d14f3a43098a294b7696d93d938aa8d20fc0
         with:
           lycheeVersion: nightly
-          args: --config .github/lychee.toml '**/*.md' '**/*.html'
+          args: --config .github/lychee.toml --cache --max-cache-age 1d '**/*.md' '**/*.html'
           format: compact
           jobSummary: false
+      # Keep only successful entries, so a transient timeout is never cached
+      # and replayed as a failure; flaky links are re-checked on the next run.
+      - name: prune-cache
+        if: always()
+        run: |
+          if [ -f .lycheecache ]; then
+            awk -F, '$(NF-1) ~ /^(200|202|301|302|307|401|403|429|500|501|502|503|504|520|522)$/' .lycheecache > .lycheecache.tmp && mv .lycheecache.tmp .lycheecache
+          fi
+      - name: save-cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.run_id }}

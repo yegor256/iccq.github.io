@@ -13,10 +13,10 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 accept = [200, 202, 301, 302, 307, 401, 403, 429, 500, 501, 502, 503, 504, 520, 522]
 
-timeout = 60
-max_retries = 16
+timeout = 40
+max_retries = 5
 
-max_concurrency = 16
+max_concurrency = 4
 host_concurrency = 2
 
 exclude_path = [
@@ -32,5 +32,19 @@ exclude = [
   "^/",
   "://t\\.co/",
   "web\\.archive\\.org",
-  "%7B%7B"
+  "%7B%7B",
+  "scholar\\.google\\.",
+  "uber\\.com",
+  "conferences\\.ieee\\.org",
+  "cib\\.bnpparibas",
+  "arc\\.gov\\.au",
+  "cse\\.snu\\.ac\\.kr",
+  "cybersecurity\\.cse\\.ust\\.hk",
+  "pldi-conferences\\.org",
+  "popl\\.sigplan\\.org",
+  "354group\\.com",
+  "www\\.dme\\.ru",
+  "drzhivago\\.ru",
+  "prhotelgroup\\.ru",
+  "ieeesiberia\\.org"
 ]
