@@ -45,5 +45,6 @@ exclude = [
   "354group\\.com",
   "www\\.dme\\.ru",
   "drzhivago\\.ru",
-  "prhotelgroup\\.ru"
+  "prhotelgroup\\.ru",
+  "ieeesiberia\\.org"
 ]
