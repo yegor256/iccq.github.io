@@ -1,4 +1,4 @@
-Name: 3nd International Conference on Code Quality (ICCQ)
+Name: 3rd International Conference on Code Quality (ICCQ)
 Date: April 22, 2023
 Venue: St. Petersburg State University, Russia
 Website: https://www.iccq.ru/2023.html
