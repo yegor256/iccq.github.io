@@ -1,13 +1,33 @@
 # ICCQ — International Conference on Code Quality
 
-> ICCQ is a peer-reviewed, one-day academic computer science conference focused on static and dynamic analysis, program verification, programming language design, software bug detection, and software maintenance. It has been held annually since 2021. Chair: Yegor Bugayenko (yegor256@gmail.com). Homepage: https://www.iccq.ru
+> ICCQ is a peer-reviewed academic computer science conference on code quality: static and dynamic analysis, program verification, programming language design, software bug detection, and software maintenance. It is a one-day event, held annually in Russia since 2021, in English. Chair: Yegor Bugayenko (yegor256@gmail.com). Homepage: https://www.iccq.ru
+
+## About
+
+ICCQ happens once a year and is hosted by a Russian university,
+  deliberately a different one each edition:
+  Moscow, Innopolis, St. Petersburg, Ekaterinburg, and Novosibirsk so far.
+The working language is English and the program is international —
+  the Program Committee is drawn from universities across the world,
+  and recent editions are hybrid, so speakers may present remotely over Zoom.
+
+Nothing costs money: no submission fee, no publication fee, no registration fee.
+Talks are streamed live on the YouTube channel and can be watched without registering.
+
+Every paper receives at least three double-blind reviews from Program Committee members.
+A paper with any "reject" review is not accepted,
+  no limit is set on the number of accepted papers,
+  and the Chair of the PC may veto up to 20% of the accepted ones.
+Submissions follow the acmart sigplan template, run 6 to 20 pages,
+  and any datasets or source code behind them must be deposited to Zenodo.
+The full set of organizational rules lives on the Principles page.
 
 ## Editions
 
-- [ICCQ-2026 — 6th edition, 12 December 2026, Novosibirsk, Russia (hybrid)](https://www.iccq.ru/2026.html)
+- [ICCQ-2026 — 6th edition, 12 December 2026, Novosibirsk, Russia (hybrid), with A.P. Ershov Institute of Informatics Systems](https://www.iccq.ru/2026.html)
 - [ICCQ-2025 — 5th edition, 13 December 2025, Ekaterinburg, Russia](https://www.iccq.ru/2025.html)
 - [ICCQ-2024 — 4th edition, 22 June 2024, Innopolis University, Russia](https://www.iccq.ru/2024.html)
-- [ICCQ-2023 — 3rd edition, 22 April 2023, St. Petersburg, Russia](https://www.iccq.ru/2023.html)
+- [ICCQ-2023 — 3rd edition, 22 April 2023, St. Petersburg University, Russia](https://www.iccq.ru/2023.html)
 - [ICCQ-2022 — 2nd edition, 23 April 2022, Innopolis, Kazan, Russia](https://www.iccq.ru/2022.html)
 - [ICCQ-2021 — 1st edition, 27 March 2021, online](https://www.iccq.ru/2021.html)
 
@@ -22,12 +42,14 @@
 ## Publication
 
 Proceedings are submitted to IEEE Xplore and indexed by DBLP, Scopus, and Web of Science.
+Papers from every past edition, 2021 through 2025, are available in IEEE Xplore.
 
 ## Resources
 
 - [Call for papers (CFP) — current edition](https://www.iccq.ru/2026.html#cfp)
 - [Important dates — current edition](https://www.iccq.ru/2026.html#dates)
-- [Principles](https://www.iccq.ru/principles.html)
+- [Instructions for authors — current edition](https://www.iccq.ru/2026.html#authors)
+- [Principles of organization](https://www.iccq.ru/principles.html)
 - [Partnership](https://www.iccq.ru/partnership.html)
 - [Code of conduct](https://www.iccq.ru/coc.html)
 - [GitHub repository](https://github.com/yegor256/iccq.github.io)
@@ -38,3 +60,4 @@ Proceedings are submitted to IEEE Xplore and indexed by DBLP, Scopus, and Web of
 - General: team@iccq.ru
 - Program committee: pc@iccq.ru
 - Submissions: cfp@iccq.ru
+- Organizational principles: principles@iccq.ru
