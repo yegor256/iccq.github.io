@@ -37,10 +37,11 @@ Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universität Düsseldorf
 William J. Bowman, University of British Columbia
 Laura M. Castro, Universidade da Coruña
 Shigeru Chiba, University of Tokyo
+Daniele Cono D'Elia, Sapienza University of Rome
 Christian Hammer, University of Passau
 Mats Heimdahl, University of Minnesota
 Robert Hirschfeld, University of Potsdam
-Alexandra Jimborean, Uppsala University
+Alexandra Jimborean, University of Murcia
 David H. Lorenz, Open University of Israel
 Hidehiko Masuhara, Tokyo Institute of Technology
 Hausi A. Müller, University of Victoria
@@ -50,6 +51,7 @@ Veselin Raychev, ETH
 Tiark  Rompf, Purdue University
 Yulei Sui, University of Technology Sydney
 Will Tracz, IFIP
+Qianxiang Wang, Huawei
 Laurie Williams, North Carolina State University
 Tuba Yavuz, University of Florida
 
