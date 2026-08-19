@@ -40,7 +40,7 @@ Shigeru Chiba, University of Tokyo
 Christian Hammer, University of Passau
 Mats Heimdahl, University of Minnesota
 Robert Hirschfeld, University of Potsdam
-Alexandra Jimborean, Uppsala University
+Alexandra Jimborean, University of Murcia
 David H. Lorenz, Open University of Israel
 Hidehiko Masuhara, Tokyo Institute of Technology
 Hausi A. Müller, University of Victoria
