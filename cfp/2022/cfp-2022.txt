@@ -40,14 +40,14 @@ Shigeru Chiba, University of Tokyo
 Christian Hammer, University of Passau
 Mats Heimdahl, University of Minnesota
 Robert Hirschfeld, University of Potsdam
-Alexandra Jimborean, Uppsala University
+Alexandra Jimborean, University of Murcia
 David H. Lorenz, Open University of Israel
 Hidehiko Masuhara, Tokyo Institute of Technology
 Hausi A. Müller, University of Victoria
 Yongjun Park, Hanyang University
 Gennady Pekhimenko, University of Toronto
 Veselin Raychev, ETH
-Tiark  Rompf, Purdue University
+Tiark Rompf, Purdue University
 Yulei Sui, University of Technology Sydney
 Will Tracz, IFIP
 Laurie Williams, North Carolina State University
