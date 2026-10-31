@@ -54,5 +54,8 @@ exclude = [
   "area67\\.cs\\.ucf\\.edu",
   "diag\\.uniroma1\\.it",
   "cristal\\.univ-lille\\.fr",
-  "ufpe\\.br"
+  "ufpe\\.br",
+  "uchile\\.cl",
+  "gnu\\.org",
+  "ghostscript\\.com"
 ]
