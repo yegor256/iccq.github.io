@@ -46,5 +46,13 @@ exclude = [
   "www\\.dme\\.ru",
   "drzhivago\\.ru",
   "prhotelgroup\\.ru",
-  "ieeesiberia\\.org"
+  "ieeesiberia\\.org",
+  "ieeexplore\\.ieee\\.org",
+  "sberbank\\.(com|ru)",
+  "yuiza\\.org",
+  "english\\.cqu\\.edu\\.cn",
+  "area67\\.cs\\.ucf\\.edu",
+  "diag\\.uniroma1\\.it",
+  "cristal\\.univ-lille\\.fr",
+  "ufpe\\.br"
 ]
