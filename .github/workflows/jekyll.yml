@@ -10,12 +10,12 @@ permissions:
   contents: write
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v7
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4.12'
+          ruby-version: '4.0.9'
           bundler-cache: true
       - name: Build
         run: bundle exec jekyll build
