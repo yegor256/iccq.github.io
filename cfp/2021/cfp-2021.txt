@@ -31,6 +31,7 @@ PROGRAM COMMITTEE
 Sergey Zykov, HSE University, Russia (Chair)
 Anastasios Antoniadis, University of Athens, Greece
 Julia Belyakova, Northeastern University, USA
+Aysu Betin-Can, Middle East Technical University, Turkey
 Magiel Bruntink, SIG, The Netherlands
 Laura M. Castro, Universidade da Coruña, Spain
 Yufei Ding, UCSB, USA
@@ -46,9 +47,12 @@ Brandon Lucia, Carnegie Mellon University, USA
 Petr Maj, FIT CTU, Czech Republic
 Jens Palsberg, UCLA, USA
 Alexander K. Petrenko, ISP RAS, Russia
+Alex Potanin, Victoria University of Wellington, New Zealand
 Vladimir Rubanov, Huawei RRI, Russia
 Malavika Samak, MIT, USA
+Aaron Smith, Microsoft, USA
 Johannes Späth, University of Paderborn, Germany
+Giancarlo Succi, Innopolis University, Russia
 Yulei Sui, University of Technology Sydney, Australia
 Jubi Taneja, University of Utah, USA
 Qianxiang Wang, Huawei, China
