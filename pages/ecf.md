@@ -125,6 +125,10 @@ var data = {
         'title': 'Foreword of Organizers',
         'authors': 'Yegor Bugayenko'
       },
+      2: {
+        'title': 'Foreword of Program Committee',
+        'authors': 'Vladimir Ivanov'
+      },
       8: {
         'title': 'OSS-SOM: Open Source Software Survivability Ontology Model',
         'authors': 'Olga Ataeva, Andrey Khalov, Sergey Petrenko'
