@@ -116,6 +116,36 @@ var data = {
         'authors': 'Vladimir Zvorygin, Alexander Dikov, Valentin Malykh'
       }
     }
+  },
+  2026: {
+    record: 72368,
+    title: '2026 6th International Conference on Code Quality (ICCQ)',
+    papers: {
+      1: {
+        'title': 'Foreword of Organizers',
+        'authors': 'Yegor Bugayenko'
+      },
+      8: {
+        'title': 'OSS-SOM: Open Source Software Survivability Ontology Model',
+        'authors': 'Olga Ataeva, Andrey Khalov, Sergey Petrenko'
+      },
+      10: {
+        'title': 'Does AI-Assisted Development Accelerate Architectural Drift? A Large-Scale Study of C++ Repositories',
+        'authors': 'Sergey Blekher'
+      },
+      13: {
+        'title': 'Measured Acceptance and Rollback as a Quality Gate for Agent-Generated SQL',
+        'authors': 'Maksim Radionov, Pavel Stepanov, Nikita Moskovchuk, Daria Lavitskaya, Andrej Balles, Alexandra Shumailova'
+      },
+      14: {
+        'title': 'Fine-Tuning Small Language Models for Real-World Java Vulnerability Detection',
+        'authors': 'Norbert Sándor Szolnoki, Gábor Antal'
+      },
+      99: {
+        'title': 'A More Abstract Abstract Interpreter',
+        'authors': 'Patrick Cousot'
+      }
+    }
   }
 };
 $(function() {
