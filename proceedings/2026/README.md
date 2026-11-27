@@ -1,4 +1,4 @@
-# ICCQ 2025 Proceedings
+# ICCQ 2026 Proceedings
 
 This is the Proceedings in LaTeX.
 
