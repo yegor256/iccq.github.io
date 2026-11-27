@@ -154,7 +154,7 @@ var data = {
 };
 $(function() {
   let p = new URLSearchParams(window.location.search);
-  let d = data[new Date().getFullYear()];
+  let d = data[2026];
   if (d == undefined) {
     window.location.href = "/ecf-help.html";
   }
